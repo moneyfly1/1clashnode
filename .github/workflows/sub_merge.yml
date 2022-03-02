@@ -43,9 +43,12 @@ jobs:
          git config --local user.name "GitHub Actions"
          git add ./sub
          git add ./utils
-         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')更新订阅链接"
+         git add README.md
+         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
     - name: 推送更改
       uses:  ad-m/github-push-action@master
       with:
+         # github_token: ${{ secrets.TOKEN }}
+         branch: main
          # github_token: ${{ secrets.TOKEN }}
          branch: main
