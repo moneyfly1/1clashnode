@@ -3483,12 +3483,12 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `5160`
+当前合并节点总数: `5174`
 - [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `75`
 - [chfchf0306/clash](https://github.com/chfchf0306/clash), 节点数量: `62`
 - [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `392`
 - [freefq/free](https://github.com/freefq/free), 节点数量: `54`
-- [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `225`
+- [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `227`
 - [vpei/Free-Node-Merge](https://github.com/vpei/Free-Node-Merge), 节点数量: `100`
 - [colatiger/v2ray-nodes](https://github.com/colatiger/v2ray-nodes), 节点数量: `75`
 - [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `67`
@@ -3497,7 +3497,7 @@
 - [umelabs/node.umelabs.dev](https://github.com/umelabs/node.umelabs.dev), 节点数量: `2`
 - [git-yusteven/openit](https://github.com/git-yusteven/openit), 节点数量: `184`
 - [iwxf/free-v2ray](https://github.com/iwxf/free-v2ray), 节点数量: `57`
-- [ldir92664/Vmess-Actions](https://github.com/ldir92664/Vmess-Actions), 节点数量: `1040`
+- [ldir92664/Vmess-Actions](https://github.com/ldir92664/Vmess-Actions), 节点数量: `1042`
 - [电报群分享:https://t.me/abc999222/392205](https://t.me/abc999222/392205), 节点数量: `228`
 - [电报群分享:https://t.me/abc999222/392133](https://t.me/abc999222/392133), 节点数量: `18`
 - [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), 节点数量: `0`
@@ -3507,7 +3507,7 @@
 - [Mattkaydiary](https://www.mattkaydiary.com), 节点数量: `67`
 - [v2raydy/v2ray](https://github.com/v2raydy/v2ray), 节点数量: `125`
 - [ObcbO/auto-subscribe](https://github.com/ObcbO/auto-subscribe), 节点数量: `149`
-- [电报群分享(https://t.me/Jsnzk/4664)节点池](https://pool.jinxnet.xyz), 节点数量: `780`
+- [电报群分享(https://t.me/Jsnzk/4664)节点池](https://pool.jinxnet.xyz), 节点数量: `790`
 
 ## 客户端选择
 ### 主流桌面客户端
