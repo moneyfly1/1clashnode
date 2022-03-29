@@ -3483,8 +3483,8 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `350`
-- [chfchf0306/clash](https://github.com/imyaoxp/TopFreeProxies-1/raw/master/sub/clashnode.yml), 节点数量: `350`
+当前合并节点总数: `319`
+- [chfchf0306/clash](https://github.com/imyaoxp/TopFreeProxies-1/raw/master/sub/clashnode.yml), 节点数量: `319`
 
 ## 客户端选择
 ### 主流桌面客户端
