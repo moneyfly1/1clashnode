@@ -314,11 +314,11 @@ class sub_convert():
 
                 proxy_index = proxies_list.index(proxy)
                 if len(proxies_list) > 999:
-                    proxy['name'] = f'{country_code}-{proxy_index:0>4d}'
+                    proxy['name'] = 'aa'
                 elif len(proxies_list) < 999 and len(proxies_list) > 99:
-                    proxy['name'] = f'{country_code}-{proxy_index:0>3d}'
+                    proxy['name'] = 'aa'
                 elif len(proxies_list) < 99:
-                    proxy['name'] = f'{country_code}-{proxy_index:0>2d}'
+                    proxy['name'] = 'aa'
 
                 if proxy['server'] != '127.0.0.1':
                     proxy_str = str(proxy)
