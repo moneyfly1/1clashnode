@@ -3483,8 +3483,9 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `168`
-- [chfchf0306/clash](https://github.com/imyaoxp/TopFreeProxies-1/raw/master/sub/clashnode.yml), 节点数量: `0`
+当前合并节点总数: `222`
+- [Lukeehujt/Clash_node](https://github.com/Lukeehujt/Clash_node), 节点数量: `54`
+- [/4ooc/clash_sync](https://github.com/4ooc/clash_sync), 节点数量: `0`
 - [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `151`
 - [colatiger/v2ray-nodes](https://github.com/colatiger/v2ray-nodes), 节点数量: `0`
 - [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节点数量: `17`
