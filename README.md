@@ -3483,11 +3483,11 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `222`
+当前合并节点总数: `155`
 - [Lukeehujt/Clash_node](https://github.com/Lukeehujt/Clash_node), 节点数量: `54`
 - [/4ooc/clash_sync](https://github.com/4ooc/clash_sync), 节点数量: `0`
-- [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `151`
-- [colatiger/v2ray-nodes](https://github.com/colatiger/v2ray-nodes), 节点数量: `0`
+- [4ooc/clash_sync](https://github.com/4ooc/clash_sync), 节点数量: `35`
+- [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `49`
 - [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节点数量: `17`
 
 ## 客户端选择
