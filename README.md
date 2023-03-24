@@ -3483,8 +3483,8 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `204`
-- [Lukeehujt/Clash_node](https://github.com/Lukeehujt/Clash_node), 节点数量: `54`
+当前合并节点总数: `212`
+- [Lukeehujt/Clash_node](https://github.com/Lukeehujt/Clash_node), 节点数量: `62`
 - [/4ooc/clash_sync](https://github.com/4ooc/clash_sync), 节点数量: `0`
 - [4ooc/clash_sync](https://github.com/4ooc/clash_sync), 节点数量: `35`
 - [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `49`
