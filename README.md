@@ -3483,7 +3483,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1615`
+当前合并节点总数: `1613`
 - [/4ooc/clash_sync](https://github.com/4ooc/clash_sync), 节点数量: `26`
 - [4ooc/clash_sync](https://github.com/4ooc/clash_sync), 节点数量: `35`
 - [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `49`
@@ -3497,7 +3497,7 @@
 - [tbbatbb/Proxy](https://github.com/tbbatbb/Proxy), 节点数量: `621`
 - [baip01/clash](https://github.com/baip01/clash), 节点数量: `228`
 - [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节点数量: `17`
-- [xieshunxi1/subscribe_clash_v2ray](https://github.com/Lukeehujt/Clash_nod), 节点数量: `93`
+- [xieshunxi1/subscribe_clash_v2ray](https://github.com/Lukeehujt/Clash_nod), 节点数量: `91`
 
 ## 客户端选择
 ### 主流桌面客户端
