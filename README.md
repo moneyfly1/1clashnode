@@ -3483,11 +3483,11 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1516`
-- [/4ooc/clash_sync](https://github.com/4ooc/clash_sync), 节点数量: `0`
+当前合并节点总数: `1637`
+- [/4ooc/clash_sync](https://github.com/4ooc/clash_sync), 节点数量: `25`
 - [4ooc/clash_sync](https://github.com/4ooc/clash_sync), 节点数量: `35`
 - [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `49`
-- [jw853355718/clash_233](https://github.com/jw853355718/clash_233), 节点数量: `305`
+- [jw853355718/clash_233](https://github.com/jw853355718/clash_233), 节点数量: `401`
 - [Junely/clash](https://github.com/Junely/clash), 节点数量: `0`
 - [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `49`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `21`
