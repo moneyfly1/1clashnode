@@ -1,50 +1,43 @@
 proxies:
-- {name: CN-00, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 47.104.237.32}}
-- {name: US-01, server: 184.170.213.204, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dqlr7JCgDrOK}
-- {name: KR-02, server: 43.201.70.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: KR-03, server: 43.201.57.87, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: KR-04, server: 43.201.86.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: KR-05, server: 43.201.33.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: RELAY-06, server: dp3.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: dp3.scproxy.top}}
-- {name: RELAY-07, server: dallas.starsea.vip, port: 443, type: vmess, uuid: c5e52b78-c01b-4884-baad-01cd2a74fce3, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: dallas.starsea.vip}}
-- {name: KR-08, server: 43.201.37.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: KR-09, server: 43.200.244.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: US-10, server: 198.2.208.180, port: 35402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 198.2.208.180}}
-- {name: JP-11, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: vjp3.0bad.com}}
-- {name: RELAY-12, server: sg.herofree66.tk, port: 443, type: vmess, uuid: 5e3d4757-1395-4843-d498-bf7317470085, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: sg.herofree66.tk}}
-- {name: RELAY-13, server: la.awsbest.com, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: la.awsbest.com}}
-- {name: US-14, server: 198.2.208.82, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 198.2.208.82}}
-- {name: KR-15, server: 43.201.146.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: SG-16, server: 13.215.159.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: US-17, server: 52.13.110.247, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: RELAY-18, server: zhuyong.hucloud-dns.xyz, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: zhuyong.hucloud-dns.xyz}}
-- {name: RELAY-19, server: example2.digimovie.tech, port: 2096, type: vmess, uuid: b071af56-0062-480d-9b5d-e7f49d314f14, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: example2.digimovie.tech}}
-- {name: CN-20, server: oss-cn-shanghai.westdatacloud.top, port: 20048, type: trojan, password: 626351FA-3CA6-8118-FADF-CCDBCD620871, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true}
-- {name: JP-21, server: 43.207.66.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: NL-22, server: 154.84.1.225, port: 56481, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 154.84.1.225}}
-- {name: KR-23, server: 43.201.50.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: TW-24, server: 625tw.ljydw.top, port: 80, type: trojan, password: 8791e9dc-4279-4edf-b372-29cd4cc17fe6, sni: 625tw.ljydw.top, skip-cert-verify: true}
-- {name: RELAY-25, server: dg.glucy.top, port: 443, type: vmess, uuid: aad35faa-883a-421f-d0a7-5f49f67ab294, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: dg.glucy.top}}
-- {name: RELAY-26, server: eu2.glucy.top, port: 443, type: vmess, uuid: d2a30dad-bc90-49e1-9428-a3a60d386966, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: eu2.glucy.top}}
-- {name: US-27, server: 167.88.63.79, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-- {name: FR-28, server: 156.249.18.135, port: 54086, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 156.249.18.135}}
-- {name: GB-29, server: 6bd8e697-rrslc0-14vzw.uk.tcpbbr.net, port: 80, type: vmess, uuid: f8c51b52-2bbb-11eb-a8bf-f23c91cfbbc9, alterId: 1, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 6bd8e697-rrslc0-14vzw.uk.tcpbbr.net}}
-- {name: RELAY-30, server: ca.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: ca.ilovescp.com}}
-- {name: RELAY-31, server: justhost.739256.xyz, port: 443, type: vmess, uuid: 3a578e93-bce9-49d1-ebcd-901107f52739, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: justhost.739256.xyz}}
-- {name: SG-32, server: n1674862929.gofdwgy.cn, port: 443, type: vmess, uuid: 9052bc7a-ccae-47c8-aafb-f732e7320cfe, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: n1674862929.gofdwgy.cn}}
-- {name: KR-33, server: 43.201.149.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: NL-34, server: 172.99.188.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-- {name: RU-35, server: 1.hk1997.pro, port: 443, type: trojan, password: 3e1890e7-4746-4378-89ba-10c7bbe06094, skip-cert-verify: true}
-- {name: JP-36, server: 43.207.160.88, port: 443, type: ss, cipher: aes-256-cfb, password: doub.io}
-- {name: CN-37, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: "QazEdcTgb159@$*"}
-- {name: RELAY-38, server: haxeu3.glucy.top, port: 443, type: vmess, uuid: 65632ff6-be8a-46fd-c6cc-a9d8135a690d, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: haxeu3.glucy.top}}
-- {name: IT-39, server: 204.216.214.102, port: 44386, type: trojan, password: C931CWacy8, skip-cert-verify: true}
-- {name: CN-40, server: 36.137.106.45, port: 11023, type: ss, cipher: aes-256-gcm, password: "ll668668@"}
-- {name: CN-41, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 36.133.171.209}}
-- {name: TW-42, server: azgy001.xibai6.top, port: 20710, type: trojan, password: 78af6d6d-6de7-3a1f-a969-c39077fb47bf, sni: ssl.ssl12.xyz, skip-cert-verify: true}
-- {name: SG-43, server: 13.215.183.79, port: 443, type: ss, cipher: aes-256-cfb, password: doub.io}
-- {name: CN-44, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 36.134.16.171}}
+- {name: HK-00, server: 103.103.245.125, port: 50350, type: trojan, password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40, skip-cert-verify: true}
+- {name: RELAY-01, server: sg.herofree66.tk, port: 443, type: vmess, uuid: 5e3d4757-1395-4843-d498-bf7317470085, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: sg.herofree66.tk}}
+- {name: JP-02, server: 85.208.108.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+- {name: RELAY-03, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 203.30.191.19}}
+- {name: KR-04, server: 43.201.14.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: US-05, server: 142.4.108.172, port: 49890, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 142.4.108.172}}
+- {name: KR-06, server: 43.201.57.87, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: KR-07, server: 43.201.70.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: RELAY-08, server: example2.digimovie.tech, port: 2096, type: vmess, uuid: b071af56-0062-480d-9b5d-e7f49d314f14, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: example2.digimovie.tech}}
+- {name: US-09, server: 167.88.63.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+- {name: JP-11, server: 43.207.117.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: RELAY-12, server: zhuyong.hucloud-dns.xyz, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: zhuyong.hucloud-dns.xyz}}
+- {name: CN-13, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 106.55.234.95}}
+- {name: NL-14, server: 172.99.188.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+- {name: RU-15, server: 185.143.220.25, port: 443, type: vmess, uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 185.143.220.25}}
+- {name: GB-16, server: 143.42.96.118, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 143.42.96.118}}
+- {name: TW-17, server: 805tw.ljydw.top, port: 443, type: trojan, password: dc98569b-426f-46d7-9bf4-a91e874ee6eb, sni: 805tw.ljydw.top, skip-cert-verify: true}
+- {name: US-18, server: 54.189.189.150, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: JP-19, server: 43.207.66.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: US-20, server: 156.225.67.156, port: 46617, type: vmess, uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 156.225.67.156}}
+- {name: RELAY-21, server: eu6.739256.xyz, port: 443, type: vmess, uuid: 5775d530-ab7a-455f-d841-82bdca57b9b2, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: eu6.739256.xyz}}
+- {name: KR-22, server: 43.200.244.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: FR-23, server: 156.249.18.135, port: 54086, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 156.249.18.135}}
+- {name: RELAY-24, server: 172.67.45.144, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 172.67.45.144}}
+- {name: JP-25, server: 43.207.160.88, port: 443, type: ss, cipher: aes-256-cfb, password: doub.io}
+- {name: RELAY-26, server: uk1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: uk1.scproxy.top}}
+- {name: RELAY-27, server: eu3.glucy.top, port: 443, type: vmess, uuid: ea7e0bc4-739b-4afb-a5cb-4331a257b7ea, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: eu3.glucy.top}}
+- {name: CN-28, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: "QazEdcTgb159@$*"}
+- {name: CN-29, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 36.133.171.209}}
+- {name: CN-31, server: b1.ss1011.top, port: 1509, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: b1.ss1011.top}}
+- {name: CN-32, server: 111.23.252.214, port: 59902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 111.23.252.214}}
+- {name: CN-33, server: 36.137.106.115, port: 11023, type: ss, cipher: aes-256-gcm, password: "ll668668@"}
+- {name: CN-34, server: 36.139.166.231, port: 11023, type: ss, cipher: aes-256-gcm, password: "ll668668@"}
+- {name: CN-35, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 36.134.16.190}}
+- {name: SG-36, server: n1674862929.gofdwgy.cn, port: 443, type: vmess, uuid: 9052bc7a-ccae-47c8-aafb-f732e7320cfe, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: n1674862929.gofdwgy.cn}}
+- {name: RELAY-37, server: eu2.glucy.top, port: 443, type: vmess, uuid: d2a30dad-bc90-49e1-9428-a3a60d386966, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: eu2.glucy.top}}
+- {name: RELAY-38, server: frgt1.ssr-free2.xyz, port: 443, type: vmess, uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: frgt1.ssr-free2.xyz}}
 - {name: KR-000, server: 131.186.21.62, port: 4433, type: ss, cipher: aes-256-gcm, password: yy595721}
+- {name: US-001, server: 198.2.208.82, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 198.2.208.82}}
 - {name: US-002, server: 107.148.195.15, port: 50014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 107.148.195.15}}
 - {name: SG-003, server: 27.124.2.38, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 27.124.2.38}}
 - {name: US-004, server: 38.48.185.103, port: 47272, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 38.48.185.103}}
@@ -70,7 +63,6 @@ proxies:
 - {name: MK-024, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
 - {name: UA-025, server: 195.28.182.217, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: shwoghRia}
 - {name: JP-026, server: 43.207.120.229, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: KR-027, server: 43.201.14.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: KR-028, server: 43.201.146.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: VN-029, server: 103.121.91.58, port: 50000, type: ss, cipher: aes-256-cfb, password: 3135771619}
 - {name: US-030, server: 45.89.106.132, port: 443, type: vmess, uuid: 8366f30c-126b-4711-d6af-79ed68a138b5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 45.89.106.132}}
@@ -101,7 +93,7 @@ proxies:
 - {name: SG-055, server: 13.213.55.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: DE-056, server: 91.107.244.178, port: 22301, type: vmess, uuid: 176ed834-75dc-4e4c-a536-f05479b39b3c, alterId: 0, cipher: auto, skip-cert-vertify: true, network: http, ws-path: /, tls: false, ws-headers: {Host: 91.107.244.178}}
 - {name: US-057, server: 169.197.142.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-- {name: RU-058, server: 185.143.220.25, port: 443, type: vmess, uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 185.143.220.25}}
+- {name: KR-059, server: 43.201.37.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: AU-060, server: 185.167.116.252, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9}
 - {name: AR-061, server: 190.103.176.29, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
 - {name: AT-062, server: 79.133.43.126, port: 50000, type: ss, cipher: aes-256-cfb, password: 3135771619}
@@ -114,6 +106,7 @@ proxies:
 - {name: GB-069, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
 - {name: JP-070, server: 43.207.110.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: US-071, server: 156.225.67.191, port: 54612, type: vmess, uuid: d024fd8b-ea78-4789-b928-70afa1a910ce, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 156.225.67.191}}
+- {name: NL-072, server: 154.84.1.225, port: 56481, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 154.84.1.225}}
 - {name: SG-073, server: 139.162.41.174, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
 - {name: US-074, server: 45.86.65.225, port: 443, type: vmess, uuid: 5b97c33f-088a-49bd-c01d-4fc9ec0f3525, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 45.86.65.225}}
 - {name: VN-075, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
@@ -123,8 +116,8 @@ proxies:
 - {name: FR-079, server: 51.91.11.29, port: 80, type: trojan, password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad, skip-cert-verify: true}
 - {name: AU-080, server: 185.167.116.253, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB}
 - {name: RELAY-082, server: s245.rpscloud3.cloud, port: 80, type: vmess, uuid: d65ca664-72d3-4a14-a836-00eadd0df46e, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: s245.rpscloud3.cloud}}
+- {name: RELAY-083, server: ca.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: ca.ilovescp.com}}
 - {name: RELAY-084, server: ny1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: ny1.sharecentrepro.org}}
-- {name: RELAY-085, server: eu6.739256.xyz, port: 443, type: vmess, uuid: 5775d530-ab7a-455f-d841-82bdca57b9b2, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: eu6.739256.xyz}}
 - {name: JP-086, server: jp-tk-32.fuckjdieng.uk, port: 50152, type: trojan, password: 4e9a8a73-a97b-4e19-8240-0115109418c8, skip-cert-verify: true}
 - {name: AU-087, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: vau1.0bad.com}}
 - {name: SG-088, server: xjp2.wangjiaxin.xyz, port: 25932, type: vmess, uuid: 33a47ce6-5ea9-4d21-d3db-ce38421d2558, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: xjp2.wangjiaxin.xyz}}
@@ -136,6 +129,7 @@ proxies:
 - {name: SG-094, server: sgp-2.fuckjdieng.uk, port: 50132, type: trojan, password: 14dfcbc3-fb69-43f4-a1a1-d06124eb3d03, skip-cert-verify: true}
 - {name: JP-095, server: www.kuromi.eu.org, port: 33421, type: vmess, uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: www.kuromi.eu.org}}
 - {name: US-096, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, skip-cert-verify: true}
+- {name: JP-097, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: vjp3.0bad.com}}
 - {name: GB-098, server: uk1.trojanvh.xyz, port: 80, type: trojan, password: b640d791-ff83-4300-b509-c2a02f97f167, skip-cert-verify: true}
 - {name: US-099, server: ayus6.mysvip.online, port: 443, type: trojan, password: 128d4b58-6713-4051-831e-fe79a67ccee2, skip-cert-verify: true}
 - {name: US-100, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: vus5.0bad.com}}
@@ -148,7 +142,6 @@ proxies:
 - {name: DE-107, server: series7.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0r91Aj1MeFRSvoy6}
 - {name: SG-108, server: sg-v.sshmax.xyz, port: 80, type: vmess, uuid: 0baaf014-af04-4028-be53-f5c75bb276ae, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: sg-v.sshmax.xyz}}
 - {name: JP-109, server: 85.208.108.58, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-- {name: JP-110, server: 85.208.108.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 - {name: US-111, server: 38.64.138.145, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
 - {name: JP-112, server: 185.160.26.91, port: 1661, type: ss, cipher: chacha20-ietf-poly1305, password: Xs9ORT4j65b8HreZrg0p}
 - {name: JP-113, server: 85.208.108.18, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
@@ -184,7 +177,6 @@ proxies:
 - {name: US-145, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true}
 - {name: RELAY-146, server: lv3.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: lv3.sharecentrepro.org}}
 - {name: US-147, server: 129.146.137.174, port: 50010, type: vmess, uuid: 2ccc6b34-4460-45fb-aca3-88a0fc073f65, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 129.146.137.174}}
-- {name: GB-148, server: 143.42.96.118, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 143.42.96.118}}
 - {name: RU-149, server: 213.183.53.196, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8}
 - {name: US-150, server: 38.91.102.74, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 - {name: RELAY-151, server: vi.mot20.ga, port: 8080, type: vmess, uuid: 342e932e-d990-4ad4-b38a-837a8ed3463c, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: vi.mot20.ga}}
@@ -240,6 +232,7 @@ proxies:
 - {name: FR-201, server: 51.178.87.37, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: "G!yBwPWH3Vao"}
 - {name: CA-202, server: 134.195.196.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 - {name: DE-203, server: 89.163.140.153, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: US-204, server: 198.2.208.180, port: 35402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 198.2.208.180}}
 - {name: IR-205, server: 46.209.20.209, port: 31270, type: vmess, uuid: d591b877-8ae3-4f96-d327-4673a236e1c8, alterId: 0, cipher: auto, skip-cert-vertify: true, network: http, ws-path: /, tls: false, ws-headers: {Host: 46.209.20.209}}
 - {name: US-206, server: 142.4.127.29, port: 50013, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 142.4.127.29}}
 - {name: US-207, server: 156.225.67.107, port: 51234, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 156.225.67.107}}
@@ -277,6 +270,7 @@ proxies:
 - {name: US-239, server: 45.89.106.116, port: 443, type: vmess, uuid: 0050e5f9-5dcf-45b3-92b0-f6ee2b95f7f8, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 45.89.106.116}}
 - {name: RELAY-240, server: ming2.kiwireich.com, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: ming2.kiwireich.com}}
 - {name: NOWHERE-241, server: www.furbbs.top, port: 443, type: trojan, password: ef18607c, skip-cert-verify: true}
+- {name: RELAY-243, server: dp3.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: dp3.scproxy.top}}
 - {name: IN-244, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true}
 - {name: US-245, server: 64.52.108.181, port: 443, type: trojan, password: b8ec1401-e5c1-4299-b315-9694cca0c2f8, skip-cert-verify: true}
 - {name: DE-246, server: 130.61.179.77, port: 20574, type: vmess, uuid: 87e3048a-5932-457a-84b9-deb51b5c91cd, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 130.61.179.77}}
@@ -285,6 +279,7 @@ proxies:
 - {name: DE-249, server: 3.125.45.20, port: 50000, type: ss, cipher: aes-256-cfb, password: 3135771619}
 - {name: US-250, server: 169.197.143.232, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
 - {name: IS-251, server: 37.235.49.146, port: 50000, type: ss, cipher: aes-256-cfb, password: 3135771619}
+- {name: SG-252, server: 13.215.159.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: SG-253, server: 81.90.188.58, port: 50000, type: ss, cipher: aes-256-cfb, password: 3135771619}
 - {name: DE-254, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: vde2.0bad.com}}
 - {name: US-255, server: 156.225.67.146, port: 51948, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 156.225.67.146}}
@@ -326,13 +321,13 @@ proxies:
 - {name: JP-291, server: 150.230.217.213, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true}
 - {name: JP-292, server: 85.208.108.62, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 - {name: NL-293, server: 154.84.1.84, port: 54492, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 154.84.1.84}}
-- {name: JP-294, server: 43.207.117.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: GB-295, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
 - {name: FR-296, server: 217.70.189.155, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: eJZJAeK3S9st}
 - {name: JP-297, server: v143a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: v143a.toddns.tk}}
 - {name: CA-298, server: 134.195.196.107, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
 - {name: MX-299, server: 190.103.179.23, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
 - {name: US-300, server: 104.149.130.253, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 104.149.130.253}}
+- {name: TW-301, server: azgy001.xibai6.top, port: 20711, type: trojan, password: f23a8308-7cf3-3e69-976a-de7246b02a2d, skip-cert-verify: true}
 - {name: US-302, server: 172.96.204.170, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr05}
 - {name: HK-303, server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 32, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hrgdvpn.flycdnedc55.vip}}
 - {name: GB-304, server: 51.89.156.206, port: 80, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 51.89.156.206}}
@@ -363,6 +358,7 @@ proxies:
 - {name: NOWHERE-331, server: jpamd.fineyoo.ml, port: 443, type: vmess, uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /123, tls: true, ws-headers: {Host: jpamd.fineyoo.ml}}
 - {name: NOWHERE-332, server: amdkr.ptuu.ga, port: 443, type: vmess, uuid: a612b67f-a79b-4a71-a82b-a46906752023, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /408, tls: true, ws-headers: {Host: amdkr.ptuu.ga}}
 - {name: NOWHERE-333, server: amdkr.ptuu.ml, port: 443, type: vmess, uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3, alterId: 4, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /987, tls: true, ws-headers: {Host: amdkr.ptuu.ml}}
+- {name: US-10, server: 167.88.63.79, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 - {name: TW-00, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e}
 - {name: CN-01, server: onlinec.cc, port: 1443, type: trojan, password: 4RSFIE68LEmb, sni: onlinec.cc, skip-cert-verify: true}
 - {name: SG-02, server: sg5.acyun.me, port: 24601, type: trojan, password: 645a4174-09a4-4ca0-a2fe-9f22b958546d, sni: "https%3A%2F%2Fwww.apple.com%2Fkr%2Fshop%2Fbuy-iphone%2Fiphone-14", skip-cert-verify: true}
@@ -371,95 +367,83 @@ proxies:
 - {name: CN-07, server: 35c0f45d-i.andns.co, port: 10048, type: trojan, password: fknikz8k, sni: 35c0f45d-i.andns.co, skip-cert-verify: true}
 - {name: SG-08, server: n1674862955.jfzlasi.cn, port: 443, type: vmess, uuid: 022c42ba-c662-49bd-bd8c-f8428e6aa91c, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: n1674862955.jfzlasi.cn}}
 - {name: US-09, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: dbd61d91-8d8a-4969-8779-6fee0fa66300, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: zfc.windowsupdate1.com}}
-- {name: CN-10, server: 111.23.252.214, port: 59902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 111.23.252.214}}
 - {name: CN-11, server: 106.225.132.4, port: 19217, type: trojan, password: 0e0e8057-810e-3b64-b8f5-19baa5f8fa2f, sni: 106.225.132.4, skip-cert-verify: true}
 - {name: US-12, server: 192.74.228.171, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 192.74.228.171}}
 - {name: US-13, server: 192.74.229.215, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 192.74.229.215}}
 - {name: CN-14, server: 120.240.236.28, port: 37503, type: ss, cipher: chacha20-ietf-poly1305, password: 58187267-e3eb-44c9-9fa5-9dc3e90a6ea8}
-- {name: US-00, server: 167.88.63.79, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-- {name: US-03, server: 54.189.189.150, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: CN-16, server: oss-cn-shanghai.westdatacloud.top, port: 20048, type: trojan, password: 626351FA-3CA6-8118-FADF-CCDBCD620871, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true}
 - {name: US-04, server: 52.36.146.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: KR-07, server: 43.201.29.13, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: CN-08, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 36.134.16.171}}
 - {name: RELAY-09, server: 172.67.209.170, port: 443, type: vmess, uuid: d05d144a-71a9-4720-8c4e-565257953069, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 172.67.209.170}}
 - {name: GB-10, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: vuk1.0bad.com}}
 - {name: RELAY-11, server: www.damonhuang.top, port: 443, type: vmess, uuid: 3b6d199e-c090-4a82-8887-815929ba3aff, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: www.damonhuang.top}}
 - {name: RELAY-12, server: 203.30.191.4, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 203.30.191.4}}
-- {name: CN-13, server: 36.139.166.231, port: 11023, type: ss, cipher: aes-256-gcm, password: "ll668668@"}
 - {name: SG-15, server: sgp-3.fuckjdieng.uk, port: 50190, type: trojan, password: fa7868f2-a691-4871-890e-5ad4c0feb937, sni: sgp-3.fuckjdieng.uk, skip-cert-verify: true}
 - {name: UA-17, server: 130.0.233.20, port: 31675, type: ss, cipher: aes-256-cfb, password: m7pZhBG}
 - {name: RELAY-20, server: new3.hucloud-dns.xyz, port: 443, type: vmess, uuid: 1c8ad3f2-835c-4fda-b9b6-881d3cadfd8e, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: new3.hucloud-dns.xyz}}
 - {name: GB-21, server: 143.42.110.81, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 143.42.110.81}}
 - {name: HK-24, server: 103.135.250.115, port: 10512, type: vmess, uuid: 58781eee-baba-6666-baba-2ca0ada6568b, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 103.135.250.115}}
-- {name: RELAY-26, server: eu3.glucy.top, port: 443, type: vmess, uuid: ea7e0bc4-739b-4afb-a5cb-4331a257b7ea, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: eu3.glucy.top}}
 - {name: SG-27, server: 3.1.50.20, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: RELAY-28, server: lv2.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: lv2.sharecentrepro.org}}
-- {name: US-32, server: 156.225.67.156, port: 46617, type: vmess, uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 156.225.67.156}}
+- {name: KR-31, server: 43.201.149.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: RU-33, server: 1.hk1997.pro, port: 443, type: trojan, password: 3e1890e7-4746-4378-89ba-10c7bbe06094, skip-cert-verify: true}
 - {name: DE-34, server: 143.42.31.89, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 143.42.31.89}}
 - {name: RELAY-35, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 203.30.191.20}}
 - {name: CN-37, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 112.132.215.189}}
-- {name: CN-39, server: b1.ss1011.top, port: 1509, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: b1.ss1011.top}}
 - {name: RELAY-40, server: 203.30.191.18, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 203.30.191.18}}
 - {name: US-41, server: 108.186.116.172, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 108.186.116.172}}
-- {name: CN-42, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 36.134.16.190}}
 - {name: JP-44, server: 143.42.87.69, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 143.42.87.69}}
-- {name: RELAY-45, server: 172.67.45.144, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 172.67.45.144}}
-- {name: CN-00, server: e209e28d-i.andns.co, port: 10045, type: trojan, password: fknikz8k, skip-cert-verify: true}
-- {name: CN-02, server: 35c0f45d-i.andns.co, port: 10049, type: trojan, password: fknikz8k, skip-cert-verify: true}
-- {name: HK-04, server: 156.245.8.121, port: 59592, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 156.245.8.121}}
-- {name: SG-05, server: hongkong.aws04.ddns.xn--57q977p.com, port: 80, type: vmess, uuid: b261a984-f165-4b2d-92ca-e75d051f1238, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hongkong.aws04.ddns.xn--57q977p.com}}
-- {name: TW-06, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hinet1261.gfwisbest.xyz}}
-- {name: RELAY-07, server: 162.159.255.200, port: 80, type: vmess, uuid: 52466dc2-3550-4310-910c-74b7bf8a020e, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 162.159.255.200}}
-- {name: SG-08, server: cdn.imnibaba.wiki, port: 2052, type: vmess, uuid: 82276930-fa80-47d7-c228-7f4bd68d5046, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: cdn.imnibaba.wiki}}
-- {name: SG-10, server: dejs.stablize.top, port: 443, type: trojan, password: 80151fd0-950a-4dda-a98a-6d24c6936dbc, skip-cert-verify: true}
-- {name: SE-11, server: sw-cdn2.independenttherapeutics.com, port: 8443, type: vmess, uuid: 93790ef6-d869-46df-bd40-cbc1b5e53aed, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: sw-cdn2.independenttherapeutics.com}}
-- {name: RELAY-13, server: 104.18.3.2, port: 80, type: vmess, uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 104.18.3.2}}
-- {name: RELAY-15, server: 104.29.41.47, port: 80, type: vmess, uuid: 20f59967-c2e7-4bc9-bc59-d703457f21b9, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 104.29.41.47}}
-- {name: US-18, server: cf.163453.xyz, port: 8443, type: vmess, uuid: f92d9bbe-1e0e-49bf-f72d-af327d1158d8, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: cf.163453.xyz}}
-- {name: JP-19, server: japam01.aws01cdn.xn--57q977p.com, port: 80, type: vmess, uuid: b261a984-f165-4b2d-92ca-e75d051f1238, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: japam01.aws01cdn.xn--57q977p.com}}
-- {name: RELAY-20, server: fast_2ray_channel.fastv2ray.eu.org, port: 2053, type: vmess, uuid: 84d8a5f2-703b-4a20-ca24-2107a2902c75, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: fast_2ray_channel.fastv2ray.eu.org}}
-- {name: RELAY-21, server: 173.245.49.8, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 173.245.49.8}}
-- {name: RELAY-24, server: dl.filmino.online, port: 2096, type: vmess, uuid: 6cf2745b-f46e-4820-8b1d-00082b2544b0, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: dl.filmino.online}}
-- {name: US-28, server: 170.187.206.48, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 170.187.206.48}}
-- {name: RELAY-30, server: 520e721d-f.andns.co, port: 443, type: vmess, uuid: f4e5d9b2-000d-4ce1-b1f8-4ddab94d4a60, alterId: 1, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 520e721d-f.andns.co}}
-- {name: RELAY-32, server: 203.30.191.100, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 203.30.191.100}}
-- {name: RELAY-33, server: reza.aliyari.cf, port: 2053, type: vmess, uuid: 84d8a5f2-703b-4a20-ca24-2107a2902c75, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: reza.aliyari.cf}}
-- {name: IN-34, server: a.sandbad.live, port: 2053, type: vmess, uuid: 4b7ac57c-efbd-4a12-a06e-a24640f320fa, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: a.sandbad.live}}
-- {name: RELAY-36, server: dj02.yumili.cf, port: 2096, type: vmess, uuid: c5cd4673-78de-43cd-b461-dd245c51f7b1, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: dj02.yumili.cf}}
-- {name: RELAY-37, server: eu54.glucy.top, port: 443, type: vmess, uuid: 11631ff7-c6c1-4e15-f923-77bad375053d, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: eu54.glucy.top}}
-- {name: SE-38, server: sw-cdn.independenttherapeutics.com, port: 8443, type: vmess, uuid: 097bb953-6d01-4554-96e3-1773c591a9bc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: sw-cdn.independenttherapeutics.com}}
-- {name: RELAY-39, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: fe8b7cbe-e217-4741-95d0-a58075051950, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: cf-lt.sharecentre.online}}
-- {name: RELAY-43, server: wwwow.ir, port: 443, type: vmess, uuid: 84b4d2ac-699b-4ba5-a6b2-adaaa82b667d, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: wwwow.ir}}
+- {name: RELAY-46, server: haxeu3.glucy.top, port: 443, type: vmess, uuid: 65632ff6-be8a-46fd-c6cc-a9d8135a690d, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: haxeu3.glucy.top}}
+- {name: CN-00, server: 831d4036-f.andns.co, port: 10043, type: trojan, password: fknikz8k, skip-cert-verify: true}
+- {name: CN-01, server: e209e28d-i.andns.co, port: 10142, type: trojan, password: fknikz8k, skip-cert-verify: true}
+- {name: US-02, server: 23.225.28.183, port: 49234, type: vmess, uuid: 2278efe4-ad0c-47ce-9480-068608368d76, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 23.225.28.183}}
+- {name: SC-03, server: 156.251.135.11, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 156.251.135.11}}
+- {name: RELAY-08, server: 162.159.255.200, port: 80, type: vmess, uuid: 52466dc2-3550-4310-910c-74b7bf8a020e, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 162.159.255.200}}
+- {name: RELAY-09, server: target.292228.xyz, port: 80, type: vmess, uuid: db717b3a-6b5d-40ee-9d3d-d9c7863c218e, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: target.292228.xyz}}
+- {name: RELAY-10, server: 203.30.191.100, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 203.30.191.100}}
+- {name: RELAY-12, server: 173.245.49.8, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 173.245.49.8}}
+- {name: SG-13, server: cdn.imnibaba.wiki, port: 2052, type: vmess, uuid: 82276930-fa80-47d7-c228-7f4bd68d5046, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: cdn.imnibaba.wiki}}
+- {name: RELAY-15, server: 520e721d-f.andns.co, port: 443, type: vmess, uuid: f4e5d9b2-000d-4ce1-b1f8-4ddab94d4a60, alterId: 1, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 520e721d-f.andns.co}}
+- {name: RELAY-18, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: fe8b7cbe-e217-4741-95d0-a58075051950, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: cf-lt.sharecentre.online}}
+- {name: RELAY-23, server: dj02.yumili.cf, port: 2096, type: vmess, uuid: c5cd4673-78de-43cd-b461-dd245c51f7b1, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: dj02.yumili.cf}}
+- {name: SE-25, server: sw-cdn2.independenttherapeutics.com, port: 8443, type: vmess, uuid: 93790ef6-d869-46df-bd40-cbc1b5e53aed, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: sw-cdn2.independenttherapeutics.com}}
+- {name: SE-27, server: sw-cdn.independenttherapeutics.com, port: 8443, type: vmess, uuid: 097bb953-6d01-4554-96e3-1773c591a9bc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: sw-cdn.independenttherapeutics.com}}
+- {name: JP-28, server: japam01.aws01cdn.xn--57q977p.com, port: 80, type: vmess, uuid: b261a984-f165-4b2d-92ca-e75d051f1238, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: japam01.aws01cdn.xn--57q977p.com}}
+- {name: RELAY-29, server: dp1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: dp1.scproxy.top}}
+- {name: RELAY-30, server: 203.30.188.100, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 203.30.188.100}}
 - {name: GOOGLE-00, server: speedo4601.ga, port: 443, type: vmess, uuid: 70d496f7-b435-48de-bc77-841d9bf6c4d5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ogbyvws, tls: true, ws-headers: {Host: speedo4601.ga}}
 - {name: GOOGLE-02, server: speedo4603.gq, port: 443, type: vmess, uuid: 4fa2d849-c9bb-4cdb-8713-5b5074261393, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /hhbcvws, tls: true, ws-headers: {Host: speedo4603.gq}}
 - {name: GOOGLE-04, server: speedo4601.ml, port: 443, type: vmess, uuid: bdda0dad-df9d-491d-b41a-8e1c2864e973, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /iqttvws, tls: true, ws-headers: {Host: speedo4601.ml}}
 - {name: GOOGLE-06, server: speedo4601.cf, port: 443, type: vmess, uuid: a0e4c942-4ed6-42c3-8937-9eee916dfaf4, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ulanvws, tls: true, ws-headers: {Host: speedo4601.cf}}
 - {name: GOOGLE-08, server: yian1.gq, port: 443, type: vmess, uuid: 73399304-ec6b-41b0-9c04-f4bc3fac9d89, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /ilpovws, tls: true, ws-headers: {Host: yian1.gq}}
+- {name: TW-000, server: 625tw.ljydw.top, port: 80, type: trojan, password: dc98569b-426f-46d7-9bf4-a91e874ee6eb, sni: 625tw.ljydw.top, skip-cert-verify: true}
 - {name: CN-001, server: 316sg01.ljydw.top, port: 443, type: trojan, password: dc98569b-426f-46d7-9bf4-a91e874ee6eb, sni: 316sg01.ljydw.top, skip-cert-verify: true}
 - {name: AE-002, server: jp1117.ljydw.top, port: 80, type: trojan, password: dc98569b-426f-46d7-9bf4-a91e874ee6eb, sni: jp1117.ljydw.top, skip-cert-verify: true}
 - {name: CN-004, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: "QazEdcTgb159@$*"}
 - {name: NL-006, server: 213.183.59.185, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH}
 - {name: RELAY-009, server: sr.grensky.sbs, port: 443, type: vmess, uuid: 97b37ac2-8c30-42d2-f398-81faacc821c3, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: sr.grensky.sbs}}
 - {name: RELAY-010, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: project.mytargoocloud.live}}
-- {name: RELAY-012, server: frgt1.ssr-free2.xyz, port: 443, type: vmess, uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: frgt1.ssr-free2.xyz}}
 - {name: JP-018, server: 00000000000000000000000000000000000000000000000000000000000033a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 00000000000000000000000000000000000000000000000000000000000033a.node-for-bigairport.win}}
-- {name: RELAY-023, server: uk1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: uk1.scproxy.top}}
+- {name: SG-021, server: dejs.stablize.top, port: 443, type: trojan, password: 80151fd0-950a-4dda-a98a-6d24c6936dbc, skip-cert-verify: true}
 - {name: VN-024, server: 7374.yunagrp.com, port: 80, type: vmess, uuid: 5bb6b5c3-40dd-4a1f-9f43-802320cc5b56, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 7374.yunagrp.com}}
 - {name: JP-025, server: 43.206.194.133, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: CN-026, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 47.104.237.32}}
+- {name: US-027, server: 184.170.213.204, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dqlr7JCgDrOK}
 - {name: US-029, server: usg.fljsm.com, port: 443, type: vmess, uuid: e5543efd-5400-3760-9bb6-02767728e888, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: usg.fljsm.com}}
 - {name: US-030, server: USG.fljsm.com, port: 443, type: vmess, uuid: e5543efd-5400-3760-9bb6-02767728e888, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: USG.fljsm.com}}
 - {name: RELAY-032, server: woiden.739256.xyz, port: 443, type: vmess, uuid: d05d144a-71a9-4720-8c4e-565257953069, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: woiden.739256.xyz}}
 - {name: US-035, server: 107.173.148.91, port: 46289, type: ss, cipher: aes-128-gcm, password: oKuHTqd2LmD5Xvga}
 - {name: JP-037, server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win}}
 - {name: US-038, server: zzus01.gutingting.com, port: 20220, type: trojan, password: 55ed08f1-f30a-401d-95ad-9bc7e8cf4e6d, sni: zzus01.gutingting.com, skip-cert-verify: true}
-- {name: HK-041, server: 103.103.245.125, port: 50350, type: trojan, password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40, skip-cert-verify: true}
 - {name: CN-042, server: 9a5ccc45-215e-3472-502c-1b1a055a609c.cnnic.rip, port: 80, type: vmess, uuid: 17c5c13d-0c5b-4a57-a721-e5db4959c189, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 9a5ccc45-215e-3472-502c-1b1a055a609c.cnnic.rip}}
+- {name: RELAY-043, server: wwwow.ir, port: 443, type: vmess, uuid: 84b4d2ac-699b-4ba5-a6b2-adaaa82b667d, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: wwwow.ir}}
 - {name: NL-044, server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 - {name: NL-045, server: ak1643.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 - {name: RELAY-047, server: 23.227.38.27, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 23.227.38.27}}
 - {name: CN-049, server: hnm.xiaohouzi.club, port: 27094, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: siga01.xiaohouzi.club, skip-cert-verify: true}
 - {name: JP-051, server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 131.186.41.192}}
-- {name: RELAY-052, server: 203.30.191.19, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 203.30.191.19}}
-- {name: CN-053, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 106.55.234.95}}
+- {name: JP-054, server: 43.207.66.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: JP-055, server: 43.206.200.71, port: 80, type: vmess, uuid: 3a2ebeb1-8ebd-4323-a7f6-5cbaf3de76fc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 43.206.200.71}}
 - {name: CN-056, server: 36.134.16.96, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 36.134.16.96}}
 - {name: JP-057, server: bgroup.node1.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: 9f0ae767-0156-460c-acd6-67cb3000faf1, skip-cert-verify: true}
@@ -471,8 +455,6 @@ proxies:
 - {name: JP-073, server: 43.207.82.157, port: 443, type: trojan, password: 338b911a-ee1c-43e6-b77d-3a0c94f8ec76, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true}
 - {name: TR-074, server: 194.146.26.39, port: 443, type: trojan, password: 338b911a-ee1c-43e6-b77d-3a0c94f8ec76, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true}
 - {name: US-075, server: us226.ljydw.top, port: 443, type: trojan, password: fd943951-176f-4019-85a0-56f8d6e2df38, sni: us226.ljydw.top, skip-cert-verify: true}
-- {name: TW-076, server: 805tw.ljydw.top, port: 443, type: trojan, password: fd943951-176f-4019-85a0-56f8d6e2df38, sni: 805tw.ljydw.top, skip-cert-verify: true}
-- {name: RELAY-077, server: dp1.scproxy.top, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: dp1.scproxy.top}}
 - {name: RELAY-078, server: quranweb9.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: quranweb9.xyz}}
 - {name: CN-079, server: in03.my1188.org, port: 63088, type: vmess, uuid: e150c7fc-4297-3a40-a9d8-ff7e38bc1c63, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: in03.my1188.org}}
 - {name: CN-080, server: in01.my1188.org, port: 63078, type: vmess, uuid: e150c7fc-4297-3a40-a9d8-ff7e38bc1c63, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: in01.my1188.org}}
@@ -488,9 +470,11 @@ proxies:
 - {name: JP-091, server: 43.207.205.208, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: CN-092, server: hn.xiaohouzi.club, port: 18581, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true}
 - {name: RELAY-093, server: irancell.backshop.cf, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: irancell.backshop.cf}}
+- {name: SG-094, server: 13.215.183.79, port: 443, type: ss, cipher: aes-256-cfb, password: doub.io}
 - {name: SG-095, server: 13.215.191.190, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: US-096, server: 148.59.74.152, port: 443, type: trojan, password: 338b911a-ee1c-43e6-b77d-3a0c94f8ec76, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true}
 - {name: RELAY-097, server: Amsterdam.v2ray.online, port: 443, type: vmess, uuid: A59E320C-BAC6-45E3-8A27-1518610708D0, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: Amsterdam.v2ray.online}}
+- {name: RELAY-098, server: dallas.starsea.vip, port: 443, type: vmess, uuid: 10735fe6-6c8f-498b-b22e-8e98a57e033d, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: dallas.starsea.vip}}
 - {name: RELAY-100, server: quranweb10.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: quranweb10.xyz}}
 - {name: RELAY-101, server: quranweb11.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: quranweb11.xyz}}
 - {name: RELAY-102, server: de1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: de1.sharecentrepro.org}}
@@ -510,7 +494,6 @@ proxies:
 - {name: RELAY-116, server: 203.30.191.5, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 203.30.191.5}}
 - {name: CN-117, server: data-hk-v1.shwjfkw.cn, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: data-hk-v1.shwjfkw.cn}}
 - {name: RELAY-118, server: 23.227.38.22, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 23.227.38.22}}
-- {name: JP-122, server: 43.207.66.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: SG-124, server: 00000000000000000000000000000000000000000000000000000000000005a.node-for-bigairport.win, port: 80, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 00000000000000000000000000000000000000000000000000000000000005a.node-for-bigairport.win}}
 - {name: RELAY-125, server: quranweb29.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: quranweb29.xyz}}
 - {name: GB-127, server: 13.40.6.241, port: 43632, type: vmess, uuid: fb65977f-dc16-4e03-9564-8afed32ec7c5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 13.40.6.241}}
@@ -552,11 +535,13 @@ proxies:
 - {name: KR-167, server: 13.125.75.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: JP-169, server: jp4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6de268e0-7c43-4fbe-8644-2f418ace887a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: true, ws-headers: {Host: jp4.af49c4e4c2ef.sanfen001.pics}}
 - {name: RELAY-173, server: quranweb40.xyz, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: quranweb40.xyz}}
+- {name: RELAY-175, server: la.awsbest.com, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: la.awsbest.com}}
 - {name: RELAY-176, server: 172.67.136.150, port: 443, type: vmess, uuid: 44bab30b-d1da-40b4-b65d-e0a3a98c0de6, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 172.67.136.150}}
 - {name: RELAY-177, server: 23.227.38.21, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 23.227.38.21}}
 - {name: CN-178, server: data-hk-v2.shwjfkw.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: data-hk-v2.shwjfkw.cn}}
 - {name: RELAY-179, server: 23.227.38.24, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 23.227.38.24}}
 - {name: RELAY-180, server: sogood.linefriends.com, port: 443, type: vmess, uuid: acd17818-d434-49ae-80a6-d194bcaf6392, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: sogood.linefriends.com}}
+- {name: TW-183, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: hinet1261.gfwisbest.xyz}}
 - {name: CN-184, server: p1.bxy-fun3.com, port: 23100, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db}
 - {name: US-185, server: agroup.node5.s.nodelist-gfwairport1.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 3f319a18-1d20-4475-b775-f5c98a52ba18}
 - {name: KR-186, server: 43.201.146.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
@@ -578,6 +563,7 @@ proxies:
 - {name: KR-204, server: 43.201.48.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: RELAY-205, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 172.64.154.155}}
 - {name: RELAY-206, server: 23.227.38.25, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 23.227.38.25}}
+- {name: KR-207, server: 43.201.86.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: CN-208, server: xw.zemzoh.cf, port: 29542, type: trojan, password: GVGbsjXG, skip-cert-verify: true}
 - {name: NOWHERE-209, server: kr.liill2022.gq, port: 42411, type: vmess, uuid: 417c5108-ef6b-49f0-a13d-8746fe6e204c, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: kr.liill2022.gq}}
 - {name: RELAY-210, server: 190.93.245.1, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 190.93.245.1}}
@@ -588,6 +574,7 @@ proxies:
 - {name: HK-216, server: 0kxedm1x8q8lksmj02.xingbayun.buzz, port: 2001, type: vmess, uuid: 399004bf-eaf0-4532-b139-ca4e79c5e27b, alterId: 0, cipher: auto, skip-cert-vertify: true, network: none, ws-path: /, tls: false, ws-headers: {Host: 0kxedm1x8q8lksmj02.xingbayun.buzz}}
 - {name: HK-217, server: 0kxedm1x8q8lksmj04.xingbayun.buzz, port: 4001, type: vmess, uuid: 399004bf-eaf0-4532-b139-ca4e79c5e27b, alterId: 0, cipher: auto, skip-cert-vertify: true, network: none, ws-path: /, tls: false, ws-headers: {Host: 0kxedm1x8q8lksmj04.xingbayun.buzz}}
 - {name: CN-218, server: 36.139.166.247, port: 11023, type: ss, cipher: aes-256-gcm, password: "ll668668@"}
+- {name: CN-219, server: 36.137.106.45, port: 11023, type: ss, cipher: aes-256-gcm, password: "ll668668@"}
 - {name: HK-221, server: api-a-asia-2.mcqqn.com, port: 61006, type: ss, cipher: chacha20-ietf-poly1305, password: dbefcef0-836b-4d58-aa05-146f7e63f06f}
 - {name: NOWHERE-222, server: us1.sharecentrepro.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: us1.sharecentrepro.com}}
 - {name: RELAY-224, server: v2.emovpn.xyz, port: 443, type: vmess, uuid: 01e5d674-9212-47a8-8653-298e21be6560, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: v2.emovpn.xyz}}
@@ -629,6 +616,7 @@ proxies:
 - {name: US-266, server: 143.42.173.175, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 143.42.173.175}}
 - {name: HK-267, server: fullaccesstohongkongnet.azurewebsites.net, port: 443, type: vmess, uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: fullaccesstohongkongnet.azurewebsites.net}}
 - {name: GOOGLE-268, server: tw3.xiaoliebao.club, port: 443, type: trojan, password: 017cc98c-79b8-3459-b7c5-359cee8e2093, sni: tw3.xiaoliebao.club, skip-cert-verify: true}
+- {name: US-269, server: 170.187.206.48, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 170.187.206.48}}
 - {name: US-270, server: 104.233.191.182, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 104.233.191.182}}
 - {name: HK-273, server: 198.252.107.240, port: 80, type: vmess, uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 198.252.107.240}}
 - {name: RELAY-274, server: finland1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: finland1.yj2022.ga}}
@@ -644,7 +632,6 @@ proxies:
 - {name: RELAY-286, server: sc.scyu.app, port: 80, type: vmess, uuid: 43930e8c-8347-4929-8e2c-9197e7c71423, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: sc.scyu.app}}
 - {name: RELAY-287, server: 203.30.191.1, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 203.30.191.1}}
 - {name: RELAY-288, server: fr1.pqjc.buzz, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: fr1.pqjc.buzz}}
-- {name: CN-289, server: 36.137.106.115, port: 11023, type: ss, cipher: aes-256-gcm, password: "ll668668@"}
 - {name: FR-290, server: 188.165.170.83, port: 80, type: vmess, uuid: 860a862a-2798-4037-8513-b060e310e7fc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 188.165.170.83}}
 - {name: US-291, server: 35.91.221.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: FI-292, server: 95.217.25.166, port: 8081, type: vmess, uuid: dc4cf0b7-386f-4fc6-ec46-998b77ccd916, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 95.217.25.166}}
@@ -786,6 +773,7 @@ proxies:
 - {name: DE-035, server: 139.162.179.192, port: 33345, type: ss, cipher: chacha20-ietf-poly1305, password: "!<str> 0263389562"}
 - {name: CN-036, server: 223.166.157.39, port: 63082, type: vmess, uuid: 7c1e9bea-7e67-391b-8ece-6cee7142228d, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 223.166.157.39}}
 - {name: CN-037, server: gzdx.jcnode.top, port: 25000, type: vmess, uuid: 9beae92b-8117-4c76-b068-e1a0e0d6c91f, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: gzdx.jcnode.top}}
+- {name: GB-039, server: 6bd8e697-rrslc0-14vzw.uk.tcpbbr.net, port: 80, type: vmess, uuid: f8c51b52-2bbb-11eb-a8bf-f23c91cfbbc9, alterId: 1, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 6bd8e697-rrslc0-14vzw.uk.tcpbbr.net}}
 - {name: CN-040, server: zz.sexavv.com, port: 20248, type: vmess, uuid: 84509b6c-06fb-34c2-8881-b10ed7151e46, alterId: 2, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: zz.sexavv.com}}
 - {name: RELAY-041, server: 104.17.28.54, port: 8080, type: vmess, uuid: 363b3efe-1b74-38dd-9656-90c292006581, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 104.17.28.54}}
 - {name: GOOGLE-043, server: swwtr9999.long18167135896.repl.co, port: 443, type: vmess, uuid: 0fb98a2a-41db-41b1-b45b-63ea3ddcfb74, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: swwtr9999.long18167135896.repl.co}}
@@ -794,6 +782,8 @@ proxies:
 - {name: RELAY-047, server: 104.19.165.245, port: 8080, type: vmess, uuid: 363b3efe-1b74-38dd-9656-90c292006581, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 104.19.165.245}}
 - {name: SG-048, server: 139.162.63.139, port: 80, type: vmess, uuid: 869c698e-688e-4717-8f2f-3e40bf9275b4, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 139.162.63.139}}
 - {name: CN-051, server: zz.shynia.top, port: 47906, type: vmess, uuid: d7f3e42f-3ca4-37a6-970a-85272b56bffc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: zz.shynia.top}}
+- {name: IN-052, server: a.sandbad.live, port: 2053, type: vmess, uuid: 4b7ac57c-efbd-4a12-a06e-a24640f320fa, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: a.sandbad.live}}
+- {name: RELAY-053, server: dg.glucy.top, port: 443, type: vmess, uuid: aad35faa-883a-421f-d0a7-5f49f67ab294, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: dg.glucy.top}}
 - {name: CN-054, server: 223.113.141.195, port: 36018, type: vmess, uuid: 163d27ca-9e70-3309-93d2-533172ecda2b, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 223.113.141.195}}
 - {name: RELAY-056, server: 104.16.151.104, port: 80, type: vmess, uuid: 363b3efe-1b74-38dd-9656-90c292006581, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 104.16.151.104}}
 - {name: RELAY-059, server: 104.19.145.188, port: 8080, type: vmess, uuid: 363b3efe-1b74-38dd-9656-90c292006581, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 104.19.145.188}}
@@ -826,6 +816,7 @@ proxies:
 - {name: CN-097, server: hbcu.lele233.top, port: 44390, type: vmess, uuid: d99ed932-eb75-4f43-b52a-458f26638636, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hbcu.lele233.top}}
 - {name: RELAY-098, server: 104.19.32.60, port: 8080, type: vmess, uuid: 363b3efe-1b74-38dd-9656-90c292006581, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 104.19.32.60}}
 - {name: US-102, server: 142.0.130.57, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 142.0.130.57}}
+- {name: HK-106, server: 156.245.8.121, port: 59592, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 156.245.8.121}}
 - {name: US-107, server: ahsorathiyaa.fly.dev, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: ahsorathiyaa.fly.dev}}
 - {name: NL-110, server: 195.123.217.74, port: 443, type: vmess, uuid: 477c630a-cc6d-11ed-9c82-ab13d0a65abb, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 195.123.217.74}}
 - {name: TW-113, server: 165.154.243.130, port: 80, type: vmess, uuid: d7f3e42f-3ca4-37a6-970a-85272b56bffc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 165.154.243.130}}
@@ -836,7 +827,6 @@ proxies:
 - {name: CN-119, server: zzjp01.gutingting.com, port: 20220, type: trojan, password: 05016364-eb6e-4b2c-9bb5-c3043d354403, skip-cert-verify: true}
 - {name: CN-120, server: hk0.iepl.cooc.icu, port: 20881, type: trojan, password: ea68a62a-c4a0-4bba-9c93-03b1277f40b6, sni: hk.tro.second.cooc.icu, skip-cert-verify: true}
 - {name: HK-124, server: hk07.sexavv.com, port: 80, type: vmess, uuid: d04873e9-0e61-3c5f-b0cc-1257470a1d5e, alterId: 2, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hk07.sexavv.com}}
-- {name: US-127, server: 142.4.108.172, port: 49890, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 142.4.108.172}}
 - {name: RELAY-128, server: 104.16.42.181, port: 80, type: vmess, uuid: 363b3efe-1b74-38dd-9656-90c292006581, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 104.16.42.181}}
 - {name: RELAY-129, server: 104.18.46.59, port: 80, type: vmess, uuid: 363b3efe-1b74-38dd-9656-90c292006581, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 104.18.46.59}}
 - {name: KR-130, server: ssrsub.t04.trojan.tel, port: 80, type: trojan, password: 6ba745ca-823a-4643-8f4e-22997ca67a2f, skip-cert-verify: true}
@@ -895,9 +885,9 @@ proxies:
 - {name: RELAY-68, server: 45.85.119.82, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 45.85.119.82}}
 - {name: GOOGLE-70, server: jfgfdg.zeabur.app, port: 443, type: vmess, uuid: 1a74edfd-7094-4cac-9374-38f779fe0429, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: jfgfdg.zeabur.app}}
 - {name: CN-71, server: g7z35c66m.ns28bdh90.y2hd6jq1t.soabgo.com, port: 26001, type: vmess, uuid: FF5D3BF5-1296-FB0A-4596-B3CD0C884200, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: g7z35c66m.ns28bdh90.y2hd6jq1t.soabgo.com}}
-- {name: RELAY-72, server: target.292228.xyz, port: 80, type: vmess, uuid: db717b3a-6b5d-40ee-9d3d-d9c7863c218e, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: target.292228.xyz}}
 - {name: RELAY-80, server: 203.24.108.100, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: 203.24.108.100}}
 - {name: CN-81, server: shnnb37f1.xz56bm2v8.lzmg3khpq.soabgo.com, port: 45000, type: vmess, uuid: FF5D3BF5-1296-FB0A-4596-B3CD0C884200, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: shnnb37f1.xz56bm2v8.lzmg3khpq.soabgo.com}}
 - {name: RELAY-82, server: hax.smely.eu.org, port: 80, type: vmess, uuid: 58340bf3-d51d-45e2-87a8-effa78e4bca6, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hax.smely.eu.org}}
+- {name: IT-85, server: 204.216.214.102, port: 44386, type: trojan, password: C931CWacy8, skip-cert-verify: true}
 - {name: NL-86, server: 195.54.174.18, port: 80, type: vmess, uuid: 6d6f413f-3dc2-4d02-8d35-8b45e39feb72, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 195.54.174.18}}
 - {name: NOWHERE-87, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true}
