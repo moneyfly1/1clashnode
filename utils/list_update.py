@@ -52,7 +52,7 @@ class update_url():
                 
     def update_write(id, status, updated_url):
         if status == 404:
-            print(f'Id {id} URL 无可用更新\n')
+            print(f'Id {id} URL 更新失败\n')
         else:
             if updated_url != raw_list[id]['url']:
                 raw_list[id]['url'] = updated_url
