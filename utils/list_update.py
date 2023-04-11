@@ -74,7 +74,7 @@ class update_url():
     def update_id_21():
         date_inurl = datetime.today().strftime('%Y/%m/%Y-%m-%d')
         #date_inurl = '2021/12/2021-12-08'
-        url_update = f'https://www.mattkaydiary.com/{date_inurl}-free-v2ray-clash-nodes.html'
+        url_update = f'https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md'
 
         if url_updated(url_update):
             resp = requests.get(url_update, timeout=5)
