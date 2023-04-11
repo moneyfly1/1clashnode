@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `37`
+当前合并节点总数: `33`
 - [Mattkaydiary](https://www.mattkaydiary.com), 节点数量: `37`
 
 ## 客户端选择
