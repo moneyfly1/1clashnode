@@ -75,24 +75,22 @@ class update_url():
         #date_inurl = datetime.today().strftime('%Y/%m/%Y-%m-%d')
         #date_inurl = '2021/12/2021-12-08'
         url_update = 'https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md'
+        resp = requests.get(url_update, timeout=5)
+        raw_content = resp.text
 
-        if url_updated(url_update):
-            resp = requests.get(url_update, timeout=5)
-            raw_content = resp.text
-
-            try:
-                raw_content = raw_content.replace('amp;', '')
-                #print(raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc'))
-                #print(raw_content[raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc'):raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc')+100])
-                pattern = re.compile(r'https://tsomoonyb\.xyz/link/*?clash=1')
+        try:
+            raw_content = raw_content.replace('amp;', '')
+            #print(raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc'))
+            #print(raw_content[raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc'):raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc')+100])
+            pattern = re.compile(r'https://tsomoonyb\.xyz/link/*?clash=1')
                 
-                url_update = re.findall(pattern, raw_content)[0][24:]
-                return [21, url_update]
-            except Exception as err:
-                print(err)
-                return [21, 404]
-        else:
+            url_update = re.findall(pattern, raw_content)[0][24:]
+            return [21, url_update]
+        except Exception as err:
+            print(err)
             return [21, 404]
+       
+        return [21, 404]
 
     def update_id_22(): # remarks: v2raydy/v2ray, 将原链接更新至 https://https://raw.githubusercontent.com/v2raydy/v2ray/main/%MM-%(DD - 1)%str%1.txt
         yesterday = (datetime.today() + timedelta(-1)).strftime('%m-%d')# 得到当前日期前一天 https://blog.csdn.net/wanghuafengc/article/details/42458721
