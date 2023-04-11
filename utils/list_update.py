@@ -72,9 +72,9 @@ class update_url():
             return [0, 404]
     
     def update_id_21():
-        date_inurl = datetime.today().strftime('%Y/%m/%Y-%m-%d')
+        #date_inurl = datetime.today().strftime('%Y/%m/%Y-%m-%d')
         #date_inurl = '2021/12/2021-12-08'
-        url_update = f'https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md'
+        url_update = 'https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md'
 
         if url_updated(url_update):
             resp = requests.get(url_update, timeout=5)
@@ -84,7 +84,7 @@ class update_url():
                 raw_content = raw_content.replace('amp;', '')
                 #print(raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc'))
                 #print(raw_content[raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc'):raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc')+100])
-                pattern = re.compile(r'Clash&#65306;https://tsomoonyb\.xyz/link/*?clash=1')
+                pattern = re.compile(r'https://tsomoonyb\.xyz/link/*?clash=1')
                 
                 url_update = re.findall(pattern, raw_content)[0][24:]
                 return [21, url_update]
