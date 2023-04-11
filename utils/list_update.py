@@ -80,11 +80,11 @@ class update_url():
         
 
         try:
-            raw_content = raw_content.replace('amp;', '')
+            #raw_content = raw_content.replace('amp;', '')
             #print(raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc'))
             #print(raw_content[raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc'):raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc')+100])
-            pattern = re.compile(r'https://tsomoonyb\.xyz/link/*?clash=1')
-            url_update = re.findall('https://tsomoonyb\.xyz/link/*?clash=1', raw_content)
+            #pattern = re.compile(r'https://tsomoonyb\.xyz/link/*?clash=1')
+            url_update = re.findall(r'https://tsomoonyb\.xyz/link/*?clash=1', raw_content)
             print(url_update)
             return [21, url_update]
         except Exception as err:
