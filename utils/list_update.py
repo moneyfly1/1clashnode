@@ -36,7 +36,7 @@ class update_url():
                 if id == 0:
                     status = update_url.update_id_0()
                     update_url.update_write(id, status[1], status[1])
-                elif id == 21:
+                elif id == 1:
                     status = update_url.update_id_21()
                     update_url.update_write(id, status[1], status[1])
                 elif id == 22:
@@ -71,7 +71,7 @@ class update_url():
         else:
             return [0, 404]
     
-    def update_id_21():
+    def update_id_1():
         #date_inurl = datetime.today().strftime('%Y/%m/%Y-%m-%d')
         #date_inurl = '2021/12/2021-12-08'
         url_update = 'https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md'
@@ -86,12 +86,12 @@ class update_url():
             #pattern = re.compile(r'https://tsomoonyb\.xyz/link/*?clash=1')
             url_update = re.findall(r'https:\/\/[^\s]+clash=1', raw_content)[0]
             print(url_update)
-            return [21, url_update]
+            return [1, url_update]
         except Exception as err:
             print(err)
-            return [21, 404]
+            return [1, 404]
        
-        return [21, 404]
+        return [1, 404]
 
     def update_id_22(): # remarks: v2raydy/v2ray, 将原链接更新至 https://https://raw.githubusercontent.com/v2raydy/v2ray/main/%MM-%(DD - 1)%str%1.txt
         yesterday = (datetime.today() + timedelta(-1)).strftime('%m-%d')# 得到当前日期前一天 https://blog.csdn.net/wanghuafengc/article/details/42458721
