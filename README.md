@@ -35,13 +35,13 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `138`
+当前合并节点总数: `206`
 - [pojiezhiyuanjun](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `38`
 - [tolinkshare](https://github.com/tolinkshare/freenode), 节点数量: `33`
 - [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `47`
 - [Junely/clash](https://github.com/Junely/clash), 节点数量: `0`
 - [jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
-- [Lukeehujt/Clash_nod](https://github.com/ThekingMX1998/free-v2ray-code), 节点数量: `0`
+- [Lukeehujt/Clash_nod](https://github.com/Lukeehujt/Clash_node), 节点数量: `87`
 - [ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `31`
 
 ## 客户端选择
