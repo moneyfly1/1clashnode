@@ -35,10 +35,16 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `66`
-- [4ooc/clash_sync](https://github.com/4ooc/clash_sync), 节点数量: `47`
-- [Junely/clash](https://github.com/Junely/clash), 节点数量: `0`
-- [ObcbO/auto-subscribe](https://github.com/ObcbO/auto-subscribe), 节点数量: `20`
+当前合并节点总数: `210`
+- [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `45`
+- [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `46`
+- [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `45`
+- [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `20`
+- [jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `46`
+- [jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
+- [baip01/clash](https://github.com/baip01/clash), 节点数量: `104`
+- [ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `35`
+- [imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `20`
 
 ## 客户端选择
 ### 主流桌面客户端
