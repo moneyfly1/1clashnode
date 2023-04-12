@@ -35,11 +35,10 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `92`
+当前合并节点总数: `66`
 - [4ooc/clash_sync](https://github.com/4ooc/clash_sync), 节点数量: `47`
 - [Junely/clash](https://github.com/Junely/clash), 节点数量: `0`
 - [ObcbO/auto-subscribe](https://github.com/ObcbO/auto-subscribe), 节点数量: `20`
-- [电报群分享(https://t.me/Jsnzk/4664)节点池](https://pool.jinxnet.xyz), 节点数量: `31`
 
 ## 客户端选择
 ### 主流桌面客户端
