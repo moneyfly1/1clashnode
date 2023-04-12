@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `181`
+当前合并节点总数: `233`
 - [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `15`
 - [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `46`
 - [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `45`
@@ -47,6 +47,7 @@
 - [yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `8`
 - [ssrsub/ssr](https://github.com/ssrsub/ssr/tree/master), 节点数量: `17`
 - [xieshunxi1/subscribe_clash_v2ray](https://github.com/xieshunxi1/subscribe_clash_v2ray), 节点数量: `35`
+- [Lukeehujt/Clash_nod](https://github.com/Lukeehujt/Clash_node), 节点数量: `80`
 - [ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `35`
 - [imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `20`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `5`
