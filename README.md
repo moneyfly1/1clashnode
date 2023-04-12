@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `255`
+当前合并节点总数: `256`
 - [mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `47`
 - [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `45`
 - [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `15`
@@ -52,7 +52,7 @@
 - [xieshunxi1/subscribe_clash_v2ray](https://github.com/xieshunxi1/subscribe_clash_v2ray), 节点数量: `35`
 - [ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `35`
 - [imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `20`
-- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `3`
+- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `5`
 
 ## 客户端选择
 ### 主流桌面客户端
