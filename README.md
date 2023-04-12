@@ -35,16 +35,25 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `210`
+当前合并节点总数: `290`
 - [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `45`
+- [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `15`
 - [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `46`
 - [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `45`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `20`
 - [jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `46`
+- [zsokami/sub/renren](https://github.com/zsokami/sub), 节点数量: `5`
 - [jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
+- [zsokami/sub/giaoyun](https://github.com/zsokami/sub/main/trials), 节点数量: `14`
+- [tbbatbb/Proxy](https://github.com/tbbatbb/Proxy), 节点数量: `3`
+- [yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `8`
 - [baip01/clash](https://github.com/baip01/clash), 节点数量: `104`
+- [ssrsub/ssr](https://github.com/ssrsub/ssr/tree/master), 节点数量: `17`
+- [xieshunxi1/subscribe_clash_v2ray](https://github.com/xieshunxi1/subscribe_clash_v2ray), 节点数量: `35`
+- [Lukeehujt/Clash_nod](https://github.com/Lukeehujt/Clash_node), 节点数量: `80`
 - [ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `35`
 - [imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `20`
+- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `3`
 
 ## 客户端选择
 ### 主流桌面客户端
