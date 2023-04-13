@@ -77,6 +77,8 @@ class sub_convert():
                     print (idid)
                     resp = s.get(raw_input, timeout=5)
                     sub_content = sub_convert.transfer(resp.content.decode('utf-8'))
+                    if idid == '24' :
+                        idid = ''
                 except Exception as err:
                     print(err)
                     return 'Url 解析错误'
