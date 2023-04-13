@@ -375,7 +375,7 @@ class sub_convert():
                 if len(proxies_list) >=1000:
                     proxy['name'] = f'{ids}-{proxyname}-{country_code}-{proxy_index:0>4d}'
                 elif len(proxies_list) <= 999 and len(proxies_list) > 99:
-                    proxy['name'] = f'{ids}-{proxyname}-{country_code}-{proxy_index:0>3d}'
+                    proxy['name'] = ids + f'-{proxyname}-{country_code}-{proxy_index:0>3d}'
                 elif len(proxies_list) <= 99:
                     proxy['name'] = f'{ids}-{proxyname}-{country_code}-{proxy_index:0>2d}'
 
