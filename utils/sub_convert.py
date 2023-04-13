@@ -44,6 +44,7 @@ class sub_convert():
 
     def convert(raw_input, input_type='url', output_type='url', custom_set={'dup_rm_enabled': True, 'format_name_enabled': True}): # {'input_type': ['url', 'content'],'output_type': ['url', 'YAML', 'Base64']}
         # convert Url to YAML or Base64
+        global ids = '#00'
         if input_type == 'url': # 获取 URL 订阅链接内容
             sub_content = ''
             if isinstance(raw_input, list):
@@ -654,7 +655,7 @@ class sub_convert():
             return base64_content
 
 if __name__ == '__main__':
-    global ids = '#00'
+    
     subscribe = 'https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg'
     output_path = './output.txt'
 
