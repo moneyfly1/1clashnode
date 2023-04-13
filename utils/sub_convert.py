@@ -98,6 +98,7 @@ class sub_convert():
                 return '订阅内容解析错误'
         else:
             return '订阅内容解析错误'
+  
     def transfer(sub_content): # 将 URL 内容转换为 YAML 格式
         if '</b>' not in sub_content:
             if 'proxies:' in sub_content: # 判断字符串是否在文本中，是，判断为YAML。https://cloud.tencent.com/developer/article/1699719
