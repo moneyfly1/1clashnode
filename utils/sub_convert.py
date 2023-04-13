@@ -5,7 +5,7 @@ import requests, socket, urllib.parse
 from requests.adapters import HTTPAdapter
 
 import geoip2.database
-ids = "#00"
+idid = "#00"
 class sub_convert():
 
     """
@@ -55,8 +55,8 @@ class sub_convert():
                     s.mount('https://', HTTPAdapter(max_retries=5))
                     try:
                         print('Downloading from:' + url)
-                        global ids = re.findall(r'#\d\d', url)[0]
-                        print(ids)
+                        global idid = re.findall(r'#\d\d', url)[0]
+                        print(idid)
                         resp = s.get(url, timeout=5)
                         s_content = sub_convert.yaml_decode(sub_convert.transfer(resp.content.decode('utf-8')))
                         a_content.append(s_content)
@@ -70,8 +70,8 @@ class sub_convert():
                 s.mount('https://', HTTPAdapter(max_retries=5))
                 try:
                     print('Downloading from:' + raw_input)
-                    global ids = re.findall(r'#\d\d', raw_input)[0]
-                    print (ids)
+                    global idid = re.findall(r'#\d\d', raw_input)[0]
+                    print (idid)
                     resp = s.get(raw_input, timeout=5)
                     sub_content = sub_convert.transfer(resp.content.decode('utf-8'))
                 except Exception as err:
@@ -375,11 +375,11 @@ class sub_convert():
                 proxyname=proxy['name']
                 
                 if len(proxies_list) >=1000:
-                    proxy['name'] = ids + f'-{proxyname}-{country_code}-{proxy_index:0>4d}'
+                    proxy['name'] = idid + f'-{proxyname}-{country_code}-{proxy_index:0>4d}'
                 elif len(proxies_list) <= 999 and len(proxies_list) > 99:
-                    proxy['name'] = ids + f'-{proxyname}-{country_code}-{proxy_index:0>3d}'
+                    proxy['name'] = idid + f'-{proxyname}-{country_code}-{proxy_index:0>3d}'
                 elif len(proxies_list) <= 99:
-                    proxy['name'] = ids + f'-{proxyname}-{country_code}-{proxy_index:0>2d}'
+                    proxy['name'] = idid + f'-{proxyname}-{country_code}-{proxy_index:0>2d}'
 
                 if proxy['server'] != '127.0.0.1':
                     proxy_str = str(proxy)
