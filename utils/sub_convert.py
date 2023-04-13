@@ -71,7 +71,7 @@ class sub_convert():
                 s.mount('https://', HTTPAdapter(max_retries=5))
                 try:
                     print('Downloading from:' + raw_input)
-                    global idid = re.findall(r'#\d\d', raw_input)[0]
+                    idid = re.findall(r'#\d\d', raw_input)[0]
                     print (idid)
                     resp = s.get(raw_input, timeout=5)
                     sub_content = sub_convert.transfer(resp.content.decode('utf-8'))
