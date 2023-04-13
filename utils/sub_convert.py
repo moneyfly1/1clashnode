@@ -654,6 +654,7 @@ class sub_convert():
             return base64_content
 
 if __name__ == '__main__':
+    def ids = '#00'
     subscribe = 'https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg'
     output_path = './output.txt'
 
