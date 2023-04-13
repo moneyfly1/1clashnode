@@ -35,23 +35,23 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `286`
-- [pojiezhiyuanjun](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `42`
+当前合并节点总数: `371`
+- [pojiezhiyuanjun](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `56`
 - [tolinkshare](https://github.com/tolinkshare/freenode), 节点数量: `33`
 - [mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `47`
-- [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `46`
-- [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `15`
-- [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `46`
-- [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `46`
+- [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `47`
+- [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `24`
+- [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `49`
+- [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `47`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `21`
-- [zsokami/sub/renren](https://github.com/zsokami/sub), 节点数量: `5`
+- [zsokami/sub/renren](https://github.com/zsokami/sub), 节点数量: `39`
 - [jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
 - [zsokami/sub/giaoyun](https://github.com/zsokami/sub/main/trials), 节点数量: `14`
 - [tbbatbb/Proxy](https://github.com/tbbatbb/Proxy), 节点数量: `4`
 - [yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `8`
-- [ssrsub/ssr](https://github.com/ssrsub/ssr/tree/master), 节点数量: `17`
-- [xieshunxi1/subscribe_clash_v2ray](https://github.com/xieshunxi1/subscribe_clash_v2ray), 节点数量: `24`
-- [ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `24`
+- [ssrsub/ssr](https://github.com/ssrsub/ssr/tree/master), 节点数量: `19`
+- [xieshunxi1/subscribe_clash_v2ray](https://github.com/xieshunxi1/subscribe_clash_v2ray), 节点数量: `30`
+- [ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `30`
 - [imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `20`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `3`
 
