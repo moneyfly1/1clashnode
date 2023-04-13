@@ -142,7 +142,7 @@ class sub_convert():
                         front_url = url[:8] + url_split[0]
                         url_list.append(front_url)
                         url = url_split[1]
-
+                        ids = re.findall(r'#\d\d', raw_input)[0]
                     url_list.append(url)
 
                 url_content = '\n'.join(url_list)
@@ -273,7 +273,7 @@ class sub_convert():
         url_list = []
 
         for proxy in proxies_list: # 改名
-            ids=re.findall(r'#\d\d', raw_input)[0]
+            
             if format_name_enabled:
                 emoji = {
                     'AD': '🇦🇩', 'AE': '🇦🇪', 'AF': '🇦🇫', 'AG': '🇦🇬', 
