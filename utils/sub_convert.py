@@ -366,12 +366,13 @@ class sub_convert():
                     name_emoji = emoji['NOWHERE']
 
                 proxy_index = proxies_list.index(proxy)
+                proxyname=proxy['name']
                 if len(proxies_list) >=1000:
-                    proxy['name'] = f'{proxy['name']}-{country_code}-{proxy_index:0>4d}'
+                    proxy['name'] = f'{proxyname}-{country_code}-{proxy_index:0>4d}'
                 elif len(proxies_list) <= 999 and len(proxies_list) > 99:
-                    proxy['name'] = f'{proxy['name']}-{country_code}-{proxy_index:0>3d}'
+                    proxy['name'] = f'{proxyname}-{country_code}-{proxy_index:0>3d}'
                 elif len(proxies_list) <= 99:
-                    proxy['name'] = f'proxy['name']-{country_code}-{proxy_index:0>2d}'
+                    proxy['name'] = f'{proxyname}-{country_code}-{proxy_index:0>2d}'
 
                 if proxy['server'] != '127.0.0.1':
                     proxy_str = str(proxy)
