@@ -44,7 +44,7 @@ class sub_convert():
 
     def convert(raw_input, input_type='url', output_type='url', custom_set={'dup_rm_enabled': True, 'format_name_enabled': True}): # {'input_type': ['url', 'content'],'output_type': ['url', 'YAML', 'Base64']}
         # convert Url to YAML or Base64
-        
+        global idid
         if input_type == 'url': # 获取 URL 订阅链接内容
             sub_content = ''
             if isinstance(raw_input, list):
@@ -55,7 +55,8 @@ class sub_convert():
                     s.mount('https://', HTTPAdapter(max_retries=5))
                     try:
                         print('Downloading from:' + url)
-                        global idid = re.findall(r'#\d\d', url)[0]
+                        
+                        idid = re.findall(r'#\d\d', url)[0]
                         print(idid)
                         resp = s.get(url, timeout=5)
                         s_content = sub_convert.yaml_decode(sub_convert.transfer(resp.content.decode('utf-8')))
