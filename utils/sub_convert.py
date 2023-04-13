@@ -5,7 +5,7 @@ import requests, socket, urllib.parse
 from requests.adapters import HTTPAdapter
 
 import geoip2.database
-
+ids = "#00"
 class sub_convert():
 
     """
@@ -44,7 +44,7 @@ class sub_convert():
 
     def convert(raw_input, input_type='url', output_type='url', custom_set={'dup_rm_enabled': True, 'format_name_enabled': True}): # {'input_type': ['url', 'content'],'output_type': ['url', 'YAML', 'Base64']}
         # convert Url to YAML or Base64
-        global ids = '#00'
+        
         if input_type == 'url': # 获取 URL 订阅链接内容
             sub_content = ''
             if isinstance(raw_input, list):
@@ -55,7 +55,7 @@ class sub_convert():
                     s.mount('https://', HTTPAdapter(max_retries=5))
                     try:
                         print('Downloading from:' + url)
-                        ids = re.findall(r'#\d\d', url)[0]
+                        global ids = re.findall(r'#\d\d', url)[0]
                         print(ids)
                         resp = s.get(url, timeout=5)
                         s_content = sub_convert.yaml_decode(sub_convert.transfer(resp.content.decode('utf-8')))
@@ -70,7 +70,7 @@ class sub_convert():
                 s.mount('https://', HTTPAdapter(max_retries=5))
                 try:
                     print('Downloading from:' + raw_input)
-                    ids = re.findall(r'#\d\d', raw_input)[0]
+                    global ids = re.findall(r'#\d\d', raw_input)[0]
                     print (ids)
                     resp = s.get(raw_input, timeout=5)
                     sub_content = sub_convert.transfer(resp.content.decode('utf-8'))
