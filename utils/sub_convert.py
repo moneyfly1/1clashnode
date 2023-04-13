@@ -98,7 +98,7 @@ class sub_convert():
                 return '订阅内容解析错误'
         else:
             return '订阅内容解析错误'
-  
+        idid = ''
     def transfer(sub_content): # 将 URL 内容转换为 YAML 格式
         if '</b>' not in sub_content:
             if 'proxies:' in sub_content: # 判断字符串是否在文本中，是，判断为YAML。https://cloud.tencent.com/developer/article/1699719
@@ -119,7 +119,7 @@ class sub_convert():
         else:
             print('订阅内容解析错误')
             return '订阅内容解析错误'
-        idid = ''
+        
     def format(sub_content, output=False): # 对节点 Url 进行格式化处理, 输出节点的字典格式, output 为真时输出 YAML 文本
 
         if 'proxies:' not in sub_content: # 对 URL 内容进行格式化处理
