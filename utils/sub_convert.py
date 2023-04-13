@@ -5,7 +5,7 @@ import requests, socket, urllib.parse
 from requests.adapters import HTTPAdapter
 
 import geoip2.database
-idid = "#00"
+idid = '00'
 class sub_convert():
 
     """
@@ -57,6 +57,7 @@ class sub_convert():
                         print('Downloading from:' + url)
                         
                         idid = re.findall(r'#\d\d', url)[0]
+                        idid = re.findall(r'\d\d',idid)[0]
                         print(idid)
                         resp = s.get(url, timeout=5)
                         s_content = sub_convert.yaml_decode(sub_convert.transfer(resp.content.decode('utf-8')))
@@ -72,6 +73,7 @@ class sub_convert():
                 try:
                     print('Downloading from:' + raw_input)
                     idid = re.findall(r'#\d\d', raw_input)[0]
+                    idid = re.findall(r'\d\d',idid)[0]
                     print (idid)
                     resp = s.get(raw_input, timeout=5)
                     sub_content = sub_convert.transfer(resp.content.decode('utf-8'))
@@ -376,11 +378,11 @@ class sub_convert():
                 proxyname=proxy['name']
                 
                 if len(proxies_list) >=1000:
-                    proxy['name'] = idid + f'-{proxyname}-{country_code}-{proxy_index:0>4d}'
+                    proxy['name'] = f'{idid}-{proxyname}-{country_code}-{proxy_index:0>4d}'
                 elif len(proxies_list) <= 999 and len(proxies_list) > 99:
-                    proxy['name'] = idid + f'-{proxyname}-{country_code}-{proxy_index:0>3d}'
+                    proxy['name'] = f'{idid}-{proxyname}-{country_code}-{proxy_index:0>3d}'
                 elif len(proxies_list) <= 99:
-                    proxy['name'] = idid + f'-{proxyname}-{country_code}-{proxy_index:0>2d}'
+                    proxy['name'] = f'{idid}-{proxyname}-{country_code}-{proxy_index:0>2d}'
 
                 if proxy['server'] != '127.0.0.1':
                     proxy_str = str(proxy)
