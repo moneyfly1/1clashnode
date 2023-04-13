@@ -77,7 +77,7 @@ class sub_convert():
                     print (idid)
                     resp = s.get(raw_input, timeout=5)
                     sub_content = sub_convert.transfer(resp.content.decode('utf-8'))
-                    if idid == '24' :
+                    if idid == '99' :
                         idid = ''
                 except Exception as err:
                     print(err)
