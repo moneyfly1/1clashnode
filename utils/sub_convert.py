@@ -383,12 +383,14 @@ class sub_convert():
                 proxyname=proxy['name']
                 if idid == '24':
                     idid = ''
+                else
+                    idid = idid + '-'
                 if len(proxies_list) >=1000:
-                    proxy['name'] = f'{idid}-{proxyname}-{country_code}-{proxy_index:0>4d}'
+                    proxy['name'] = f'{idid}{proxyname}-{country_code}-{proxy_index:0>4d}'
                 elif len(proxies_list) <= 999 and len(proxies_list) > 99:
-                    proxy['name'] = f'{idid}-{proxyname}-{country_code}-{proxy_index:0>3d}'
+                    proxy['name'] = f'{idid}{proxyname}-{country_code}-{proxy_index:0>3d}'
                 elif len(proxies_list) <= 99:
-                    proxy['name'] = f'{idid}-{proxyname}-{country_code}-{proxy_index:0>2d}'
+                    proxy['name'] = f'{idid}{proxyname}-{country_code}-{proxy_index:0>2d}'
                 print(idid)
                 if proxy['server'] != '127.0.0.1':
                     proxy_str = str(proxy)
