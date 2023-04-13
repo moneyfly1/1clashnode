@@ -383,7 +383,7 @@ class sub_convert():
                     proxy['name'] = f'{idid}-{proxyname}-{country_code}-{proxy_index:0>3d}'
                 elif len(proxies_list) <= 99:
                     proxy['name'] = f'{idid}-{proxyname}-{country_code}-{proxy_index:0>2d}'
-                proxy(idid)
+                print(idid)
                 if proxy['server'] != '127.0.0.1':
                     proxy_str = str(proxy)
                     url_list.append(proxy_str)
