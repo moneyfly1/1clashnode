@@ -37,7 +37,7 @@ class update_url():
                     status = update_url.update_id_0()
                     update_url.update_write(id, status[1], status[1])
                 elif id == 1:
-                    status = update_url.update_id_21()
+                    status = update_url.update_id_1()
                     update_url.update_write(id, status[1], status[1])
                 elif id == 22:
                     status = update_url.update_id_22()
