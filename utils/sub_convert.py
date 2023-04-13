@@ -118,6 +118,7 @@ class sub_convert():
         else:
             print('订阅内容解析错误')
             return '订阅内容解析错误'
+        idid = ''
     def format(sub_content, output=False): # 对节点 Url 进行格式化处理, 输出节点的字典格式, output 为真时输出 YAML 文本
 
         if 'proxies:' not in sub_content: # 对 URL 内容进行格式化处理
