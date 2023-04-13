@@ -55,6 +55,7 @@ class sub_convert():
                     try:
                         print('Downloading from:' + url)
                         ids = re.findall(r'#\d\d', url)[0]
+                        print(ids)
                         resp = s.get(url, timeout=5)
                         s_content = sub_convert.yaml_decode(sub_convert.transfer(resp.content.decode('utf-8')))
                         a_content.append(s_content)
@@ -69,6 +70,7 @@ class sub_convert():
                 try:
                     print('Downloading from:' + raw_input)
                     ids = re.findall(r'#\d\d', raw_input)[0]
+                    print (ids)
                     resp = s.get(raw_input, timeout=5)
                     sub_content = sub_convert.transfer(resp.content.decode('utf-8'))
                 except Exception as err:
