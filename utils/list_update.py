@@ -64,7 +64,7 @@ class update_url():
         #yesterday = (datetime.today() + timedelta(-1)).strftime('%m%d')# 得到当前日期前一天 https://blog.csdn.net/wanghuafengc/article/details/42458721
         today = datetime.today().strftime('%m%d')
         front_url = 'https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/'
-        end_url = '.txt'
+        end_url = '.txt#00'
         url_update = front_url + today + end_url# 修改字符串中的某一位字符 https://www.zhihu.com/question/31800070/answer/53345749
         if url_updated(url_update):
             return [0, url_update]
@@ -84,7 +84,8 @@ class update_url():
             #print(raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc'))
             #print(raw_content[raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc'):raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc')+100])
             #pattern = re.compile(r'https://tsomoonyb\.xyz/link/*?clash=1')
-            url_update = re.findall(r'https:\/\/[^\s]+clash=1', raw_content)[0]
+            url_update = re.findall(r'https:\/\/[^\s]+clash=1', raw_content)[0] + '#01'
+            
             print(url_update)
             return [1, url_update]
         except Exception as err:
