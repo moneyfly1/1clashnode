@@ -54,6 +54,7 @@ class sub_convert():
                     s.mount('https://', HTTPAdapter(max_retries=5))
                     try:
                         print('Downloading from:' + url)
+                        ids = re.findall(r'#\d\d', url)[0]
                         resp = s.get(url, timeout=5)
                         s_content = sub_convert.yaml_decode(sub_convert.transfer(resp.content.decode('utf-8')))
                         a_content.append(s_content)
@@ -67,6 +68,7 @@ class sub_convert():
                 s.mount('https://', HTTPAdapter(max_retries=5))
                 try:
                     print('Downloading from:' + raw_input)
+                    ids = re.findall(r'#\d\d', raw_input)[0]
                     resp = s.get(raw_input, timeout=5)
                     sub_content = sub_convert.transfer(resp.content.decode('utf-8'))
                 except Exception as err:
@@ -367,7 +369,7 @@ class sub_convert():
 
                 proxy_index = proxies_list.index(proxy)
                 proxyname=proxy['name']
-                ids = re.findall(r'#\d\d', url)[0]
+                
                 if len(proxies_list) >=1000:
                     proxy['name'] = f'{ids}-{proxyname}-{country_code}-{proxy_index:0>4d}'
                 elif len(proxies_list) <= 999 and len(proxies_list) > 99:
