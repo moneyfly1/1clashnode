@@ -380,7 +380,7 @@ class sub_convert():
 
                 proxy_index = proxies_list.index(proxy)
                 proxyname=proxy['name']
-                if idid == '24'：
+                if idid == '24':
                     idid = ''
                 if len(proxies_list) >=1000:
                     proxy['name'] = f'{idid}-{proxyname}-{country_code}-{proxy_index:0>4d}'
