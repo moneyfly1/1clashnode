@@ -35,14 +35,14 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `296`
+当前合并节点总数: `287`
 - [pojiezhiyuanjun](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `42`
 - [tolinkshare](https://github.com/tolinkshare/freenode), 节点数量: `33`
 - [mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `47`
-- [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `45`
+- [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `46`
 - [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `15`
 - [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `46`
-- [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `45`
+- [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `46`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `21`
 - [zsokami/sub/renren](https://github.com/zsokami/sub), 节点数量: `5`
 - [jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
