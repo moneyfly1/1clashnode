@@ -58,7 +58,7 @@ class sub_convert():
                         
                         idid = re.findall(r'#\d\d', url)[0]
                         idid = re.findall(r'\d\d',idid)[0]
-                        print(idid)
+                        
                         resp = s.get(url, timeout=5)
                         s_content = sub_convert.yaml_decode(sub_convert.transfer(resp.content.decode('utf-8')))
                         a_content.append(s_content)
@@ -394,7 +394,7 @@ class sub_convert():
                     proxy['name'] = idid + f'{proxyname}-{country_code}-{proxy_index:0>3d}'
                 elif len(proxies_list) <= 99:
                     proxy['name'] = idid + f'{proxyname}-{country_code}-{proxy_index:0>2d}'
-                print(idid)
+                
                 if proxy['server'] != '127.0.0.1':
                     proxy_str = str(proxy)
                     url_list.append(proxy_str)
