@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `575`
+当前合并节点总数: `625`
 - [tolinkshare](https://github.com/tolinkshare/freenode), 节点数量: `33`
 - [mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `47`
 - [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `48`
@@ -54,8 +54,13 @@
 - [ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `33`
 - [imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `20`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `5`
-- [NicProxy/V2ray](https://github.com/NicProxy/V2ray), 节点数量: `10`
+- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `25`
+- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `27`
+- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `46`
+- [Mahanfix/v2rayvpn](https://github.com/Mahanfix/v2rayvpn), 节点数量: `8`
 - [xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `141`
+- [NicProxy/V2ray](https://github.com/NicProxy/V2ray), 节点数量: `10`
+- [hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `48`
 - [电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
