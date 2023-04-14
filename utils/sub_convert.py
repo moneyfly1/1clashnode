@@ -381,10 +381,10 @@ class sub_convert():
 
                 proxy_index = proxies_list.index(proxy)
                 proxyname=proxy['name']
-                if idid == '99' or idid == '' :
+                if re.findall(r'\d\d',idid)[0] = '99' :
                     idid = ''
                 else :
-                    idid = idid + '-'
+                    idid = re.findall(r'\d\d',idid)[0] + '-'
                 if len(proxies_list) >=1000:
                     proxy['name'] = f'{idid}{country_code}-{proxy_index:0>4d}'
                 elif len(proxies_list) <= 999 and len(proxies_list) > 99:
