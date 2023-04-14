@@ -380,7 +380,7 @@ class sub_convert():
                     name_emoji = emoji['NOWHERE']
 
                 proxy_index = proxies_list.index(proxy)
-                proxyname=proxy['name']
+                proxyname=re.findall(r'^\d\d',proxy['name'])[0]
                 if idid != '':
                     if re.findall(r'\d\d',idid)[0] == '99' :
                         idid = ''
