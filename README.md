@@ -35,12 +35,12 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `364`
-- [pojiezhiyuanjun](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `48`
+当前合并节点总数: `316`
 - [tolinkshare](https://github.com/tolinkshare/freenode), 节点数量: `33`
 - [mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `47`
 - [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `47`
 - [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `24`
+- [Junely/clash](https://github.com/Junely/clash), 节点数量: `0`
 - [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `49`
 - [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `47`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `21`
@@ -54,6 +54,7 @@
 - [ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `30`
 - [imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `20`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `3`
+- [电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
 ### 主流桌面客户端
