@@ -35,14 +35,8 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `625`
-- [tolinkshare](https://github.com/tolinkshare/freenode), 节点数量: `33`
-- [mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `47`
-- [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `48`
-- [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `156`
-- [Junely/clash](https://github.com/Junely/clash), 节点数量: `0`
-- [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `47`
-- [YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `48`
+当前合并节点总数: `526`
+- [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `157`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `22`
 - [666666mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator), 节点数量: `67`
 - [jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
@@ -53,8 +47,8 @@
 - [xieshunxi1/subscribe_clash_v2ray](https://github.com/xieshunxi1/subscribe_clash_v2ray), 节点数量: `33`
 - [ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `33`
 - [imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `20`
-- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `5`
-- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `25`
+- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `3`
+- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `26`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `27`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `46`
 - [Mahanfix/v2rayvpn](https://github.com/Mahanfix/v2rayvpn), 节点数量: `8`
