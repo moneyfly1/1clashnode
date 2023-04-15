@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `532`
+当前合并节点总数: `531`
 - [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `157`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `20`
 - [666666mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator), 节点数量: `65`
@@ -47,7 +47,7 @@
 - [xieshunxi1/subscribe_clash_v2ray](https://github.com/xieshunxi1/subscribe_clash_v2ray), 节点数量: `33`
 - [ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `33`
 - [imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `20`
-- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `4`
+- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `3`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `26`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `27`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `46`
