@@ -38,7 +38,7 @@
 当前合并节点总数: `543`
 - [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `159`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `20`
-- [666666mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator), 节点数量: `65`
+- [666666mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator), 节点数量: `66`
 - [jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `72`
 - [tbbatbb/Proxy](https://github.com/tbbatbb/Proxy), 节点数量: `3`
