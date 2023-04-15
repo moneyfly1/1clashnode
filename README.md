@@ -35,14 +35,14 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `531`
-- [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `157`
+当前合并节点总数: `587`
+- [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `155`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `20`
 - [666666mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator), 节点数量: `65`
 - [jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `33`
 - [tbbatbb/Proxy](https://github.com/tbbatbb/Proxy), 节点数量: `3`
-- [yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `8`
+- [yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `58`
 - [ssrsub/ssr](https://github.com/ssrsub/ssr/tree/master), 节点数量: `19`
 - [xieshunxi1/subscribe_clash_v2ray](https://github.com/xieshunxi1/subscribe_clash_v2ray), 节点数量: `33`
 - [ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `33`
