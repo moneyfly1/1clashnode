@@ -35,26 +35,26 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `582`
+当前合并节点总数: `543`
 - [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `159`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `20`
 - [666666mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator), 节点数量: `65`
 - [jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
-- [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `33`
+- [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `72`
 - [tbbatbb/Proxy](https://github.com/tbbatbb/Proxy), 节点数量: `3`
 - [yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `58`
 - [ssrsub/ssr](https://github.com/ssrsub/ssr/tree/master), 节点数量: `19`
 - [xieshunxi1/subscribe_clash_v2ray](https://github.com/xieshunxi1/subscribe_clash_v2ray), 节点数量: `33`
 - [ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `33`
 - [imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `20`
-- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `3`
-- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `24`
+- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `5`
+- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `28`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `27`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `46`
 - [Mahanfix/v2rayvpn](https://github.com/Mahanfix/v2rayvpn), 节点数量: `8`
-- [xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `141`
+- [xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `56`
 - [NicProxy/V2ray](https://github.com/NicProxy/V2ray), 节点数量: `10`
-- [hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `48`
+- [hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `49`
 - [电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
