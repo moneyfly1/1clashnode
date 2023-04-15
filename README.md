@@ -35,8 +35,8 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `569`
-- [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `116`
+当前合并节点总数: `598`
+- [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `113`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `20`
 - [666666mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator), 节点数量: `65`
 - [jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
@@ -51,7 +51,7 @@
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `28`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `27`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `46`
-- [Mahanfix/v2rayvpn](https://github.com/Mahanfix/v2rayvpn), 节点数量: `8`
+- [Mahanfix/v2rayvpn](https://github.com/Mahanfix/v2rayvpn), 节点数量: `50`
 - [xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `56`
 - [NicProxy/V2ray](https://github.com/NicProxy/V2ray), 节点数量: `10`
 - [hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `49`
