@@ -35,9 +35,9 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `637`
+当前合并节点总数: `628`
 - [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `113`
-- [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `21`
+- [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `8`
 - [666666mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator), 节点数量: `65`
 - [jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `76`
