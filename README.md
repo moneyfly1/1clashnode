@@ -38,7 +38,7 @@
 当前合并节点总数: `612`
 - [zsokami/sub](https://github.com/zsokami/sub), 节点数量: `113`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `15`
-- [666666mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator), 节点数量: `65`
+- [666666mahdibland/V2RayAggregator](https://github.com/mahdibland/V2RayAggregator), 节点数量: `63`
 - [jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `76`
 - [tbbatbb/Proxy](https://github.com/tbbatbb/Proxy), 节点数量: `3`
@@ -49,7 +49,7 @@
 - [imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `22`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `3`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `28`
-- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `27`
+- [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `25`
 - [cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `46`
 - [Mahanfix/v2rayvpn](https://github.com/Mahanfix/v2rayvpn), 节点数量: `50`
 - [xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `59`
