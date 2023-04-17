@@ -35,11 +35,11 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `429`
+当前合并节点总数: `422`
 - [5igeekshare/GeekshareFreeNode](https://github.com/igeekshare/GeekshareFreeNode), 节点数量: `17`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `15`
 - [13jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
-- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `84`
+- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `56`
 - [19xieshunxi1/subscribe_clash_v2ray](https://github.com/xieshunxi1/subscribe_clash_v2ray), 节点数量: `38`
 - [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `24`
 - [25cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `28`
