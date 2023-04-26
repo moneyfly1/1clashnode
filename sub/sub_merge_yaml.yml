@@ -8,7 +8,7 @@ proxies:
 - {name: 05-CN-006, server: ahcm.v-too.cloud, port: 10259, type: ss, cipher: chacha20-ietf-poly1305, password: 2da141fa-b43a-4830-82bd-c35514d814f4}
 - {name: 05-RELAY-007, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: els200.jslist.tk}}
 - {name: 05-RELAY-008, server: cf.noaries.de, port: 2052, type: vmess, uuid: 6f1d968e-7f41-41fd-931d-73cf35a9f26b, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: cf.noaries.de}}
-- {name: 05-SG-009, server: sg.mjt001.com, port: 443, type: trojan, password: e5305888-423d-4239-b140-495f53014098, sni: sg.mjt001.com, skip-cert-verify: true}
+- {name: 05-HK-009, server: sg.mjt001.com, port: 443, type: trojan, password: e5305888-423d-4239-b140-495f53014098, sni: sg.mjt001.com, skip-cert-verify: true}
 - {name: 05-RELAY-010, server: cf.noaries.de, port: 8880, type: vmess, uuid: 6f1d968e-7f41-41fd-931d-73cf35a9f26b, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: cf.noaries.de}}
 - {name: 05-CN-011, server: gdcm.v-too.cloud, port: 24629, type: ss, cipher: chacha20-ietf-poly1305, password: 2da141fa-b43a-4830-82bd-c35514d814f4}
 - {name: 05-CN-012, server: gdcm.v-too.cloud, port: 13437, type: ss, cipher: chacha20-ietf-poly1305, password: 2da141fa-b43a-4830-82bd-c35514d814f4}
@@ -386,17 +386,17 @@ proxies:
 - {name: 32-CN-384, server: gg.xn--gmqa02ag57d.com, port: 20059, type: trojan, password: 6d870e38-8dd1-3140-bde2-b7e5d36e13e7, sni: x59.flybar.work, skip-cert-verify: true}
 - {name: 32-CN-385, server: gg.xn--gmqa02ag57d.com, port: 20071, type: trojan, password: 6d870e38-8dd1-3140-bde2-b7e5d36e13e7, sni: x71.flybar.work, skip-cert-verify: true}
 - {name: 32-CN-386, server: gg.xn--gmqa02ag57d.com, port: 20076, type: trojan, password: 6d870e38-8dd1-3140-bde2-b7e5d36e13e7, sni: x76.flybar.work, skip-cert-verify: true}
-- {name: 32-US-387, server: 423us.ljydw.top, port: 4433, type: trojan, password: ed345630-8c01-423f-858b-72f08194bf85, sni: 423us.ljydw.top, skip-cert-verify: true}
-- {name: 32-CN-388, server: 330sg01.ljydw.top, port: 14439, type: trojan, password: ed345630-8c01-423f-858b-72f08194bf85, sni: 330sg01.ljydw.top, skip-cert-verify: true}
-- {name: 32-CN-389, server: 330sg02.ljydw.top, port: 14439, type: trojan, password: ed345630-8c01-423f-858b-72f08194bf85, sni: 330sg02.ljydw.top, skip-cert-verify: true}
-- {name: 32-CN-390, server: 330hk01.ljydw.top, port: 14439, type: trojan, password: ed345630-8c01-423f-858b-72f08194bf85, sni: 330hk01.ljydw.top, skip-cert-verify: true}
-- {name: 32-CN-391, server: 330hk02.ljydw.top, port: 14439, type: trojan, password: ed345630-8c01-423f-858b-72f08194bf85, sni: 330hk02.ljydw.top, skip-cert-verify: true}
-- {name: 32-TW-392, server: 419tw.ljydw.top, port: 443, type: trojan, password: ed345630-8c01-423f-858b-72f08194bf85, sni: 419tw.ljydw.top, skip-cert-verify: true}
-- {name: 32-SG-393, server: 0309tw.ljydw.top, port: 443, type: trojan, password: ed345630-8c01-423f-858b-72f08194bf85, sni: 0309tw.ljydw.top, skip-cert-verify: true}
-- {name: 32-TW-394, server: 805tw.ljydw.top, port: 443, type: trojan, password: ed345630-8c01-423f-858b-72f08194bf85, sni: 805tw.ljydw.top, skip-cert-verify: true}
-- {name: 32-TW-395, server: 625tw.ljydw.top, port: 80, type: trojan, password: ed345630-8c01-423f-858b-72f08194bf85, sni: 625tw.ljydw.top, skip-cert-verify: true}
-- {name: 32-AE-396, server: jp1117.ljydw.top, port: 80, type: trojan, password: ed345630-8c01-423f-858b-72f08194bf85, sni: jp1117.ljydw.top, skip-cert-verify: true}
-- {name: 32-CN-397, server: 316sg01.ljydw.top, port: 443, type: trojan, password: ed345630-8c01-423f-858b-72f08194bf85, sni: 316sg01.ljydw.top, skip-cert-verify: true}
+- {name: 32-US-387, server: 423us.ljydw.top, port: 4433, type: trojan, password: d9943eff-0d22-429d-86c2-0068d5b54daa, sni: 423us.ljydw.top, skip-cert-verify: true}
+- {name: 32-CN-388, server: 330sg01.ljydw.top, port: 14439, type: trojan, password: d9943eff-0d22-429d-86c2-0068d5b54daa, sni: 330sg01.ljydw.top, skip-cert-verify: true}
+- {name: 32-CN-389, server: 330sg02.ljydw.top, port: 14439, type: trojan, password: d9943eff-0d22-429d-86c2-0068d5b54daa, sni: 330sg02.ljydw.top, skip-cert-verify: true}
+- {name: 32-CN-390, server: 330hk01.ljydw.top, port: 14439, type: trojan, password: d9943eff-0d22-429d-86c2-0068d5b54daa, sni: 330hk01.ljydw.top, skip-cert-verify: true}
+- {name: 32-CN-391, server: 330hk02.ljydw.top, port: 14439, type: trojan, password: d9943eff-0d22-429d-86c2-0068d5b54daa, sni: 330hk02.ljydw.top, skip-cert-verify: true}
+- {name: 32-TW-392, server: 419tw.ljydw.top, port: 443, type: trojan, password: d9943eff-0d22-429d-86c2-0068d5b54daa, sni: 419tw.ljydw.top, skip-cert-verify: true}
+- {name: 32-SG-393, server: 0309tw.ljydw.top, port: 443, type: trojan, password: d9943eff-0d22-429d-86c2-0068d5b54daa, sni: 0309tw.ljydw.top, skip-cert-verify: true}
+- {name: 32-TW-394, server: 805tw.ljydw.top, port: 443, type: trojan, password: d9943eff-0d22-429d-86c2-0068d5b54daa, sni: 805tw.ljydw.top, skip-cert-verify: true}
+- {name: 32-TW-395, server: 625tw.ljydw.top, port: 80, type: trojan, password: d9943eff-0d22-429d-86c2-0068d5b54daa, sni: 625tw.ljydw.top, skip-cert-verify: true}
+- {name: 32-AE-396, server: jp1117.ljydw.top, port: 80, type: trojan, password: d9943eff-0d22-429d-86c2-0068d5b54daa, sni: jp1117.ljydw.top, skip-cert-verify: true}
+- {name: 32-CN-397, server: 316sg01.ljydw.top, port: 443, type: trojan, password: d9943eff-0d22-429d-86c2-0068d5b54daa, sni: 316sg01.ljydw.top, skip-cert-verify: true}
 - {name: 33-VN-398, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
 - {name: 33-CN-399, server: 14.29.124.168, port: 24000, type: ss, cipher: aes-128-cfb, password: "QazEdcTgb159@$*"}
 - {name: 33-SG-400, server: 18.138.254.53, port: 10000, type: vmess, uuid: 2cfc4c58-88cb-4e00-9977-ef0a37559a22, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 18.138.254.53}}
@@ -432,4 +432,4 @@ proxies:
 - {name: 33-US-430, server: 170.178.167.140, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 170.178.167.140}}
 - {name: 33-KR-431, server: 43.201.146.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: 33-US-432, server: 192.74.242.151, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 192.74.242.151}}
-- {name: 35-CN-433, server: gzyd.jcnode.top, port: 24003, type: ss, cipher: aes-256-gcm, password: af986b48-0527-486f-882b-26573eac75d5}
+- {name: 35-CN-433, server: gzyd.jcnode.top, port: 24003, type: ss, cipher: aes-256-gcm, password: e0d8caa1-0c4c-40a7-98d9-d9e10a558acf}
