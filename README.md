@@ -35,16 +35,16 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `446`
-- [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `8`
+当前合并节点总数: `426`
+- [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `6`
 - [5igeekshare/GeekshareFreeNode](https://github.com/igeekshare/GeekshareFreeNode), 节点数量: `14`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `17`
 - [13jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
-- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `53`
+- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `12`
 - [19xieshunxi1/subscribe_clash_v2ray](https://github.com/xieshunxi1/subscribe_clash_v2ray), 节点数量: `24`
 - [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `34`
 - [25cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `29`
-- [26cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `33`
+- [26cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `34`
 - [27cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `46`
 - [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `44`
 - [30NicProxy/V2ray](https://github.com/NicProxy/V2ray), 节点数量: `7`
