@@ -35,15 +35,15 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `437`
-- [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `11`
+当前合并节点总数: `436`
+- [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `15`
 - [5igeekshare/GeekshareFreeNode](https://github.com/igeekshare/GeekshareFreeNode), 节点数量: `24`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `22`
 - [13jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
 - [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `11`
 - [19xieshunxi1/subscribe_clash_v2ray](https://github.com/xieshunxi1/subscribe_clash_v2ray), 节点数量: `24`
-- [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `34`
-- [25cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `29`
+- [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `33`
+- [25cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `30`
 - [26cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `34`
 - [27cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `46`
 - [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `29`
@@ -52,7 +52,7 @@
 - [32zsokami/sub](https://github.com/zsokami/sub), 节点数量: `125`
 - [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `48`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `0`
-- [35rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `34`
+- [35rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `33`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
