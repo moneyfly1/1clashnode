@@ -35,8 +35,8 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `445`
-- [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `16`
+当前合并节点总数: `441`
+- [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `9`
 - [5igeekshare/GeekshareFreeNode](https://github.com/igeekshare/GeekshareFreeNode), 节点数量: `10`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `20`
 - [13jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
@@ -52,7 +52,7 @@
 - [32zsokami/sub](https://github.com/zsokami/sub), 节点数量: `126`
 - [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `49`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `0`
-- [35rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `32`
+- [35rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `33`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
