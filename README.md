@@ -36,7 +36,7 @@
 
 ### 鸣谢名单
 当前合并节点总数: `462`
-- [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `22`
+- [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `11`
 - [5igeekshare/GeekshareFreeNode](https://github.com/igeekshare/GeekshareFreeNode), 节点数量: `10`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `19`
 - [13jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `8`
