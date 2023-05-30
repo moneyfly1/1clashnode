@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `380`
+当前合并节点总数: `381`
 - [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `13`
 - [5igeekshare/GeekshareFreeNode](https://github.com/igeekshare/GeekshareFreeNode), 节点数量: `8`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `16`
