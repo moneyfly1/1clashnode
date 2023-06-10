@@ -35,8 +35,8 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `374`
-- [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `6`
+当前合并节点总数: `375`
+- [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `5`
 - [5igeekshare/GeekshareFreeNode](https://github.com/igeekshare/GeekshareFreeNode), 节点数量: `14`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `21`
 - [13jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `4`
@@ -46,9 +46,9 @@
 - [25cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `30`
 - [26cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `43`
 - [27cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `46`
-- [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `47`
+- [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `40`
 - [30NicProxy/V2ray](https://github.com/NicProxy/V2ray), 节点数量: `7`
-- [31hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `48`
+- [31hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `47`
 - [32zsokami/sub](https://github.com/zsokami/sub), 节点数量: `0`
 - [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `49`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `0`
