@@ -35,14 +35,14 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `390`
-- [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `10`
+当前合并节点总数: `385`
+- [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `5`
 - [5igeekshare/GeekshareFreeNode](https://github.com/igeekshare/GeekshareFreeNode), 节点数量: `12`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `23`
 - [13jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `4`
 - [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `70`
 - [19xieshunxi1/subscribe_clash_v2ray](https://github.com/xieshunxi1/subscribe_clash_v2ray), 节点数量: `24`
-- [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `37`
+- [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `36`
 - [25cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `30`
 - [26cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `42`
 - [27cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `46`
