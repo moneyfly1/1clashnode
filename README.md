@@ -35,10 +35,10 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `398`
-- [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `14`
+当前合并节点总数: `394`
+- [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `6`
 - [5igeekshare/GeekshareFreeNode](https://github.com/igeekshare/GeekshareFreeNode), 节点数量: `20`
-- [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `20`
+- [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `14`
 - [13jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `6`
 - [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `81`
 - [19xieshunxi1/subscribe_clash_v2ray](https://github.com/xieshunxi1/subscribe_clash_v2ray), 节点数量: `24`
