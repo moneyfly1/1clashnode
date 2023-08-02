@@ -52,7 +52,7 @@
 - [32zsokami/sub](https://github.com/zsokami/sub), 节点数量: `0`
 - [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `50`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `0`
-- [35rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `57`
+- [35rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `56`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
