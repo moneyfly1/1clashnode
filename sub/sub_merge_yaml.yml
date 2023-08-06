@@ -28,7 +28,7 @@ proxies:
 - {name: 09-SG-026, server: sg6.421421.xyz, port: 20230, type: trojan, password: d9e70e09-e187-4ba1-82e4-1224676216b1, sni: 421421.xyz, skip-cert-verify: true}
 - {name: 09-CN-027, server: 111.12.60.107, port: 850, type: ss, cipher: chacha20-ietf-poly1305, password: eeae2b7e-5dbf-481b-a271-a6d7d13ddafe}
 - {name: 09-TW-028, server: 61.220.130.70, port: 50701, type: ss, cipher: aes-256-cfb, password: "qwerREWQ@@"}
-- {name: 09-JP-029, server: fschk.1234567890spcloud.com, port: 443, type: trojan, password: 9432d2e2-103e-4357-8034-7753dd4880f7, sni: fschk.1234567890spcloud.com, skip-cert-verify: true}
+- {name: 09-SG-029, server: fschk.1234567890spcloud.com, port: 443, type: trojan, password: 9432d2e2-103e-4357-8034-7753dd4880f7, sni: fschk.1234567890spcloud.com, skip-cert-verify: true}
 - {name: 09-RELAY-030, server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: true, ws-headers: {Host: dongtaiwang3.com}}
 - {name: 09-US-031, server: 171.22.116.2, port: 41665, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 171.22.116.2}}
 - {name: 09-SG-032, server: ovoin.ovonice.com, port: 443, type: trojan, password: ab63434a-4e5a-4ee4-87ce-a26c44642231, sni: ovoin.ovonice.com, skip-cert-verify: true}
@@ -170,7 +170,7 @@ proxies:
 - {name: 14-US-168, server: 45.199.138.166, port: 55015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 45.199.138.166}}
 - {name: 14-US-169, server: 156.225.67.230, port: 59801, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 156.225.67.230}}
 - {name: 14-RELAY-170, server: xn.shabijichang.com, port: 80, type: vmess, uuid: 16478092-eecd-4577-89fc-9b12c5be18dd, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: xn.shabijichang.com}}
-- {name: 14-DE-171, server: js.bfyun.eu.org, port: 2082, type: vmess, uuid: f5a24058-73a4-4b12-bb16-5b70532042e3, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: js.bfyun.eu.org}}
+- {name: 14-SG-171, server: js.bfyun.eu.org, port: 2082, type: vmess, uuid: f5a24058-73a4-4b12-bb16-5b70532042e3, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: js.bfyun.eu.org}}
 - {name: 14-RELAY-172, server: asb.shabijichang.com, port: 80, type: vmess, uuid: 16478092-eecd-4577-89fc-9b12c5be18dd, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: asb.shabijichang.com}}
 - {name: 14-RELAY-173, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: 16478092-eecd-4577-89fc-9b12c5be18dd, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: fhc.shabijichang.com}}
 - {name: 14-US-174, server: 37.1.211.52, port: 3000, type: vmess, uuid: b97ad283-287e-4e20-a741-f16f7d074590, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 37.1.211.52}}
@@ -523,7 +523,7 @@ proxies:
 - {name: 31-CN-521, server: iepl2.airtcp.vip, port: 12304, type: vmess, uuid: 3f6341f9-26d0-370e-b57b-47867f264ab1, alterId: 2, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: iepl2.airtcp.vip}}
 - {name: 31-SG-522, server: 13.213.44.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: 31-RELAY-523, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: 44c48fbe-cfbf-40ee-b0e4-12a1cec4da69, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: cf-lt.sharecentre.online}}
-- {name: 31-SG-524, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: cdn.anycast.eu.org}}
+- {name: 31-DE-524, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: cdn.anycast.eu.org}}
 - {name: 31-RELAY-525, server: dbamwvb.76898102.xyz, port: 2082, type: vmess, uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: dbamwvb.76898102.xyz}}
 - {name: 31-RELAY-526, server: 162.159.242.18, port: 80, type: vmess, uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 162.159.242.18}}
 - {name: 31-LV-527, server: 185.135.86.173, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
@@ -548,4 +548,4 @@ proxies:
 - {name: 33-JP-546, server: pqawssg001.aiopen.cfd, port: 443, type: trojan, password: 17c0c3fe-0e7e-4d75-8011-ebb46fea532b, skip-cert-verify: true}
 - {name: 33-CN-547, server: 101.42.30.206, port: 80, type: vmess, uuid: 24bc9855-8f7c-4543-e29d-970045f205f2, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 101.42.30.206}}
 - {name: 33-RELAY-548, server: hdlb.shabijichang.com, port: 80, type: vmess, uuid: 1ddfdc42-41e1-42e1-b419-517f9834c1ed, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: hdlb.shabijichang.com}}
-- {name: 35-CN-549, server: gzdx.jcnode.top, port: 17022, type: trojan, password: 032a695f-6c0b-4c3c-bc3b-bfc40df4e869, sni: vn01.ckcloud.info, skip-cert-verify: true}
+- {name: 35-CN-549, server: gzdx.jcnode.top, port: 17022, type: trojan, password: 27ed7694-be8b-4888-861d-168295a66058, sni: vn01.ckcloud.info, skip-cert-verify: true}
