@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `513`
+当前合并节点总数: `484`
 - [4ibmv2yes/clash](https://github.com/ibmv2yes/clash), 节点数量: `0`
 - [5igeekshare/GeekshareFreeNode](https://github.com/igeekshare/GeekshareFreeNode), 节点数量: `11`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `23`
@@ -51,7 +51,7 @@
 - [30cdddbc](https://github.com/cdddbc/getAirport), 节点数量: `4`
 - [31hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `48`
 - [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `49`
-- [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `224`
+- [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `210`
 - [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `56`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
