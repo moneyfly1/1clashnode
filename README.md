@@ -55,7 +55,7 @@
 - [30cdddbc](https://github.com/cdddbc/getAirport), 节点数量: `6`
 - [31hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `44`
 - [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `50`
-- [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `55`
+- [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `52`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
