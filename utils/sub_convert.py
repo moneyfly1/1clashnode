@@ -15,6 +15,7 @@ class sub_convert():
             raw_yaml
             convert --> transfer --> format
             dict
+            
         URL To Dict:
             raw_url
             convert --> transfer --> format --> yaml_encode --> format
@@ -452,7 +453,7 @@ class sub_convert():
                         else:
                             yaml_url.setdefault('ws-path', vmess_config['path'])
                         if vmess_config['tls'] == '' or vmess_config['tls'] is False or vmess_config['tls'] is None:
-                            yaml_url.setdefault('tls', False)
+                            yaml_url.setdefault('tls', True)
                         else:
                             yaml_url.setdefault('tls', True)
                         if vmess_config['host'] == '':
@@ -550,7 +551,7 @@ class sub_convert():
                             yaml_url.setdefault('sni', config[4:])
                         elif 'allowInsecure=' in config or 'tls=' in config:
                             if config[-1] == 0:
-                                yaml_url.setdefault('tls', False)
+                                yaml_url.setdefault('tls', True)
                         elif 'type=' in config:
                             if config[5:] != 'tcp':
                                 yaml_url.setdefault('network', config[5:])
@@ -558,7 +559,7 @@ class sub_convert():
                             yaml_url.setdefault('ws-path', config[5:])
                         elif 'security=' in config:
                             if config[9:] != 'tls':
-                                yaml_url.setdefault('tls', False)
+                                yaml_url.setdefault('tls', True)
 
                     yaml_url.setdefault('skip-cert-verify', True)
 
