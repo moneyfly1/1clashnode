@@ -35,9 +35,9 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `159`
+当前合并节点总数: `147`
 - [11Mux2sub/fastestcloud](https://github.comMux2sub/fastestcloud), 节点数量: `45`
-- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `113`
+- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `102`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
