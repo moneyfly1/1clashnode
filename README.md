@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `695`
+当前合并节点总数: `697`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `71`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `40`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `53`
@@ -51,7 +51,7 @@
 - [17jkchen3](https://github.com/jkchen3), 节点数量: `4`
 - [20Lukeehujt/Clash_nod](https://github.com/Lukeehujt/Clash_node), 节点数量: `87`
 - [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `95`
-- [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `52`
+- [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `54`
 - [25cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `30`
 - [26cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `45`
 - [28cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `0`
@@ -60,7 +60,7 @@
 - [31hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `43`
 - [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `48`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `92`
-- [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `51`
+- [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `53`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
