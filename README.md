@@ -35,12 +35,12 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `845`
+当前合并节点总数: `880`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `71`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `39`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `53`
 - [6jkchen3](https://github.com/jkchen3), 节点数量: `7`
-- [7oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `48`
+- [7oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `45`
 - [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `37`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `21`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `46`
@@ -59,7 +59,7 @@
 - [30cdddbc](https://github.com/cdddbc/getAirport), 节点数量: `4`
 - [31hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `43`
 - [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `45`
-- [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `125`
+- [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `161`
 - [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `53`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
