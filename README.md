@@ -35,16 +35,16 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `844`
+当前合并节点总数: `845`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `71`
-- [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `40`
+- [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `39`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `53`
 - [6jkchen3](https://github.com/jkchen3), 节点数量: `7`
 - [7oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `48`
-- [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `33`
+- [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `37`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `21`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `46`
-- [11Mux2sub/fastestcloud](https://github.comMux2sub/fastestcloud), 节点数量: `45`
+- [11Mux2sub/fastestcloud](https://github.comMux2sub/fastestcloud), 节点数量: `44`
 - [13jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `45`
 - [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `146`
 - [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `7`
@@ -53,12 +53,12 @@
 - [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `95`
 - [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `54`
 - [25cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `30`
-- [26cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `45`
+- [26cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `44`
 - [28cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `0`
 - [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `55`
 - [30cdddbc](https://github.com/cdddbc/getAirport), 节点数量: `4`
 - [31hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `43`
-- [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `48`
+- [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `45`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `125`
 - [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `53`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
