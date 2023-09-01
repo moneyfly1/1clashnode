@@ -35,18 +35,18 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `813`
+当前合并节点总数: `850`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `71`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `39`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `53`
 - [6jkchen3](https://github.com/jkchen3), 节点数量: `7`
 - [7oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `45`
-- [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `37`
-- [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `21`
+- [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `36`
+- [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `19`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `42`
 - [11Mux2sub/fastestcloud](https://github.comMux2sub/fastestcloud), 节点数量: `44`
 - [13jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `45`
-- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `74`
+- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `84`
 - [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `49`
 - [17jkchen3](https://github.com/jkchen3), 节点数量: `4`
 - [20Lukeehujt/Clash_nod](https://github.com/Lukeehujt/Clash_node), 节点数量: `87`
