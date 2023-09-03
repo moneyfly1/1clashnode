@@ -35,18 +35,18 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `848`
+当前合并节点总数: `826`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `72`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `36`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `53`
 - [6jkchen3](https://github.com/jkchen3), 节点数量: `7`
-- [7oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `44`
+- [7oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `45`
 - [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `36`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `22`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `40`
 - [11Mux2sub/fastestcloud](https://github.comMux2sub/fastestcloud), 节点数量: `44`
 - [13jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `41`
-- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `78`
+- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `60`
 - [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `45`
 - [17jkchen3](https://github.com/jkchen3), 节点数量: `4`
 - [20Lukeehujt/Clash_nod](https://github.com/Lukeehujt/Clash_node), 节点数量: `89`
