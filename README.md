@@ -35,19 +35,19 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `826`
+当前合并节点总数: `823`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `74`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `36`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `53`
 - [6jkchen3](https://github.com/jkchen3), 节点数量: `7`
 - [7oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `41`
-- [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `33`
+- [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `37`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `22`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `47`
 - [11Mux2sub/fastestcloud](https://github.comMux2sub/fastestcloud), 节点数量: `44`
 - [13jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `41`
 - [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `71`
-- [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `41`
+- [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `21`
 - [17jkchen3](https://github.com/jkchen3), 节点数量: `4`
 - [20Lukeehujt/Clash_nod](https://github.com/Lukeehujt/Clash_node), 节点数量: `91`
 - [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `69`
@@ -58,7 +58,7 @@
 - [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `75`
 - [30cdddbc](https://github.com/cdddbc/getAirport), 节点数量: `4`
 - [31hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `41`
-- [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `41`
+- [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `47`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `131`
 - [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `53`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
