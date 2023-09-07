@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `851`
+当前合并节点总数: `848`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `74`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `43`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `53`
