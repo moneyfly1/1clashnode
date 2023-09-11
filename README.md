@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `743`
+当前合并节点总数: `745`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `74`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `39`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `53`
@@ -60,7 +60,7 @@
 - [31hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `48`
 - [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `36`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `169`
-- [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `54`
+- [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `53`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
