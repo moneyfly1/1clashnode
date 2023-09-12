@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `852`
+当前合并节点总数: `850`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `74`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `39`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `53`
@@ -44,9 +44,9 @@
 - [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `33`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `20`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `45`
-- [11Mux2sub/fastestcloud](https://github.comMux2sub/fastestcloud), 节点数量: `43`
+- [11Mux2sub/fastestcloud](https://github.comMux2sub/fastestcloud), 节点数量: `0`
 - [13jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `41`
-- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `52`
+- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `34`
 - [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `7`
 - [17jkchen3](https://github.com/jkchen3), 节点数量: `4`
 - [20Lukeehujt/Clash_nod](https://github.com/Lukeehujt/Clash_node), 节点数量: `86`
