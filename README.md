@@ -60,7 +60,7 @@
 - [31hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `41`
 - [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `39`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `184`
-- [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `0`
+- [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `53`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
