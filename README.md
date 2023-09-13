@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `821`
+当前合并节点总数: `822`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `74`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `26`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `53`
@@ -53,7 +53,7 @@
 - [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `113`
 - [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `54`
 - [25cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `30`
-- [26cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `44`
+- [26cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `45`
 - [28cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `0`
 - [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `23`
 - [30cdddbc](https://github.com/cdddbc/getAirport), 节点数量: `4`
