@@ -114,7 +114,7 @@ def eternity_convert(content, config, output, provider_file_enabled=True):
     for key in provider_dic.keys():
         if not provider_dic[key]['proxies'] is None:
             for proxy in provider_dic[key]['proxies']:
-                name_dict[key].append(proxy['name'])
+                name_dict[key].append(proxy['key'])
         if provider_dic[key]['proxies'] is None:
             name_dict[key].append('DIRECT')
     # 策略分组添加节点名
