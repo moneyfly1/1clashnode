@@ -35,18 +35,18 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `957`
+当前合并节点总数: `845`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `74`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `26`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `53`
 - [6jkchen3](https://github.com/jkchen3), 节点数量: `31`
 - [7oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `39`
-- [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `34`
-- [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `22`
+- [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `35`
+- [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `23`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `40`
 - [11Mux2sub/fastestcloud](https://github.comMux2sub/fastestcloud), 节点数量: `0`
 - [13jkchen3/clashyaml](https://github.com/jkchen3/clashyaml), 节点数量: `85`
-- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `175`
+- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `119`
 - [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `24`
 - [17jkchen3](https://github.com/jkchen3), 节点数量: `4`
 - [20Lukeehujt/Clash_nod](https://github.com/Lukeehujt/Clash_node), 节点数量: `88`
@@ -55,11 +55,11 @@
 - [25cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `30`
 - [26cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `45`
 - [28cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `0`
-- [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `164`
+- [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `84`
 - [30cdddbc](https://github.com/cdddbc/getAirport), 节点数量: `6`
 - [31hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `41`
 - [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `39`
-- [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `187`
+- [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `143`
 - [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `53`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
