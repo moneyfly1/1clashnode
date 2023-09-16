@@ -35,9 +35,9 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1171`
+当前合并节点总数: `1173`
 - [0pojiezhiyuanjun](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `136`
-- [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `74`
+- [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `76`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `26`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `56`
 - [6jkchen3](https://github.com/jkchen3), 节点数量: `31`
