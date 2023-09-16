@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1206`
+当前合并节点总数: `1224`
 - [0pojiezhiyuanjun](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `116`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `74`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `26`
@@ -50,7 +50,7 @@
 - [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `87`
 - [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `24`
 - [17jkchen3](https://github.com/jkchen3), 节点数量: `4`
-- [19Flik6/getNode](https://github.com/Flik6/getNode), 节点数量: `392`
+- [19Flik6/getNode](https://github.com/Flik6/getNode), 节点数量: `443`
 - [20Lukeehujt/Clash_nod](https://github.com/Lukeehujt/Clash_node), 节点数量: `84`
 - [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `89`
 - [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `54`
