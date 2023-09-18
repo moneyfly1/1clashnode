@@ -35,9 +35,9 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1702`
+当前合并节点总数: `1607`
 - [0pojiezhiyuanjun](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `105`
-- [1tolinkshare](https://github.com/tolinkshare/freenode), 节点数量: `202`
+- [1tolinkshare](https://github.com/tolinkshare/freenode), 节点数量: `205`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `80`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `34`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `59`
@@ -51,7 +51,7 @@
 - [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `105`
 - [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `140`
 - [17jkchen3](https://github.com/jkchen3), 节点数量: `4`
-- [19Flik6/getNode](https://github.com/Flik6/getNode), 节点数量: `333`
+- [19Flik6/getNode](https://github.com/Flik6/getNode), 节点数量: `13`
 - [20Lukeehujt/Clash_nod](https://github.com/Lukeehujt/Clash_node), 节点数量: `88`
 - [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `91`
 - [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `54`
@@ -66,7 +66,7 @@
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `147`
 - [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `53`
 - [36hebe061103/clash](https://github.com/hebe061103/clash), 节点数量: `0`
-- [35anaer/Sub](https://github.com/anaer/Sub), 节点数量: `392`
+- [35anaer/Sub](https://github.com/anaer/Sub), 节点数量: `377`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
