@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1042`
+当前合并节点总数: `1060`
 - [0pojiezhiyuanjun](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `126`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `77`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `34`
@@ -60,9 +60,9 @@
 - [28cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `0`
 - [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `36`
 - [30cdddbc](https://github.com/cdddbc/getAirport), 节点数量: `3`
-- [31hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `37`
+- [31hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `44`
 - [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `43`
-- [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `149`
+- [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `168`
 - [35cssds/subscribe](https://github.com/cssds/subscribe), 节点数量: `53`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
