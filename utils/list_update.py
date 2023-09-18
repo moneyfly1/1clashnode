@@ -74,8 +74,8 @@ class update_url():
     def update_id_1():
         #date_inurl = datetime.today().strftime('%Y/%m/%Y-%m-%d')
         #date_inurl = '2021/12/2021-12-08'
-        url_update = 'https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md'
-        resp = requests.get('https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md', timeout=30)
+        url_update = 'https://raw.githubusercontent.com/snakem982/proxypool/main/README.md'
+        resp = requests.get('https://raw.githubusercontent.com/snakem982/proxypool/main/README.md', timeout=30)
         raw_content = resp.text
         
 
