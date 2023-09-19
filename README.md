@@ -37,7 +37,7 @@
 ### 鸣谢名单
 当前合并节点总数: `2187`
 - [0pojiezhiyuanjun](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `105`
-- [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `201`
+- [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `198`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `80`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `34`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `59`
