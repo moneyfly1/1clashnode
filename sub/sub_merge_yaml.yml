@@ -1,1 +1,391 @@
-proxies: []
+proxies:
+- {name: 04-CN-000, server: fujimount01.2apzhfa.xyz, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: baq2hpwuXWB8wdYX}
+- {name: 04-CN-001, server: fujimount02.2apzhfa.xyz, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: baq2hpwuXWB8wdYX}
+- {name: 04-CN-002, server: fujimount03.2apzhfa.xyz, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: baq2hpwuXWB8wdYX}
+- {name: 04-CN-003, server: bauhinia01.2apzhfa.xyz, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: baq2hpwuXWB8wdYX}
+- {name: 04-CN-004, server: bauhinia02.2apzhfa.xyz, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: baq2hpwuXWB8wdYX}
+- {name: 04-CN-005, server: bauhinia03.2apzhfa.xyz, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: baq2hpwuXWB8wdYX}
+- {name: 04-CN-006, server: lion01.2apzhfa.xyz, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: baq2hpwuXWB8wdYX}
+- {name: 04-CN-007, server: lion02.2apzhfa.xyz, port: 30021, type: ss, cipher: chacha20-ietf-poly1305, password: baq2hpwuXWB8wdYX}
+- {name: 04-CN-008, server: lion03.2apzhfa.xyz, port: 30022, type: ss, cipher: chacha20-ietf-poly1305, password: baq2hpwuXWB8wdYX}
+- {name: 06-GOOGLE-009, server: yian1.tk, port: 443, type: trojan, password: 4d111343-3d4f-472a-99c1-d842376ed570, sni: yian1.tk, skip-cert-verify: true}
+- {name: 06-GOOGLE-010, server: yian1.gq, port: 443, type: trojan, password: 7fa315bd-eb1d-4eaa-83a4-6a5a845532ac, sni: yian1.gq, skip-cert-verify: true}
+- {name: 08-PL-011, server: 51.83.186.142, port: 80, type: trojan, password: 555034c8-6420-45d0-893c-905c02342150, sni: pl1.trojanvh.xyz, skip-cert-verify: true}
+- {name: 08-FR-012, server: 51.91.11.29, port: 80, type: trojan, password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad, skip-cert-verify: true}
+- {name: 08-US-013, server: 135.148.148.4, port: 80, type: trojan, password: ee2bccd3-0f30-42d4-86d6-3d393ad230bd, sni: us3.trojanvh.xyz\\\\\\\\r, skip-cert-verify: true}
+- {name: 08-JP-014, server: 103.168.155.69, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: true}
+- {name: 08-CN-015, server: jjozz-1092-tr-8.r-kcd-b.iote.bond, port: 39919, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: true}
+- {name: 08-CN-016, server: fgddt-1082-tr-4.r-kcd-a.tuil.xyz, port: 39909, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: s3.cjhh.beauty, skip-cert-verify: true}
+- {name: 08-CN-017, server: zjpvc-1083-tr-0.r-kcd-b.tuil.xyz, port: 29969, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: true}
+- {name: 09-HK-018, server: 47.243.48.200, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw}
+- {name: 09-CN-019, server: 183.232.170.32, port: 20013, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1}
+- {name: 09-CN-020, server: 183.232.170.32, port: 30011, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1}
+- {name: 09-SG-021, server: 5.44.249.42, port: 3306, type: trojan, password: 36fe28a331638747, sni: n2.gladns.com, skip-cert-verify: true}
+- {name: 09-HK-022, server: 45.11.104.94, port: 3306, type: trojan, password: d02058f4f819dced, sni: n2.gladns.com, skip-cert-verify: true}
+- {name: 09-CN-023, server: rpete-1096-tr-3.r-kcd-e.iote.bond, port: 29989, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: true}
+- {name: 09-JP-024, server: 18.181.197.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: 09-KR-025, server: 43.202.64.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: 09-SG-026, server: 54.255.190.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: 09-SG-027, server: 54.151.140.30, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: 10-SG-028, server: 5.44.249.52, port: 3306, type: trojan, password: 2a5ccc8198d4af09, sni: n2.gladns.com, skip-cert-verify: true}
+- {name: 10-US-029, server: 134.195.101.32, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, sni: n2.gladns.com, skip-cert-verify: true}
+- {name: 10-SG-030, server: 5.44.249.43, port: 3306, type: trojan, password: 71bb6fb9141f3618, sni: n2.gladns.com, skip-cert-verify: true}
+- {name: 10-FR-031, server: 51.38.99.96, port: 443, type: trojan, password: eadf99d1-a4ab-4574-8e43-1a1050675bd3, sni: sourceforge.net, skip-cert-verify: true}
+- {name: 10-SG-032, server: 5.44.249.50, port: 3306, type: trojan, password: 5227e84e4f026b71, sni: n2.gladns.com, skip-cert-verify: true}
+- {name: 10-SG-033, server: 5.44.249.53, port: 3306, type: trojan, password: 7ac49a893e0bd10c, sni: n2.gladns.com, skip-cert-verify: true}
+- {name: 10-SG-034, server: 54.255.178.208, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: 10-CN-035, server: ufxeq-1080-tr-9.d-kcd.tuil.xyz, port: 39929, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: edge.cjhh.mom, skip-cert-verify: true}
+- {name: 10-US-036, server: 134.195.101.33, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: n2.gladns.com, skip-cert-verify: true}
+- {name: 10-KR-037, server: 43.202.42.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: 10-US-038, server: 23.94.122.66, port: 38505, type: trojan, password: dTjHHw2kDE, sni: telewebion.com, skip-cert-verify: true}
+- {name: 14-DE-039, server: 3.127.212.176, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
+- {name: 14-DE-040, server: 3.78.144.70, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
+- {name: 14-FR-041, server: 162.19.247.203, port: 443, type: ss, cipher: aes-256-ctr, password: XNewBypasser2023}
+- {name: 14-FR-042, server: 51.15.25.187, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 14-GB-043, server: 13.43.140.170, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
+- {name: 14-IE-044, server: 52.212.41.87, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
+- {name: 14-IE-045, server: 34.252.230.143, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
+- {name: 14-IE-046, server: 34.247.248.216, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
+- {name: 14-IE-047, server: 108.128.173.217, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
+- {name: 14-IE-048, server: 34.242.211.108, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
+- {name: 14-IE-049, server: 52.212.98.92, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true}
+- {name: 14-IE-050, server: 54.170.184.42, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
+- {name: 14-KR-051, server: 13.124.124.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: 14-US-052, server: 18.221.186.112, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
+- {name: 14-US-053, server: 100.26.24.250, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
+- {name: 23-IE-054, server: 23.92.127.134, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 23-CH-055, server: 156.146.62.160, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+- {name: 23-IL-056, server: 193.182.144.240, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 23-DE-057, server: 162.19.170.208, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-TR-058, server: 45.89.52.66, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9}
+- {name: 23-US-059, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+- {name: 23-CY-060, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 23-SE-061, server: 37.19.222.212, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-ES-062, server: 92.38.171.89, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 23-JP-063, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
+- {name: 23-US-064, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 23-DE-065, server: 162.19.170.224, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-DK-066, server: 192.36.27.116, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 23-DE-067, server: 162.19.170.223, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-AZ-068, server: 180.149.44.120, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 23-DE-069, server: 57.129.1.22, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-DE-070, server: 162.19.171.67, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-GB-071, server: 77.72.5.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 23-NO-072, server: 185.90.61.153, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 23-FR-073, server: 162.19.83.9, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-DE-074, server: 89.187.169.36, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-DE-075, server: 162.19.171.97, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-DE-076, server: 162.19.170.225, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-FR-077, server: 51.159.222.29, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-NL-078, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+- {name: 23-US-079, server: 69.50.95.251, port: 9098, type: ss, cipher: chacha20-ietf-poly1305, password: "ksjfuw!sop#"}
+- {name: 23-DE-080, server: 45.136.153.216, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-UA-081, server: 5.188.6.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 23-MK-082, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 23-CZ-083, server: 143.244.58.102, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-GB-084, server: 77.72.5.150, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 23-RU-085, server: 31.172.67.43, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-KZ-086, server: 213.156.137.67, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+- {name: 23-DE-087, server: 162.19.170.210, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-DE-088, server: 162.19.139.37, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-CH-089, server: 84.17.53.163, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-DE-090, server: 138.199.36.104, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-DE-091, server: 195.181.174.139, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-FR-092, server: 141.95.99.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-FR-093, server: 141.95.125.11, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+- {name: 23-US-094, server: 15.204.210.176, port: 80/, type: trojan, password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f, skip-cert-verify: true}
+- {name: 23-US-095, server: 66.112.216.121, port: 40317/, type: trojan, password: AA3uvT5KGT, skip-cert-verify: true}
+- {name: 23-US-096, server: 65.75.220.125, port: 889/, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: s3.cjhh.beauty, skip-cert-verify: true}
+- {name: 23-US-097, server: 65.75.220.74, port: 889/, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: s3.cjhh.beauty, skip-cert-verify: true}
+- {name: 24-CN-098, server: gzdx.jcnode.top, port: 17022, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: vn01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-099, server: gzdx01.jcnode.top, port: 15035, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: sg01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-100, server: gzdx.jcnode.top, port: 41754, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: sg01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-101, server: gzyd.jcnode.top, port: 21425, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: sg01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-102, server: gzyd.jcnode.top, port: 20707, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: sg03.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-103, server: gzdx01.jcnode.top, port: 56915, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: sg03.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-104, server: gzdx.jcnode.top, port: 18716, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: sg03.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-105, server: gzdx01.jcnode.top, port: 41390, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: hk05.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-106, server: gzdx.jcnode.top, port: 47321, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: hk05.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-107, server: gzyd.jcnode.top, port: 49486, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: hk05.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-108, server: gzyd.jcnode.top, port: 11936, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: hk03.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-109, server: gzdx.jcnode.top, port: 35257, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: hk03.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-110, server: gzdx01.jcnode.top, port: 51884, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: hk03.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-111, server: gzyd.jcnode.top, port: 22174, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: hk02.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-112, server: gzdx01.jcnode.top, port: 17967, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: hk02.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-113, server: gzdx.jcnode.top, port: 36564, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: hk02.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-114, server: gzyd.jcnode.top, port: 54088, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: hk04.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-115, server: gzdx01.jcnode.top, port: 57230, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: hk04.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-116, server: gzdx.jcnode.top, port: 27753, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: hk04.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-117, server: gzyd.jcnode.top, port: 15431, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: de01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-118, server: gzdx01.jcnode.top, port: 16525, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: de01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-119, server: gzdx.jcnode.top, port: 33830, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: de01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-120, server: gzdx01.jcnode.top, port: 22243, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: id01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-121, server: gzdx.jcnode.top, port: 18085, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: id01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-122, server: gzyd.jcnode.top, port: 55199, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: id01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-123, server: gzdx01.jcnode.top, port: 44532, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: uk01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-124, server: gzdx.jcnode.top, port: 52758, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: uk01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-125, server: gzyd.jcnode.top, port: 24662, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: uk01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-126, server: gzdx01.jcnode.top, port: 14643, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: jp01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-127, server: gzdx.jcnode.top, port: 31550, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: jp01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-128, server: gzyd.jcnode.top, port: 44891, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: jp01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-129, server: gzdx01.jcnode.top, port: 10444, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: jp03.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-130, server: gzdx.jcnode.top, port: 49038, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: jp03.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-131, server: gzyd.jcnode.top, port: 24498, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: jp03.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-132, server: gzdx01.jcnode.top, port: 42149, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: rctw01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-133, server: gzdx.jcnode.top, port: 45540, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: rctw01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-134, server: gzyd.jcnode.top, port: 55345, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: rctw01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-135, server: gzdx01.jcnode.top, port: 24448, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: rctw02.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-136, server: gzdx.jcnode.top, port: 61413, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: rctw02.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-137, server: gzyd.jcnode.top, port: 22084, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: rctw02.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-138, server: gzdx.jcnode.top, port: 52546, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: tur01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-139, server: gzyd.jcnode.top, port: 46541, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: tur01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-140, server: gzdx01.jcnode.top, port: 55856, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: tur01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-141, server: gzyd.jcnode.top, port: 16242, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: vn01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-142, server: gzdx01.jcnode.top, port: 21760, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: vn01.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-143, server: gzdx01.jcnode.top, port: 17503, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: us04.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-144, server: gzyd.jcnode.top, port: 56102, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: us04.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-145, server: gzdx.jcnode.top, port: 65097, type: trojan, password: 62a4074f-e1f3-4e4b-ab6c-bd39e10870e0, sni: us04.ckcloud.info, skip-cert-verify: true}
+- {name: 24-CN-146, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-147, server: gzyd.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-148, server: gzdx01.jcnode.top, port: 23761, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-149, server: gzdx.jcnode.top, port: 45955, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-150, server: gzyd.jcnode.top, port: 33487, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-151, server: gzdx01.jcnode.top, port: 64654, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-152, server: gzdx.jcnode.top, port: 59584, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-153, server: gzyd.jcnode.top, port: 37639, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-154, server: gzdx01.jcnode.top, port: 63897, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-155, server: gzdx.jcnode.top, port: 13290, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-156, server: gzyd.jcnode.top, port: 10884, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-157, server: gzdx01.jcnode.top, port: 53271, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-158, server: gzdx.jcnode.top, port: 63279, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-159, server: gzyd.jcnode.top, port: 65407, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-160, server: gzdx01.jcnode.top, port: 33310, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-161, server: gzdx.jcnode.top, port: 29223, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-162, server: gzyd.jcnode.top, port: 59090, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-163, server: gzdx01.jcnode.top, port: 34948, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-164, server: gzdx.jcnode.top, port: 55718, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-165, server: gzyd.jcnode.top, port: 28397, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-166, server: gzdx01.jcnode.top, port: 53958, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-167, server: gzdx.jcnode.top, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-168, server: gzyd.jcnode.top, port: 46957, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-169, server: gzdx01.jcnode.top, port: 24007, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-170, server: gzdx.jcnode.top, port: 29574, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-171, server: gzyd.jcnode.top, port: 64759, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-172, server: gzdx01.jcnode.top, port: 26065, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-173, server: gzdx.jcnode.top, port: 30641, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-174, server: gzyd.jcnode.top, port: 59211, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-175, server: gzdx01.jcnode.top, port: 41972, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-176, server: gzdx.jcnode.top, port: 30139, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-177, server: gzyd.jcnode.top, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-178, server: gzdx01.jcnode.top, port: 44773, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-179, server: gzdx.jcnode.top, port: 20887, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-180, server: gzyd.jcnode.top, port: 41342, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-181, server: gzdx01.jcnode.top, port: 40171, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-182, server: gzdx.jcnode.top, port: 39211, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-183, server: gzyd.jcnode.top, port: 35387, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-184, server: gzdx01.jcnode.top, port: 23310, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-185, server: gzdx.jcnode.top, port: 43441, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-186, server: gzyd.jcnode.top, port: 41868, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-187, server: gzdx01.jcnode.top, port: 13793, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-188, server: gzdx.jcnode.top, port: 45175, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-189, server: gzyd.jcnode.top, port: 10515, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-190, server: gzdx01.jcnode.top, port: 53991, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-191, server: gzdx.jcnode.top, port: 37169, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-192, server: gzyd.jcnode.top, port: 25997, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-193, server: gzdx01.jcnode.top, port: 19975, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-194, server: gzdx.jcnode.top, port: 23319, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-195, server: gzyd.jcnode.top, port: 61163, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-196, server: gzdx01.jcnode.top, port: 20922, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-197, server: gzdx.jcnode.top, port: 37115, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-198, server: gzyd.jcnode.top, port: 27048, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-199, server: gzdx01.jcnode.top, port: 22254, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-200, server: gzdx.jcnode.top, port: 14562, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-201, server: gzyd.jcnode.top, port: 62506, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-202, server: gzdx01.jcnode.top, port: 33912, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-203, server: gzdx.jcnode.top, port: 21781, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-204, server: gzyd.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 24-CN-205, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: 291450b1-c2dc-4da4-821d-26bdea746a97}
+- {name: 29-CN-206, server: free.node.kk-proxy.pro, port: 24961, type: ss, cipher: chacha20-ietf-poly1305, password: 72f0fd15-fbb7-411f-8b33-e59a742300db}
+- {name: 29-CN-207, server: free.node.kk-proxy.pro, port: 54455, type: ss, cipher: chacha20-ietf-poly1305, password: 72f0fd15-fbb7-411f-8b33-e59a742300db}
+- {name: 29-CN-208, server: free.node.kk-proxy.pro, port: 24962, type: ss, cipher: chacha20-ietf-poly1305, password: 72f0fd15-fbb7-411f-8b33-e59a742300db}
+- {name: 29-CN-209, server: fs.xianyuwangluo.cyou, port: 27201, type: ss, cipher: chacha20-ietf-poly1305, password: 2a23c437-de2c-47e3-b779-fb1d2289578f}
+- {name: 40-CN-210, server: hk1.susenl.com, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-211, server: hk1.susenl.com, port: 10032, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-212, server: hk1.susenl.com, port: 12345, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-213, server: hk1.susenl.com, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-214, server: hk1.susenl.com, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-215, server: hk1.susenl.com, port: 10035, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-216, server: jp1.susenl.com, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-217, server: jp1.susenl.com, port: 10038, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-218, server: jp1.susenl.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-219, server: jp1.susenl.com, port: 10058, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-220, server: hk1.susenl.com, port: 10036, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-221, server: hk1.susenl.com, port: 10064, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-222, server: jp1.susenl.com, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-223, server: jp1.susenl.com, port: 10045, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-224, server: jp1.susenl.com, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-225, server: jp1.susenl.com, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-226, server: jp1.susenl.com, port: 10040, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-227, server: jp1.susenl.com, port: 10041, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-228, server: jp1.susenl.com, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-229, server: jp1.susenl.com, port: 10043, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-230, server: jp1.susenl.com, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-231, server: jp1.susenl.com, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-232, server: jp1.susenl.com, port: 10051, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-233, server: jp1.susenl.com, port: 10047, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-234, server: jp1.susenl.com, port: 10048, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-235, server: jp1.susenl.com, port: 10052, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-236, server: jp1.susenl.com, port: 10053, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-237, server: jp1.susenl.com, port: 10069, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-238, server: jp1.susenl.com, port: 10055, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-239, server: jp1.susenl.com, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-240, server: jp1.susenl.com, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-241, server: jp1.susenl.com, port: 10057, type: ss, cipher: chacha20-ietf-poly1305, password: gZkE5orYCxZz2htg}
+- {name: 40-CN-242, server: host-001.crazyspeed.xyz, port: 30501, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-243, server: host-002.crazyspeed.xyz, port: 30502, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-244, server: host-003.crazyspeed.xyz, port: 30503, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-245, server: host-004.crazyspeed.xyz, port: 30504, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-246, server: host-005.crazyspeed.xyz, port: 30505, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-247, server: host-006.crazyspeed.xyz, port: 30506, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-248, server: host-011.crazyspeed.xyz, port: 30601, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-249, server: host-012.crazyspeed.xyz, port: 30602, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-250, server: host-013.crazyspeed.xyz, port: 30603, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-251, server: host-014.crazyspeed.xyz, port: 30604, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-252, server: host-015.crazyspeed.xyz, port: 30605, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-253, server: host-021.crazyspeed.xyz, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-254, server: host-022.crazyspeed.xyz, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-255, server: host-026.crazyspeed.xyz, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-256, server: host-027.crazyspeed.xyz, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-257, server: host-028.crazyspeed.xyz, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-258, server: host-029.crazyspeed.xyz, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-259, server: host-031.crazyspeed.xyz, port: 10351, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-260, server: host-032.crazyspeed.xyz, port: 10352, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-261, server: host-033.crazyspeed.xyz, port: 10353, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-262, server: host-035.crazyspeed.xyz, port: 10355, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-263, server: host-036.crazyspeed.xyz, port: 16010, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-264, server: host-037.crazyspeed.xyz, port: 16011, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-265, server: host-038.crazyspeed.xyz, port: 16012, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-266, server: host-039.crazyspeed.xyz, port: 16013, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-267, server: host-040.crazyspeed.xyz, port: 16014, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-268, server: host-041.crazyspeed.xyz, port: 16015, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-269, server: host-043.crazyspeed.xyz, port: 34401, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-270, server: host-045.crazyspeed.xyz, port: 34901, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-271, server: host-047.crazyspeed.xyz, port: 34903, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-272, server: host-048.crazyspeed.xyz, port: 34904, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-273, server: host-049.crazyspeed.xyz, port: 34905, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-274, server: host-050.crazyspeed.xyz, port: 34906, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-275, server: host-051.crazyspeed.xyz, port: 20061, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-276, server: host-052.crazyspeed.xyz, port: 20062, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-277, server: host-053.crazyspeed.xyz, port: 10911, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-278, server: host-055.crazyspeed.xyz, port: 19001, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-CN-279, server: host-056.crazyspeed.xyz, port: 19002, type: ss, cipher: chacha20-ietf-poly1305, password: 3507684b-2d74-47f8-8c4a-24d6b82b385a}
+- {name: 40-NOWHERE-280, server: Dont.Connect.Me, port: 65535, type: ss, cipher: chacha20-ietf-poly1305, password: f62b2a4c-9e3a-4baa-a192-6f53aab07779}
+- {name: 40-CN-281, server: free.node.kk-proxy.pro, port: 55928, type: ss, cipher: chacha20-ietf-poly1305, password: f62b2a4c-9e3a-4baa-a192-6f53aab07779}
+- {name: 40-JP-282, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a, skip-cert-verify: true}
+- {name: 40-JP-283, server: jp1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a}
+- {name: 40-HK-284, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a}
+- {name: 40-CN-285, server: dl.biubiufast.quest, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a}
+- {name: 40-CN-286, server: dl.biubiufast.quest, port: 35002, type: ss, cipher: chacha20-ietf-poly1305, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a}
+- {name: 40-CN-287, server: dl.biubiufast.quest, port: 35001, type: ss, cipher: chacha20-ietf-poly1305, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a}
+- {name: 40-CN-288, server: dl.biubiufast.quest, port: 34002, type: ss, cipher: chacha20-ietf-poly1305, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a}
+- {name: 40-CN-289, server: tls.biubiufast.quest, port: 32100, type: trojan, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a, sni: jp1.biubiufast.quest, skip-cert-verify: true}
+- {name: 40-CN-290, server: tls.biubiufast.quest, port: 32102, type: trojan, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a, sni: hk15.biubiufast.quest, skip-cert-verify: true}
+- {name: 40-CN-291, server: tls.biubiufast.quest, port: 32103, type: trojan, password: 25af4dcf-e6e0-46a5-b39f-caa90213761a, sni: sfo6.biubiufast.quest, skip-cert-verify: true}
+- {name: 40-CN-292, server: 201201level3.unclemanco.com, port: "803/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-293, server: 201201level3.unclemanco.com, port: "806/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-294, server: 201201level3.unclemanco.com, port: "913/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-295, server: 201201level3.unclemanco.com, port: "817/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-296, server: 201201level3.unclemanco.com, port: "9030/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-297, server: 201201level3.unclemanco.com, port: "920/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-298, server: 201201level3.unclemanco.com, port: "9035/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-299, server: 201201level3.unclemanco.com, port: "917/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-300, server: 201201level3.unclemanco.com, port: "9019/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-301, server: 201201level3.unclemanco.com, port: "9001/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucew2}
+- {name: 40-CN-302, server: 201201level3.unclemanco.com, port: "807/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayuclsaa}
+- {name: 40-CN-303, server: 201201level3.unclemanco.com, port: "810/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-304, server: 201201level3.unclemanco.com, port: "921/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucl243113}
+- {name: 40-CN-305, server: 201201level3.unclemanco.com, port: "919/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-306, server: 201201level3.unclemanco.com, port: "825/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-307, server: 201201level3.unclemanco.com, port: "834/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-308, server: 201201level3.unclemanco.com, port: "908/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-309, server: 201201level3.unclemanco.com, port: "9040/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-310, server: 201201level3.unclemanco.com, port: "835/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-311, server: 201201level3.unclemanco.com, port: "905/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-312, server: 201201level3.unclemanco.com, port: "904/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: a12cloud1}
+- {name: 40-CN-313, server: 201201level3.unclemanco.com, port: "824/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayu1245}
+- {name: 40-CN-314, server: 201201level3.unclemanco.com, port: "9054/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-315, server: 201201level3.unclemanco.com, port: "9063/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-316, server: 201201level3.unclemanco.com, port: "20012/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-317, server: 201201level3.unclemanco.com, port: "907/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucles1}
+- {name: 40-CN-318, server: 201201level3.unclemanco.com, port: "823/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-319, server: 201201level3.unclemanco.com, port: "9059/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-320, server: 201201level3.unclemanco.com, port: "9062/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-321, server: 201201level3.unclemanco.com, port: "819/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-322, server: 201201level3.unclemanco.com, port: "9021/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-323, server: 201201level3.unclemanco.com, port: "914/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-324, server: 201201level3.unclemanco.com, port: "909/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayu1245}
+- {name: 40-CN-325, server: 201201level3.unclemanco.com, port: "918/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-326, server: 201201level3.unclemanco.com, port: "811/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ay2dsd1}
+- {name: 40-CN-327, server: 201201level3.unclemanco.com, port: "1313/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: fjlfjafl231303831}
+- {name: 40-CN-328, server: 201201level3.unclemanco.com, port: "901/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ay21d1}
+- {name: 40-CN-329, server: 201201level3.unclemanco.com, port: "9873/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-330, server: 201201level3.unclemanco.com, port: "821/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-331, server: 201201level3.unclemanco.com, port: "903/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ay2l23ud1}
+- {name: 40-CN-332, server: 201201level3.unclemanco.com, port: "910/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-333, server: 201201level3.unclemanco.com, port: "906/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ay2loud1}
+- {name: 40-CN-334, server: 201201level3.unclemanco.com, port: "9060/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-335, server: 201201level3.unclemanco.com, port: "9037/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-336, server: 201201level3.unclemanco.com, port: "902/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayuc211}
+- {name: 40-CN-337, server: 201201level3.unclemanco.com, port: "37863/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: "dajkdkjda&dja*/?"}
+- {name: 40-CN-338, server: 201201level2.unclemanco.com, port: "804/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: wedsa}
+- {name: 40-CN-339, server: 201201level2.unclemanco.com, port: "9048/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-340, server: 201201level2.unclemanco.com, port: "9022/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-341, server: 201201level2.unclemanco.com, port: "916/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: fsfal2}
+- {name: 40-CN-342, server: 201201level2.unclemanco.com, port: "926/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-343, server: 201201level2.unclemanco.com, port: "39004/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayds23sd1}
+- {name: 40-CN-344, server: 201201level2.unclemanco.com, port: "9053/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-345, server: 201201level2.unclemanco.com, port: "8001/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-346, server: 201201level2.unclemanco.com, port: "9052/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-347, server: 201201level2.unclemanco.com, port: "818/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-348, server: 201201level2.unclemanco.com, port: "813/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-349, server: 201201level2.unclemanco.com, port: "4321/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ay232sffssd1}
+- {name: 40-CN-350, server: 201201level2.unclemanco.com, port: "820/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-351, server: 201201level2.unclemanco.com, port: "809/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucjrsll}
+- {name: 40-CN-352, server: 201201level2.unclemanco.com, port: "911/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-353, server: 201201levelx.unclemanco.com, port: "857/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-354, server: 201201level2.unclemanco.com, port: "2201/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: "dajsdkdkjda&dja*/?"}
+- {name: 40-CN-355, server: 201201level2.unclemanco.com, port: "39201/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: "dadk2jat*/?"}
+- {name: 40-CN-356, server: 201201level2.unclemanco.com, port: "2789/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-357, server: 201201level2.unclemanco.com, port: "9038/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-358, server: 201201level2.unclemanco.com, port: "19999/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: "dajkdkjda&dja*/?"}
+- {name: 40-CN-359, server: 201201level2.unclemanco.com, port: "3033/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayugfsd}
+- {name: 40-CN-360, server: 201201level2.unclemanco.com, port: "1549/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-361, server: 201201level2.unclemanco.com, port: "6041/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayds232sffssd1}
+- {name: 40-CN-362, server: 201201level2.unclemanco.com, port: "44444/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayds232sffssd1}
+- {name: 40-CN-363, server: 201201level2.unclemanco.com, port: "38011/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: "dajkdr&dja*/?"}
+- {name: 40-CN-364, server: 201201level2.unclemanco.com, port: "10058/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: 2sa2/1a}
+- {name: 40-CN-365, server: 201201level2.unclemanco.com, port: "37865/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: "dajkdkjdsa&dja*/?"}
+- {name: 40-CN-366, server: 201201level2.unclemanco.com, port: "39073/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: "dajkbgja*/?"}
+- {name: 40-CN-367, server: 201201level2.unclemanco.com, port: "38002/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: "dajkdkjdssa&dja*/?"}
+- {name: 40-CN-368, server: 201201level2.unclemanco.com, port: "6559/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: "dajkdkjda&dja*/?"}
+- {name: 40-CN-369, server: 201201level2.unclemanco.com, port: "36203/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: Vdssf.mj/2Zr}
+- {name: 40-CN-370, server: 201201level2.unclemanco.com, port: "36454/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: 1mj21sr}
+- {name: 40-CN-371, server: 201201level2.unclemanco.com, port: "36452/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: 1mj21sr}
+- {name: 40-CN-372, server: 201201level2.unclemanco.com, port: "36243/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: Vdss1samj/2Zr}
+- {name: 40-CN-373, server: 201201level1.unclemanco.com, port: "9047/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-374, server: 201201level1.unclemanco.com, port: "912/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-375, server: 201201level1.unclemanco.com, port: "840/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-376, server: 201201level1.unclemanco.com, port: "9051/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-377, server: 201201level1.unclemanco.com, port: "925/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-378, server: 201201level1.unclemanco.com, port: "812/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-379, server: 201201level1.unclemanco.com, port: "837/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucl12s1}
+- {name: 40-CN-380, server: 201201level1.unclemanco.com, port: "816/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-381, server: 201201level1.unclemanco.com, port: "2688/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: fs23l/}
+- {name: 40-CN-382, server: 201201level1.unclemanco.com, port: "915/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-383, server: 201201level1.unclemanco.com, port: "2205/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: "dajkdkjda&dja*/?"}
+- {name: 40-CN-384, server: 201201level1.unclemanco.com, port: "9020/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-385, server: 201201level1.unclemanco.com, port: "924/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-386, server: 201201level1.unclemanco.com, port: "6879/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: ayucloud1}
+- {name: 40-CN-387, server: 201201level1.unclemanco.com, port: "9044/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: QHPy2u}
+- {name: 40-CN-388, server: 201201level1.unclemanco.com, port: "36201/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: Vdssf.mj/2Zr}
+- {name: 40-CN-389, server: 201201level1.unclemanco.com, port: "10021/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D3df5083320.download.windowsupdate.com", type: ss, cipher: aes-128-gcm, password: aa2x2sa2/1a}

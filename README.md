@@ -35,19 +35,19 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `0`
+当前合并节点总数: `390`
 - [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `0`
-- [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `0`
-- [6jkchen3](https://github.com/jkchen3), 节点数量: `0`
-- [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `0`
-- [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `0`
-- [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `0`
-- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `0`
+- [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `9`
+- [6jkchen3](https://github.com/jkchen3), 节点数量: `4`
+- [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `7`
+- [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `10`
+- [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `12`
+- [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `18`
 - [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `0`
-- [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `0`
-- [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `0`
-- [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `0`
-- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `0`
+- [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `44`
+- [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `110`
+- [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `6`
+- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `291`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
