@@ -423,7 +423,7 @@ class sub_convert():
                     vmess_json_config = json.loads(sub_convert.base64_decode(line.replace('vmess://', '')))
                     vmess_default_config = {
                         'v': 'Vmess Node', 'ps': 'Vmess Node', 'add': '0.0.0.0', 'port': 0, 'id': '',
-                        'aid': 0, 'scy': 'auto', 'net': '', 'type': '', 'host': vmess_json_config['add'], 'path': '/', 'tls': ''
+                        'aid': 0, 'scy': 'auto', 'net': '', 'type': '', 'tls': ''
                     }
                     vmess_default_config.update(vmess_json_config)
                     vmess_config = vmess_default_config
@@ -443,22 +443,22 @@ class sub_convert():
                         yaml_url.setdefault('alterId', int(vmess_config['aid']))
                         yaml_url.setdefault('cipher', vmess_config['scy'])
                         yaml_url.setdefault('skip-cert-vertify', True)
-                        if vmess_config['net'] == '' or vmess_config['net'] is False or vmess_config['net'] is None:
-                            yaml_url.setdefault('network', 'tcp')
-                        else:
-                            yaml_url.setdefault('network', vmess_config['net'])
-                        if vmess_config['path'] == '' or vmess_config['path'] is False or vmess_config['path'] is None:
-                            yaml_url.setdefault('ws-path', '/')
-                        else:
-                            yaml_url.setdefault('ws-path', vmess_config['path'])
-                        if vmess_config['tls'] == '' or vmess_config['tls'] is False or vmess_config['tls'] is None:
-                            yaml_url.setdefault('tls', False)
-                        else:
+                        #if vmess_config['net'] == '' or vmess_config['net'] is False or vmess_config['net'] is None:
+                        #    yaml_url.setdefault('network', 'tcp')
+                        #else:
+                        #    yaml_url.setdefault('network', vmess_config['net'])
+                        #if vmess_config['path'] == '' or vmess_config['path'] is False or vmess_config['path'] is None:
+                        #    yaml_url.setdefault('ws-path', '/')
+                        #else:
+                        #    yaml_url.setdefault('ws-path', vmess_config['path'])
+                        if vmess_config['tls'] is True or vmess_config['network'] == 'h2' or vmess_config['network'] == 'grpc':
                             yaml_url.setdefault('tls', True)
-                        if vmess_config['host'] == '':
-                            yaml_url.setdefault('ws-headers', {'Host': vmess_config['add']})
                         else:
-                            yaml_url.setdefault('ws-headers', {'Host': vmess_config['host']})
+                            yaml_url.setdefault('tls', False)
+                        #if vmess_config['host'] == '':
+                        #    yaml_url.setdefault('ws-headers', {'Host': vmess_config['add']})
+                        #else:
+                        #    yaml_url.setdefault('ws-headers', {'Host': vmess_config['host']})
 
                         url_list.append(yaml_url)
                 except Exception as err:
