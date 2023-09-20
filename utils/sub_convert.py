@@ -608,7 +608,7 @@ class sub_convert():
                     
                     json.loads(proxy_config['ws-opts'])
                     json.loads(proxy_config['ws-opts']['headers'])
-                    json.loads(proxy_config['ws-opts']['headers']['Host'])
+                    
                     vmess_value = {
                         'v': 2, 'ps': proxy_config['name'], 'add': proxy_config['server'],
                         'port': proxy_config['port'], 'id': proxy_config['uuid'], 'aid': proxy_config['alterId'],
