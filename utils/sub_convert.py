@@ -605,12 +605,15 @@ class sub_convert():
 
                     yaml_default_config.update(proxy)
                     proxy_config = yaml_default_config
-
+                    
+                    json.loads(proxy_config['ws-opts'])
+                    json.loads(proxy_config['ws-opts']['headers'])
+                    json.loads(proxy_config['ws-opts']['headers']['Host'])
                     vmess_value = {
                         'v': 2, 'ps': proxy_config['name'], 'add': proxy_config['server'],
                         'port': proxy_config['port'], 'id': proxy_config['uuid'], 'aid': proxy_config['alterId'],
-                        'scy': proxy_config['cipher'], 'net': proxy_config['network'], 'type': None, 'host':  json.loads(proxy_config['ws-opts']['headers']['Host']),
-                        'path':  json.loads(proxy_config['ws-opts']['path']), 'tls': proxy_config['tls'], 'sni': proxy_config['sni']
+                        'scy': proxy_config['cipher'], 'net': proxy_config['network'], 'type': None, 'host': proxy_config['ws-opts']['headers']['Host'],
+                        'path': proxy_config['ws-opts']['path'], 'tls': proxy_config['tls'], 'sni': proxy_config['sni']
                         }
 
                     vmess_raw_proxy = json.dumps(vmess_value, sort_keys=False, indent=2, ensure_ascii=False)
