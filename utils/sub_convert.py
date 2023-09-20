@@ -595,10 +595,7 @@ class sub_convert():
 
                 if proxy['type'] == 'vmess': # Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
 
-                    yaml_default_config = {
-                        'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0,
-                        'cipher': 'auto', 'network': 'ws'}, 'tls': '', 'sni': ''
-                    }
+                    yaml_default_config = {'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0, 'cipher': 'auto', 'network': 'ws'}, 'tls': '', 'sni': ''}
 
                     yaml_default_config.update(proxy)
                     proxy_config = yaml_default_config
