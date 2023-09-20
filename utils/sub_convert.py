@@ -456,7 +456,7 @@ class sub_convert():
                         #if vmess_config['path'] == '' or vmess_config['path'] is False or vmess_config['path'] is None:
                         #        yaml_url.setdefault('ws-path', '/')
                         #else:
-                        yaml_url.setdefault('ws-opts', {path:vmess_config['path'],headers: {Host:vmess_config['host']}})
+                        yaml_url.setdefault('ws-opts', {'path':vmess_config['path'],headers: {'Host':vmess_config['host']}})
                         #if vmess_config['host'] == '':
                         #    yaml_url.setdefault('ws-headers', {'Host': vmess_config['add']})
                         #else:
