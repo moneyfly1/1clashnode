@@ -599,22 +599,18 @@ class sub_convert():
 
                     yaml_default_config = {
                         'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0,
-                        'cipher': 'auto', 'network': '', 'ws-headers': '', 'ws-opts':'',
-                        'ws-path': '', 'tls': '', 'sni': ''
+                        'cipher': 'auto', 'network': 'ws', 'ws-headers': {'Host': proxy['server']},
+                        'ws-path': '/', 'tls': '', 'sni': ''
                     }
 
                     yaml_default_config.update(proxy)
                     proxy_config = yaml_default_config
-                    
-                    opts=json.loads(proxy_config['ws-opts'])
-                    optshead=json.loads(opts['headers'])
-                   
-                    
+
                     vmess_value = {
                         'v': 2, 'ps': proxy_config['name'], 'add': proxy_config['server'],
                         'port': proxy_config['port'], 'id': proxy_config['uuid'], 'aid': proxy_config['alterId'],
-                        'scy': proxy_config['cipher'], 'net': proxy_config['network'], 'type': None, 'host': optshead['Host'],
-                        'path': opts['path'], 'tls': proxy_config['tls'], 'sni': proxy_config['sni']
+                        'scy': proxy_config['cipher'], 'net': proxy_config['network'], 'type': None, 'host': proxy_config['ws-headers']['Host'],
+                        'path': proxy_config['ws-path'], 'tls': proxy_config['tls'], 'sni': proxy_config['sni']
                         }
 
                     vmess_raw_proxy = json.dumps(vmess_value, sort_keys=False, indent=2, ensure_ascii=False)
