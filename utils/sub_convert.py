@@ -443,10 +443,10 @@ class sub_convert():
                         yaml_url.setdefault('alterId', int(vmess_config['aid']))
                         yaml_url.setdefault('cipher', vmess_config['scy'])
                         yaml_url.setdefault('skip-cert-vertify', True)
-                        #if vmess_config['net'] == '' or vmess_config['net'] is False or vmess_config['net'] is None:
-                        #    yaml_url.setdefault('network', 'tcp')
-                        #else:
-                        #    yaml_url.setdefault('network', vmess_config['net'])
+                        if vmess_config['net'] == '' or vmess_config['net'] is False or vmess_config['net'] is None:
+                            yaml_url.setdefault('network', 'ws')
+                        else:
+                            yaml_url.setdefault('network', vmess_config['net'])
                         #if vmess_config['path'] == '' or vmess_config['path'] is False or vmess_config['path'] is None:
                         #    yaml_url.setdefault('ws-path', '/')
                         #else:
