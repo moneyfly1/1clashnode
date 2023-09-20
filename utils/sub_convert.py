@@ -451,10 +451,10 @@ class sub_convert():
                             yaml_url.setdefault('ws-path', '/')
                         else:
                             yaml_url.setdefault('ws-path', vmess_config['path'])
-                        if vmess_config['tls'] == '' or vmess_config['tls'] is False or vmess_config['tls'] is None:
-                            yaml_url.setdefault('tls', False)
-                        else:
+                        if vmess_config['tls'] is True or vmess_config['net'] == 'h2' or vmess_config['net'] == 'grpc':
                             yaml_url.setdefault('tls', True)
+                        else:
+                            yaml_url.setdefault('tls', False)
                         if vmess_config['host'] == '':
                             yaml_url.setdefault('ws-headers', {'Host': vmess_config['add']})
                         else:
