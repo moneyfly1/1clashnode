@@ -84,7 +84,7 @@ class update_url():
             #print(raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc'))
             #print(raw_content[raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc'):raw_content.find('v2ray(请开启代理后再拉取)&#65306;https://drive.google.com/uc')+100])
             #pattern = re.compile(r'https://tsomoonyb\.xyz/link/*?clash=1')
-            url_update = re.findall(r'https:\/\/raw[^\s]+yaml', raw_content)[0] + '#01'
+            url_update = re.findall(r'https:\/\/raw[^\s]+txt', raw_content)[0] + '#01'
             
             print(url_update)
             return [1, url_update]
