@@ -235,14 +235,14 @@ class sub_convert():
                     print('Sub_content 格式错误')
                     return '' # 解析 URL 内容错误时返回空字符串
             if output == False:
-                for item in sub_content_yaml['proxies']:# 对转换过程中出现的不标准配置格式转换
-                    try:
-                        if item['type'] == 'vmess' and 'HOST' in item['ws-headers'].keys():
-                            item['ws-headers']['Host'] = item['ws-headers'].pop("HOST")
-                    except KeyError:
-                        if '.' not in item['server']:
-                            sub_content_yaml['proxies'].remove(item)
-                        pass
+                #for item in sub_content_yaml['proxies']:# 对转换过程中出现的不标准配置格式转换
+                #    try:
+                #        if item['type'] == 'vmess' and 'HOST' in item['ws-headers'].keys():
+                #            item['ws-headers']['Host'] = item['ws-headers'].pop("HOST")
+                #    except KeyError:
+                #        if '.' not in item['server']:
+                #            sub_content_yaml['proxies'].remove(item)
+                #        pass
 
             return sub_content_yaml # 返回字典, output 值为 True 时返回修饰过的 YAML 文本
     def makeup(input, dup_rm_enabled=True, format_name_enabled=True): # 对节点进行区域的筛选和重命名，输出 YAML 文本 
@@ -424,7 +424,7 @@ class sub_convert():
                     vmess_json_config = json.loads(sub_convert.base64_decode(line.replace('vmess://', '')))
                     vmess_default_config = {
                         'v': 'Vmess Node', 'ps': 'Vmess Node', 'add': '0.0.0.0', 'port': 0, 'id': '',
-                        'aid': 0, 'scy': 'auto', 'net': '', 'type': '', 'host': vmess_json_config['add'], 'path': '/', 'tls': ''
+                        'aid': 0, 'scy': 'auto', 'net': '', 'type': '', 'tls': ''
                     }
                     vmess_default_config.update(vmess_json_config)
                     vmess_config = vmess_default_config
@@ -444,22 +444,22 @@ class sub_convert():
                         yaml_url.setdefault('alterId', int(vmess_config['aid']))
                         yaml_url.setdefault('cipher', vmess_config['scy'])
                         yaml_url.setdefault('skip-cert-vertify', True)
-                        if vmess_config['net'] == '' or vmess_config['net'] is False or vmess_config['net'] is None:
-                            yaml_url.setdefault('network', 'tcp')
-                        else:
-                            yaml_url.setdefault('network', vmess_config['net'])
-                        if vmess_config['path'] == '' or vmess_config['path'] is False or vmess_config['path'] is None:
-                            yaml_url.setdefault('ws-path', '/')
-                        else:
-                            yaml_url.setdefault('ws-path', vmess_config['path'])
-                        if vmess_config['tls'] == '' or vmess_config['tls'] is False or vmess_config['tls'] is None:
+                        #if vmess_config['net'] == '' or vmess_config['net'] is False or vmess_config['net'] is None:
+                        #    yaml_url.setdefault('network', 'ws')
+                        #else:
+                        #    yaml_url.setdefault('network', vmess_config['ws'])
+                        #if vmess_config['path'] == '' or vmess_config['path'] is False or vmess_config['path'] is None:
+                        #    yaml_url.setdefault('ws-path', '/')
+                        #else:
+                        #    yaml_url.setdefault('ws-path', vmess_config['path'])
+                        if vmess_config['tls'] is True or vmess_config['network'] =='h2' or vmess_config['network'] == 'grpc':
                             yaml_url.setdefault('tls', True)
                         else:
-                            yaml_url.setdefault('tls', True)
-                        if vmess_config['host'] == '':
-                            yaml_url.setdefault('ws-headers', {'Host': vmess_config['add']})
-                        else:
-                            yaml_url.setdefault('ws-headers', {'Host': vmess_config['host']})
+                            yaml_url.setdefault('tls', False)
+                        #if vmess_config['host'] == '':
+                        #    yaml_url.setdefault('ws-headers', {'Host': vmess_config['add']})
+                        #else:
+                        #    yaml_url.setdefault('ws-headers', {'Host': vmess_config['host']})
 
                         url_list.append(yaml_url)
                 except Exception as err:
@@ -597,8 +597,7 @@ class sub_convert():
 
                     yaml_default_config = {
                         'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0,
-                        'cipher': 'auto', 'network': 'ws', 'ws-headers': {'Host': proxy['server']},
-                        'ws-path': '/', 'tls': '', 'sni': ''
+                        'cipher': 'auto', 'network': 'ws'}, 'tls': '', 'sni': ''
                     }
 
                     yaml_default_config.update(proxy)
