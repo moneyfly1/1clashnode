@@ -470,7 +470,7 @@ class sub_convert():
                     print(f'yaml_encode 解析 vmess 节点发生错误: {err}')
                     pass
 
-if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line:
+            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line:
                 if '#' not in line:
                     line = line + '#SS%20Node'
                 try:
