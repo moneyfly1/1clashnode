@@ -470,7 +470,7 @@ class sub_convert():
                     print(f'yaml_encode 解析 vmess 节点发生错误: {err}')
                     pass
 
-            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line:
+if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line:
                 if '#' not in line:
                     line = line + '#SS%20Node'
                 try:
@@ -601,8 +601,8 @@ class sub_convert():
 
                     yaml_default_config = {
                         'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0,
-                        'cipher': 'auto', 'network': 'ws', 'ws-headers': '',
-                        'ws-path': '', 'tls': '', 'sni': ''
+                        'cipher': 'auto', 'network': 'ws', 'ws-headers': {'Host': proxy['server']},
+                        'ws-path': '/', 'tls': '', 'sni': ''
                     }
 
                     yaml_default_config.update(proxy)
