@@ -452,7 +452,7 @@ class sub_convert():
                             yaml_url.setdefault('tls', True)
                         else:
                             yaml_url.setdefault('tls', False)
-                        yaml_url.setdefault('ws-opts',{'path':'vmess_config['path']', 'headers': {'Host': vmess_config['host']}}, 'udp': 'true')
+                        yaml_url.setdefault('ws-opts',{'path':vmess_config['path'], 'headers': {'Host': vmess_config['host']}}, 'udp': 'true')
                         
 
                         #if vmess_config['path'] == '' or vmess_config['path'] is False or vmess_config['path'] is None:
@@ -602,7 +602,7 @@ class sub_convert():
                     yaml_default_config = {
                         'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0,
                         'cipher': 'auto', 'network': 'ws', 'ws-headers': {'Host': proxy['server']},
-                        'ws-path': '/', 'tls': '', 'sni': ''
+                        'ws-path': '', 'tls': '', 'sni': ''
                     }
 
                     yaml_default_config.update(proxy)
