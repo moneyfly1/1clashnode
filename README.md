@@ -35,12 +35,12 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1051`
-- [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `122`
+当前合并节点总数: `1079`
+- [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `163`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `62`
 - [6jkchen3](https://github.com/jkchen3), 节点数量: `93`
-- [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `34`
-- [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `18`
+- [8ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `36`
+- [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `22`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `47`
 - [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `24`
 - [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `0`
