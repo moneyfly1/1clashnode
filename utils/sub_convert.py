@@ -452,6 +452,8 @@ class sub_convert():
                             yaml_url.setdefault('tls', True)
                         else:
                             yaml_url.setdefault('tls', False)
+                        print(vmess_json_config['path'])
+                        print(vmess_json_config['host'])
                         yaml_url.setdefault('ws-opts',{'path':vmess_json_config['path'], 'headers': {'Host': vmess_json_config['host']}})
                         yaml_url.setdefault('udp', True)
 
