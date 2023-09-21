@@ -452,8 +452,8 @@ class sub_convert():
                             yaml_url.setdefault('tls', True)
                         else:
                             yaml_url.setdefault('tls', False)
-                        yaml_url.setdefault('ws-opts',{'path':vmess_config['path'], 'headers': {'Host': vmess_config['host']}}, 'udp:true')
-                        
+                        yaml_url.setdefault('ws-opts',{'path':vmess_config['path'], 'headers': {'Host': vmess_config['host']}})
+                        yaml_url.setdefault('udp', True)
 
                         #if vmess_config['path'] == '' or vmess_config['path'] is False or vmess_config['path'] is None:
                         #    yaml_url.setdefault('ws-path', '/')
