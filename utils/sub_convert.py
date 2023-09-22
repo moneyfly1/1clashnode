@@ -507,38 +507,38 @@ class sub_convert():
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误: {err}')
                     pass
-            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'plugin' in line:
-                if '#' not in line:
-                    line = line + '#SS%20Node'
-                try:
-                    ss_content =  line.replace('ss://', '')
-                    part_list = ss_content.split('#', 1) # https://www.runoob.com/python/att-string-split.html
-                    yaml_url.setdefault('name', urllib.parse.unquote(part_list[1]))
-                    if '@' in part_list[0]:
-                        mix_part = part_list[0].split('@', 1)
-                        method_part = sub_convert.base64_decode(mix_part[0])
-                        server_part = f'{method_part}@{mix_part[1]}'
-                    else:
-                        server_part = sub_convert.base64_decode(part_list[0])
+            #if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'plugin' in line:
+            #    if '#' not in line:
+            #        line = line + '#SS%20Node'
+            #    try:
+            #        ss_content =  line.replace('ss://', '')
+            #        part_list = ss_content.split('#', 1) # https://www.runoob.com/python/att-string-split.html
+            #        yaml_url.setdefault('name', urllib.parse.unquote(part_list[1]))
+            #        if '@' in part_list[0]:
+            #            mix_part = part_list[0].split('@', 1)
+            #            method_part = sub_convert.base64_decode(mix_part[0])
+            #            server_part = f'{method_part}@{mix_part[1]}'
+            #        else:
+            #            server_part = sub_convert.base64_decode(part_list[0])
 
-                    server_part_list = server_part.split(':', 1) # 使用多个分隔符 https://blog.csdn.net/shidamowang/article/details/80254476 https://zhuanlan.zhihu.com/p/92287240
-                    method_part = server_part_list[0]
-                    server_part_list = server_part_list[1].rsplit('@', 1)
-                    password_part = server_part_list[0]
-                    password_part = password_part.replace('"', '')
-                    server_part_list = server_part_list[1].split(':', 1)
+            #        server_part_list = server_part.split(':', 1) # 使用多个分隔符 https://blog.csdn.net/shidamowang/article/details/80254476 https://zhuanlan.zhihu.com/p/92287240
+            #        method_part = server_part_list[0]
+            #        server_part_list = server_part_list[1].rsplit('@', 1)
+            #        password_part = server_part_list[0]
+            #        password_part = password_part.replace('"', '')
+            #        server_part_list = server_part_list[1].split(':', 1)
 
-                    yaml_url.setdefault('server', server_part_list[0])
-                    server_part_list = server_part_list[1].split('/', 1)
-                    yaml_url.setdefault('port', server_part_list[0])
-                    yaml_url.setdefault('type', 'ss')
-                    yaml_url.setdefault('cipher', method_part)
-                    yaml_url.setdefault('password', password_part)
+             #       yaml_url.setdefault('server', server_part_list[0])
+             #       server_part_list = server_part_list[1].split('/', 1)
+             #       yaml_url.setdefault('port', server_part_list[0])
+              #      yaml_url.setdefault('type', 'ss')
+              #      yaml_url.setdefault('cipher', method_part)
+               #     yaml_url.setdefault('password', password_part)
                     
-                    url_list.append(yaml_url)
-                except Exception as err:
-                    print(f'yaml_encode 解析 ss 节点发生错误: {err}')
-                    pass
+               #     url_list.append(yaml_url)
+               # except Exception as err:
+               #     print(f'yaml_encode 解析 ss 节点发生错误: {err}')
+               #     pass
 
 
 
