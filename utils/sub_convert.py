@@ -226,22 +226,22 @@ class sub_convert():
 
                     sub_content = '\n'.join(line_fix_list).replace('False', 'false').replace('True', 'true')
 
-                    #if output == False:
-                    #    sub_content_yaml = yaml.safe_load(sub_content)
-                    #else: # output 值为 True 时返回修饰过的 YAML 文本
-                    sub_content_yaml = sub_content
+                    if output == False:
+                        sub_content_yaml = yaml.safe_load(sub_content)
+                    else: # output 值为 True 时返回修饰过的 YAML 文本
+                        sub_content_yaml = sub_content
                 except:
                     print('Sub_content 格式错误')
                     return '' # 解析 URL 内容错误时返回空字符串
-            #if output == False:
-            #    for item in sub_content_yaml['proxies']:# 对转换过程中出现的不标准配置格式转换
-            #        try:
-            #            if item['type'] == 'vmess' and 'HOST' in item['ws-headers'].keys():
-            #                item['ws-headers']['Host'] = item['ws-headers'].pop("HOST")
-            #        except KeyError:
-            #            if '.' not in item['server']:
-            #                sub_content_yaml['proxies'].remove(item)
-            #            pass
+            if output == False:
+                for item in sub_content_yaml['proxies']:# 对转换过程中出现的不标准配置格式转换
+                    try:
+                        if item['type'] == 'vmess' and 'HOST' in item['ws-headers'].keys():
+                            item['ws-headers']['Host'] = item['ws-headers'].pop("HOST")
+                    except KeyError:
+                        if '.' not in item['server']:
+                            sub_content_yaml['proxies'].remove(item)
+                        pass
 
             return sub_content_yaml # 返回字典, output 值为 True 时返回修饰过的 YAML 文本
     def makeup(input, dup_rm_enabled=True, format_name_enabled=True): # 对节点进行区域的筛选和重命名，输出 YAML 文本 
