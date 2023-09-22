@@ -35,8 +35,8 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1355`
-- [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `120`
+当前合并节点总数: `1420`
+- [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `194`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `62`
 - [6jkchen3](https://github.com/jkchen3), 节点数量: `95`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `0`
@@ -48,7 +48,7 @@
 - [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `115`
 - [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `48`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `136`
-- [38peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `161`
+- [38peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `179`
 - [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `487`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
