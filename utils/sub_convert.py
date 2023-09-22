@@ -525,6 +525,7 @@ class sub_convert():
                     method_part = server_part_list[0]
                     server_part_list = server_part_list[1].rsplit('@', 1)
                     password_part = server_part_list[0]
+                    password_part = password_part.replace('"', '\'')
                     server_part_list = server_part_list[1].split(':', 1)
 
                     yaml_url.setdefault('server', server_part_list[0])
