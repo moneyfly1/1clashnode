@@ -272,10 +272,15 @@ class sub_convert():
 
                 begin_2 = begin + 1
                 while begin_2 <= (length - 1):
-
-                    if proxy_compared['server'] == proxies_list[begin_2]['server'] and proxy_compared['port'] == proxies_list[begin_2]['port'] and proxy_compared['type'] == proxies_list[begin_2]['type'] and proxy_compared['password'] == proxies_list[begin_2]['password']:
-                        proxies_list.pop(begin_2)
-                        length -= 1
+                    if proxy_compared['type'] =='vmess':
+                        if proxy_compared['server'] == proxies_list[begin_2]['server'] and proxy_compared['port'] == proxies_list[begin_2]['port'] and proxy_compared['type'] == proxies_list[begin_2]['type'] and proxy_compared['uuid'] == proxies_list[begin_2]['uuid']:
+                            proxies_list.pop(begin_2)
+                            length -= 1
+                    else:
+                        if proxy_compared['server'] == proxies_list[begin_2]['server'] and proxy_compared['port'] == proxies_list[begin_2]['port'] and proxy_compared['type'] == proxies_list[begin_2]['type'] and proxy_compared['password'] == proxies_list[begin_2]['password']:
+                            proxies_list.pop(begin_2)
+                            length -= 1
+                    
                     begin_2 += 1
                 begin += 1
 
@@ -452,8 +457,8 @@ class sub_convert():
                             yaml_url.setdefault('tls', True)
                         else:
                             yaml_url.setdefault('tls', False)
-                        print(vmess_json_config['path'])
-                        print(vmess_json_config['host'])
+                        #print(vmess_json_config['path'])
+                        #print(vmess_json_config['host'])
                         yaml_url.setdefault('ws-opts',{'path':vmess_json_config['path'], 'headers': {'Host': vmess_json_config['host']}})
                         yaml_url.setdefault('udp', True)
 
