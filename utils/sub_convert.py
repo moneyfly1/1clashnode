@@ -528,7 +528,7 @@ class sub_convert():
                     server_part_list = server_part_list[1].split(':', 1)
 
                     yaml_url.setdefault('server', server_part_list[0])
-                    server_part_list = server_part_list[1].split('/', 0)
+                    server_part_list = server_part_list[1].split('/', 1)
                     yaml_url.setdefault('port', server_part_list[0])
                     yaml_url.setdefault('type', 'ss')
                     yaml_url.setdefault('cipher', method_part)
