@@ -273,7 +273,7 @@ class sub_convert():
                 begin_2 = begin + 1
                 while begin_2 <= (length - 1):
 
-                    if proxy_compared['server'] == proxies_list[begin_2]['server'] and proxy_compared['port'] == proxies_list[begin_2]['port'] and proxy_compared['type'] == proxies_list[begin_2]['type']:
+                    if proxy_compared['server'] == proxies_list[begin_2]['server'] and proxy_compared['port'] == proxies_list[begin_2]['port'] and proxy_compared['type'] == proxies_list[begin_2]['type'] and proxy_compared['password'] == proxies_list[begin_2]['password']:
                         proxies_list.pop(begin_2)
                         length -= 1
                     begin_2 += 1
@@ -568,7 +568,7 @@ class sub_convert():
                                 yaml_url.setdefault('tls', False)
 
                     yaml_url.setdefault('skip-cert-verify', True)
-
+                    yaml_url.setdefault('udp', True)
                     url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 trojan 节点发生错误: {err}')
