@@ -49,7 +49,7 @@
 - [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `115`
 - [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `59`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `97`
-- [38peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `242`
+- [38peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `396`
 - [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `486`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
