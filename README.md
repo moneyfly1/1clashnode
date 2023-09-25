@@ -35,8 +35,8 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1513`
-- [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `207`
+当前合并节点总数: `1493`
+- [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `165`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `21`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `62`
 - [6jkchen3](https://github.com/jkchen3), 节点数量: `95`
