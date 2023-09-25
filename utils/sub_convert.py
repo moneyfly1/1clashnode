@@ -85,7 +85,7 @@ class sub_convert():
         elif input_type == 'content': # 解析订阅内容
             sub_content = sub_convert.transfer(raw_input)
 
-        if sub_content != 'aa订阅内容解析错误': # 输出
+        if sub_content != '订阅内容解析错误': # 输出
             dup_rm_enabled = custom_set['dup_rm_enabled']
             format_name_enabled = custom_set['format_name_enabled']
             final_content = sub_convert.makeup(sub_content,dup_rm_enabled,format_name_enabled)
@@ -709,7 +709,7 @@ class sub_convert():
         except Exception as err:
             print(f'yaml decode 发生 {err} 错误')
             print(proxy)
-            return '订阅内容解析错误'
+            #return '订阅内容解析错误'
     def base64_decode(url_content): # Base64 转换为 URL 链接内容
         if '-' in url_content:
             url_content = url_content.replace('-', '+')
