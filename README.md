@@ -35,22 +35,22 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `0`
-- [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `0`
+当前合并节点总数: `1430`
+- [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `85`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `0`
-- [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `0`
-- [6jkchen3](https://github.com/jkchen3), 节点数量: `0`
+- [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `62`
+- [6jkchen3](https://github.com/jkchen3), 节点数量: `59`
 - [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `0`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `0`
 - [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `0`
-- [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `0`
-- [19Flik6/getNode](https://github.com/Flik6/getNode), 节点数量: `0`
-- [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `0`
-- [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `0`
-- [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `0`
-- [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `0`
-- [38peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `0`
-- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `0`
+- [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `129`
+- [19Flik6/getNode](https://github.com/Flik6/getNode), 节点数量: `293`
+- [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `76`
+- [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `110`
+- [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `39`
+- [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `97`
+- [38peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `379`
+- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `486`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
