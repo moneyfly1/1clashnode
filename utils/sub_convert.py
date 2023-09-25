@@ -233,15 +233,15 @@ class sub_convert():
                 except:
                     print('Sub_content 格式错误')
                     return '' # 解析 URL 内容错误时返回空字符串
-            #if output == False:
-            #    for item in sub_content_yaml['proxies']:# 对转换过程中出现的不标准配置格式转换
-            #        try:
-            #            if item['type'] == 'vmess' and 'HOST' in item['ws-headers'].keys():
-            #                item['ws-headers']['Host'] = item['ws-headers'].pop("HOST")
-            #        except KeyError:
-            #            if '.' not in item['server']:
-            #                sub_content_yaml['proxies'].remove(item)
-            #            pass
+            if output == False:
+                for item in sub_content_yaml['proxies']:# 对转换过程中出现的不标准配置格式转换
+                    try:
+                        if item['type'] == 'vmess' and 'HOST' in item['ws-headers'].keys():
+                            item['ws-headers']['Host'] = item['ws-headers'].pop("HOST")
+                    except KeyError:
+                        if '.' not in item['server']:
+                            sub_content_yaml['proxies'].remove(item)
+                        pass
 
             return sub_content_yaml # 返回字典, output 值为 True 时返回修饰过的 YAML 文本
     def makeup(input, dup_rm_enabled=True, format_name_enabled=True): # 对节点进行区域的筛选和重命名，输出 YAML 文本 
@@ -442,10 +442,10 @@ class sub_convert():
                     else:
                         yaml_url.setdefault('name', urllib.parse.unquote(str(vmess_config['ps'])))
                         yaml_url.setdefault('server', vmess_config['add'])
-                        yaml_url.setdefault('port', int(vmess_config['port']))
+                        yaml_url.setdefault('port', vmess_config['port'])
                         yaml_url.setdefault('type', 'vmess')
                         yaml_url.setdefault('uuid', vmess_config['id'])
-                        yaml_url.setdefault('alterId', int(vmess_config['aid']))
+                        yaml_url.setdefault('alterId', vmess_config['aid'])
                         yaml_url.setdefault('cipher', vmess_config['scy'])
                         yaml_url.setdefault('skip-cert-vertify', True)
                         if vmess_config['net'] == '' or vmess_config['net'] is False or vmess_config['net'] is None:
