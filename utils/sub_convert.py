@@ -652,7 +652,7 @@ class sub_convert():
             protocol_url = []
             for index in range(len(proxies_list)): # 不同节点订阅链接内容 https://github.com/hoochanlon/fq-book/blob/master/docs/append/srvurl.md
                 proxy = proxies_list[index]
-
+                proxy = proxy.replace('host', 'Host')
                 if proxy['type'] == 'vmess' :  # Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
 
                     yaml_default_config = {
