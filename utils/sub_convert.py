@@ -236,8 +236,10 @@ class sub_convert():
             if output == False:
                 for item in sub_content_yaml['proxies']:# 对转换过程中出现的不标准配置格式转换
                     try:
-                        if item['type'] == 'vmess' and 'HOST' in item['ws-headers'].keys():
-                            item['ws-headers']['Host'] = item['ws-headers'].pop("HOST")
+                        if item['type'] == 'vmess' and 'HOST' in item['ws-opts']['headers']:
+                            item['ws-opts']['headers']['Host'] = item['ws-opts']['headers'].pop("HOST")
+                        if item['type'] == 'vmess' and 'host' in item['ws-opts']['headers']:
+                            item['ws-opts']['headers']['Host'] = item['ws-opts']['headers'].pop("host")                        
                     except KeyError:
                         if '.' not in item['server']:
                             sub_content_yaml['proxies'].remove(item)
