@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1510`
+当前合并节点总数: `1475`
 - [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `199`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `21`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `62`
@@ -45,7 +45,7 @@
 - [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `29`
 - [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `129`
 - [19Flik6/getNode](https://github.com/Flik6/getNode), 节点数量: `289`
-- [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `105`
+- [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `63`
 - [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `115`
 - [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `46`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `98`
