@@ -224,7 +224,7 @@ class sub_convert():
                         else:
                             line_fix_list.append(line)
 
-                    sub_content = '\n'.join(line_fix_list).replace('False', 'false').replace('True', 'true')
+                    sub_content = '\n'.join(line_fix_list).replace('False', 'false').replace('True', 'true').replace('host','Host')
 
                     if output == False:
                         sub_content_yaml = yaml.safe_load(sub_content)
@@ -639,6 +639,7 @@ class sub_convert():
     def yaml_decode(url_content): # YAML 文本转换为 URL 链接内容
         
         try:
+            
             if isinstance(url_content, dict):
                 sub_content = url_content
             else:
@@ -647,13 +648,14 @@ class sub_convert():
                 else:
                     yaml_content_raw = sub_convert.convert(url_content, 'content', 'YAML')
                     sub_content = yaml.safe_load(yaml_content_raw)
+            
             proxies_list = sub_content['proxies']
-
+            
             protocol_url = []
             for index in range(len(proxies_list)): # 不同节点订阅链接内容 https://github.com/hoochanlon/fq-book/blob/master/docs/append/srvurl.md
                 proxy = proxies_list[index]
                 
-                if proxy['type'] == 'vmess' and 'ws-opt' in proxy and 'Host' in proxy and 'path' in proxy :  # Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
+                if proxy['type'] == 'vmess':  # Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
 
                     yaml_default_config = {
                         'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0,
