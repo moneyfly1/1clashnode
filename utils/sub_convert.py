@@ -85,7 +85,7 @@ class sub_convert():
         elif input_type == 'content': # 解析订阅内容
             sub_content = sub_convert.transfer(raw_input)
 
-        if sub_content != '订阅内容解析错误': # 输出
+        if sub_content != 'aa订阅内容解析错误': # 输出
             dup_rm_enabled = custom_set['dup_rm_enabled']
             format_name_enabled = custom_set['format_name_enabled']
             final_content = sub_convert.makeup(sub_content,dup_rm_enabled,format_name_enabled)
@@ -655,7 +655,7 @@ class sub_convert():
             for index in range(len(proxies_list)): # 不同节点订阅链接内容 https://github.com/hoochanlon/fq-book/blob/master/docs/append/srvurl.md
                 proxy = proxies_list[index]
                 
-                if proxy['type'] == 'vmess' and '.' in proxy['ws-opts']['headers']['Host']  :# Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
+                if proxy['type'] == 'vmess'  :# Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
 
                     yaml_default_config = {
                         'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0,
@@ -706,7 +706,6 @@ class sub_convert():
             return yaml_content
         except Exception as err:
             print(f'yaml decode 发生 {err} 错误')
-            print(proxy_config)
             print(proxy)
             return '订阅内容解析错误'
     def base64_decode(url_content): # Base64 转换为 URL 链接内容
