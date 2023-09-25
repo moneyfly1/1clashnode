@@ -655,11 +655,11 @@ class sub_convert():
             for index in range(len(proxies_list)): # 不同节点订阅链接内容 https://github.com/hoochanlon/fq-book/blob/master/docs/append/srvurl.md
                 proxy = proxies_list[index]
                 
-                if proxy['type'] == 'vmess'  :# Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
+                if proxy['type'] == 'vmess' and '.' in proxy['ws-opts']['headers']['Host']  :# Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
 
                     yaml_default_config = {
                         'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0,
-                        'cipher': 'auto', 'network': '', 'ws-opts':{'path':proxy['path'], 'headers': {'Host': proxy['Host']}},
+                        'cipher': 'auto', 'network': '', 
                         'sni': ''
                     }
 
