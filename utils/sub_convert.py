@@ -669,8 +669,8 @@ class sub_convert():
                     vmess_value = {
                         'v': 2, 'ps': proxy_config['name'], 'add': proxy_config['server'],
                         'port': proxy_config['port'], 'id': proxy_config['uuid'], 'aid': proxy_config['alterId'],
-                        'scy': proxy_config['cipher'], 'net': proxy_config['network'], 'type': None, 'host': proxy_config['ws-opts']['headers']['Host'],
-                        'path': proxy_config['ws-opts']['path'], 'tls': proxy_config['tls'], 'sni': proxy_config['sni']
+                        'scy': proxy_config['cipher'], 'net': proxy_config['network'], 'type': None, 'host': proxy['ws-opts']['headers']['Host'],
+                        'path': proxy['ws-opts']['path'], 'tls': proxy_config['tls'], 'sni': proxy_config['sni']
                         }
 
                     vmess_raw_proxy = json.dumps(vmess_value, sort_keys=False, indent=2, ensure_ascii=False)
@@ -707,6 +707,7 @@ class sub_convert():
         except Exception as err:
             print(f'yaml decode 发生 {err} 错误')
             print(proxy_config)
+            print(proxy)
             return '订阅内容解析错误'
     def base64_decode(url_content): # Base64 转换为 URL 链接内容
         if '-' in url_content:
