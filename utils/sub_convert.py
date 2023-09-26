@@ -711,7 +711,7 @@ class sub_convert():
                         ssplugin=str(urllib.parse.quote(ssplugin))
                         ss_base64_decoded = str(proxy['cipher']) + ':' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port'])
                         ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
-                        ss_proxy = str('ss://' + ss_base64 +  '/?plugin=obfs-local%3B'+  ssplugin  +  '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
+                        ss_proxy = str('ss://' + ss_base64 +  '/?plugin=obfs-local%3B'+ ssplugin + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
                         
                     protocol_url.append(ss_proxy)
    
@@ -752,6 +752,7 @@ class sub_convert():
         except Exception as err:
             print(f'yaml decode 发生 {err} 错误')
             print(proxy)
+            pass
             #return '订阅内容解析错误'
     def base64_decode(url_content): # Base64 转换为 URL 链接内容
         if '-' in url_content:
