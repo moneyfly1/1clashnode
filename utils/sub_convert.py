@@ -477,7 +477,7 @@ class sub_convert():
                         url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 vmess 节点发生错误: {err}')
-                    print(vmess_config)
+                    #print(vmess_config)
                     pass
 
             if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'plugin' not in line:
@@ -692,7 +692,7 @@ class sub_convert():
                         ss_proxy = str('ss://' + ss_base64 + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
                         
                     elif proxy['plugin'] == 'obfs':
-                        print(proxy)
+                        #print(proxy)
                         ssplugin=str('obfs='+proxy['plugin-opts']['mode'] + ';' + 'obfs-host=' + proxy['plugin-opts']['host'])
                         ssplugin=str(urllib.parse.quote(ssplugin))
                         ss_base64_decoded = str(proxy['cipher']) + ':' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port'])
