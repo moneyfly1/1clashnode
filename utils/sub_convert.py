@@ -538,8 +538,8 @@ class sub_convert():
                     yaml_url.setdefault('type', 'ss')
                     yaml_url.setdefault('cipher', method_part)
                     yaml_url.setdefault('password', password_part)
-                    plugin_list=server_part_list[1].replace('?', '') #plugin=v2ray-plugin%3Bmode%3Dwebs
-                    print(plugin_list)
+                    #plugin_list=server_part_list[1].replace('?', '') #plugin=v2ray-plugin%3Bmode%3Dwebs
+                    #print(plugin_list)
                     plugin_list=urllib.parse.unquote(plugin_list)
                     print(plugin_list)
 
