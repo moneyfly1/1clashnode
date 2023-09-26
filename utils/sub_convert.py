@@ -558,11 +558,12 @@ class sub_convert():
                     if 'obfs' in plugin_list:
                         yaml_url.setdefault('plugin', 'obfs')
                         plugin_mode=plugin_list.split('obfs=', 1)
-                        plugin_mode=plugin_mode[1].split(';',1)
-                        print(plugin_mode)
+                        
+                        
                         plugin_mode=plugin_mode[0]
+                        print(plugin_mode)
                         plugin_host=plugin_list.split('obfs-host=', 1)
-                        plugin_host=plugin_mode[1].split(';',1)
+
                         plugin_host=plugin_mode[0]
                         print(plugin_host)
                         yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host , 'skip-cert-verify': 'true'})
