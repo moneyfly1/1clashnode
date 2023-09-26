@@ -552,8 +552,12 @@ class sub_convert():
                     #print(plugin_mode)
                     plugin_host=plugin_list.split('obfs-host=', 1)
                     #print(plugin_host)
-                    plugin_host=plugin_host[1].split(';', 1)
-                    plugin_host=plugin_host[0]
+                    if ';' in plugin_host[1]:
+                        plugin_host=plugin_host[1].split(';', 1)
+                        plugin_host=plugin_host[0]
+                    else:
+                        plugin_host=plugin_host[1]
+                    
                     #print(plugin_host)
 
 
