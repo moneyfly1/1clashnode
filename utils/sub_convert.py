@@ -510,7 +510,7 @@ class sub_convert():
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误1: {err}')
                     pass
-            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'plugin' in line:
+            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'obfs-local' in line:
                 if '#' not in line:
                     line = line + 'SS%20Node'
                 try:
@@ -539,46 +539,21 @@ class sub_convert():
                     print(plugin_list)
                     plugin_list=urllib.parse.unquote(plugin_list)
                     print(plugin_list)
-                    if 'v2ray' in plugin_list:
-                        yaml_url.setdefault('plugin', 'v2ray-plugin')
-                        plugin_mode=plugin_list.split('mode=', 1)
-                        plugin_mode=plugin_mode[1].split(';',1)
-                        plugin_mode=plugin_mode[0]
-                        print(plugin_mode)
-                        plugin_host=plugin_list.split('host=', 1)
-                        plugin_host=plugin_mode[1].split(';',1)
-                        plugin_host=plugin_mode[0]                        
-                        plugin_path=plugin_list.split('path=', 1)
-                        plugin_path=plugin_mode[1].split(';',1)
-                        plugin_path=plugin_mode[0]  
-                        if 'mux' in plugin_list:
-                            plugin_mux='true'
-                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host ,'path':plugin_path ,'mux':plugin_mux ,'tls': 'true', 'skip-cert-verify': 'true'})
 
                     if 'obfs' in plugin_list:
-                        yaml_url.setdefault('plugin', 'obfs')
-                        plugin_mode=plugin_list.split('obfs=', 1)
-                        print(plugin_mode)
-                        
-                        plugin_mode=plugin_mode[1].split(';', 1)
-                        plugin_mode=plugin_mode[0]
-                        
-                        print(plugin_mode)
-                        plugin_host=plugin_list.split('obfs-host=', 1)
-                        print(plugin_host)
-                        
-                        plugin_host=plugin_host[1].split(';', 1)
-                        plugin_host=plugin_host[0]
-                        
-                        
-                        print(plugin_host)
-                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host , 'skip-cert-verify': 'true'})
-
-                    
-                    
-                    
+                    yaml_url.setdefault('plugin', 'obfs')
+                    plugin_mode=plugin_list.split('obfs=', 1)
+                    print(plugin_mode)
+                    plugin_mode=plugin_mode[1].split(';', 1)
+                    plugin_mode=plugin_mode[0]
+                    print(plugin_mode)
+                    plugin_host=plugin_list.split('obfs-host=', 1)
+                    print(plugin_host)
+                    plugin_host=plugin_host[1].split(';', 1)
+                    plugin_host=plugin_host[0]
+                    print(plugin_host)
+                    yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host , 'skip-cert-verify': 'true'})
                     yaml_url.setdefault('udp', True)
-                        
                     url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误2: {err}')
