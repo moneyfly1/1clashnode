@@ -550,7 +550,7 @@ class sub_convert():
                         plugin_path=plugin_mode[0]  
                         if 'mux' in plugin_list:
                             plugin_mux='true'
-                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host ,'path':plugin_path ,'mux':plugin_mux ,'tls': true, 'skip-cert-verify': true})
+                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host ,'path':plugin_path ,'mux':plugin_mux ,'tls': 'true', 'skip-cert-verify': 'true'})
 
                     if 'obfs' in plugin_list:
                         yaml_url.setdefault('plugin', 'obfs')
@@ -565,7 +565,7 @@ class sub_convert():
 
                         if 'mux' in plugin_list:
                             plugin_mux='true'
-                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host , 'skip-cert-verify': true})
+                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host , 'skip-cert-verify': 'true'})
 
                     
                     
