@@ -553,7 +553,7 @@ class sub_convert():
                     print(plugin_mode)
                     plugin_mode=plugin_mode[0]
                     print(plugin_mode)
-                    plugin_list=plugin_list.replace(';','')
+                    plugin_list=plugin_list.replace(';|?','')
                     plugin_host=str(plugin_list.split('obfs-host=', 1))
                     print(plugin_host)
                     print(plugin_host[0])
