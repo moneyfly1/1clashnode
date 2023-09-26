@@ -700,12 +700,34 @@ class sub_convert():
                     vmess_proxy = str('vmess://' + sub_convert.base64_encode(vmess_raw_proxy) + '\n')
                     protocol_url.append(vmess_proxy)
 
-                elif proxy['type'] == 'ss': # SS 节点提取, 由 ss_base64_decoded 部分(参数: 'cipher', 'password', 'server', 'port') Base64 编码后 加 # 加注释(URL_encode) 
-                    ss_base64_decoded = str(proxy['cipher']) + ':' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port'])
-                    ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
-                    ss_proxy = str('ss://' + ss_base64 + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
+                elif proxy['type'] == 'ss' : # SS 节点提取, 由 ss_base64_decoded 部分(参数: 'cipher', 'password', 'server', 'port') Base64 编码后 加 # 加注释(URL_encode) 
+                    if 'plugin' not in proxy :
+                        ss_base64_decoded = str(proxy['cipher']) + ':' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port'])
+                        ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
+                        ss_proxy = str('ss://' + ss_base64 + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
+                        
+                    elif proxy['plugin'] == 'obfs':
+                        ssplugin=str('obfs='+proxy['plugin-opts'][mode]  +   ';'  +  'obfs-host='   +    proxy['plugin-opts'][host])
+                        ssplugin=str(urllib.parse.quote(ssplugin))
+                        ss_base64_decoded = str(proxy['cipher']) + ':' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port'])
+                        ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
+                        ss_proxy = str('ss://' + ss_base64 +  '/?plugin=obfs-local%3B'+  ssplugin  +  '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
+                        
                     protocol_url.append(ss_proxy)
+   
 
+
+
+
+
+
+
+
+
+
+
+
+                
                 elif proxy['type'] == 'trojan': # Trojan 节点提取, 由 trojan_proxy 中参数再加上 # 加注释(URL_encode) # trojan Go https://p4gefau1t.github.io/trojan-go/developer/url/
                     if 'tls' in proxy.keys() and 'network' in proxy.keys():
                         if proxy['tls'] == True and proxy['network'] != 'tcp':
