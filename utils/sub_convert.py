@@ -528,7 +528,7 @@ class sub_convert():
                     server_part_list = server_part_list[1].rsplit('@', 1)
                     password_part = server_part_list[0]
                     password_part = password_part.replace('"', '')
-                    server_part_list = server_part_list[1].split(':', 1)  server:port/?plugin=v2ray-plugin%3Bmode%3Dwebs
+                    server_part_list = server_part_list[1].split(':', 1)  # server:port/?plugin=v2ray-plugin%3Bmode%3Dwebs
                     yaml_url.setdefault('server', server_part_list[0])
                     server_part_list = server_part_list[1].split('/', 1)  port/?plugin=v2ray-plugin%3Bmode%3Dwebs 
                     yaml_url.setdefault('port', server_part_list[0])
