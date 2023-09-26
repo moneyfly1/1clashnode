@@ -552,7 +552,7 @@ class sub_convert():
                     plugin_host=plugin_host[1].split(';', 1)
                     plugin_host=plugin_host[0]
                     print(plugin_host)
-                    yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host , 'skip-cert-verify': 'true'})
+                    yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host , 'skip-cert-verify': True})
                     yaml_url.setdefault('udp', True)
                     url_list.append(yaml_url)
                 except Exception as err:
