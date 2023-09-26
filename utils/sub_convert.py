@@ -550,7 +550,7 @@ class sub_convert():
                         plugin_path=plugin_mode[0]  
                         if 'mux' in plugin_list:
                             plugin_mux='true'
-                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host ,'path':plugin_path ,'mux':plugin_mux ,'tls': True, 'skip-cert-verify': True})
+                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host ,'path':plugin_path ,'mux':plugin_mux ,'tls': 'true', 'skip-cert-verify': 'true'})
 
                     if 'obfs' in plugin_list:
                         yaml_url.setdefault('plugin', 'obfs')
@@ -562,10 +562,7 @@ class sub_convert():
                         plugin_host=plugin_mode[1].split(';',1)
                         plugin_host=plugin_mode[0]
                         print(plugin_host)
-
-                        if 'mux' in plugin_list:
-                            plugin_mux='true'
-                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host , 'skip-cert-verify': True})
+                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host , 'skip-cert-verify': 'true'})
 
                     
                     
@@ -575,6 +572,7 @@ class sub_convert():
                     url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误2: {err}')
+                    print(line)
                     pass
 
 
