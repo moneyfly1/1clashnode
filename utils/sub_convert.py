@@ -718,7 +718,7 @@ class sub_convert():
                         
                     elif proxy['plugin'] == 'obfs':
                         print(proxy)
-                        ssplugin=str('obfs='+proxy['plugin-opts'][mode] + ';' + 'obfs-host=' + proxy['plugin-opts'][host])
+                        ssplugin=str('obfs='+proxy['plugin-opts']['mode'] + ';' + 'obfs-host=' + proxy['plugin-opts'][host])
                         ssplugin=str(urllib.parse.quote(ssplugin))
                         ss_base64_decoded = str(proxy['cipher']) + ':' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port'])
                         ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
