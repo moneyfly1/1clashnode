@@ -536,22 +536,22 @@ class sub_convert():
                     yaml_url.setdefault('cipher', method_part)
                     yaml_url.setdefault('password', password_part)
                     plugin_list=server_part_list[1].replace('?', '') #plugin=v2ray-plugin%3Bmode%3Dwebs
-                    print(plugin_list)
+                    #print(plugin_list)
                     plugin_list=urllib.parse.unquote(plugin_list)
-                    print(plugin_list)
+                    #print(plugin_list)
 
 
                     yaml_url.setdefault('plugin', 'obfs')
                     plugin_mode=plugin_list.split('obfs=', 1)
-                    print(plugin_mode)
+                    #print(plugin_mode)
                     plugin_mode=plugin_mode[1].split(';', 1)
                     plugin_mode=plugin_mode[0]
-                    print(plugin_mode)
+                    #print(plugin_mode)
                     plugin_host=plugin_list.split('obfs-host=', 1)
-                    print(plugin_host)
+                    #print(plugin_host)
                     plugin_host=plugin_host[1].split(';', 1)
                     plugin_host=plugin_host[0]
-                    print(plugin_host)
+                    #print(plugin_host)
                     yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host , 'skip-cert-verify': True})
                     yaml_url.setdefault('udp', True)
                     url_list.append(yaml_url)
