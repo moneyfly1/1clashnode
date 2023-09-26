@@ -540,7 +540,7 @@ class sub_convert():
                     plugin_list=urllib.parse.unquote(plugin_list)
                     print(plugin_list)
 
-                    if 'obfs' in plugin_list:
+
                     yaml_url.setdefault('plugin', 'obfs')
                     plugin_mode=plugin_list.split('obfs=', 1)
                     print(plugin_mode)
