@@ -536,12 +536,15 @@ class sub_convert():
                     yaml_url.setdefault('cipher', method_part)
                     yaml_url.setdefault('password', password_part)
                     plugin_list=server_part_list[1].replace('?', '') #plugin=v2ray-plugin%3Bmode%3Dwebs
+                    print(plugin_list)
                     plugin_list=urllib.parse.unquote(plugin_list)
+                    print(plugin_list)
                     if 'v2ray' in plugin_list:
                         yaml_url.setdefault('plugin', 'v2ray-plugin')
                         plugin_mode=plugin_list.split('mode=', 1)
                         plugin_mode=plugin_mode[1].split(';',1)
                         plugin_mode=plugin_mode[0]
+                        print(plugin_mode)
                         plugin_host=plugin_list.split('host=', 1)
                         plugin_host=plugin_mode[1].split(';',1)
                         plugin_host=plugin_mode[0]                        
