@@ -541,7 +541,7 @@ class sub_convert():
                     #plugin_list=server_part_list[1].replace('?', '') #plugin=v2ray-plugin%3Bmode%3Dwebs
                     print(server_part_list[1])
                     plugin_list=urllib.parse.unquote(server_part_list[1])
-                    plugin_list=plugin_list.replace(';', '@')
+                    plugin_list=plugin_list.replace(';', '#')
                     print(plugin_list)
                     
 
@@ -549,7 +549,7 @@ class sub_convert():
                     yaml_url.setdefault('plugin', 'obfs')
                     plugin_mode=plugin_list.split('obfs=', 1)
                     print(plugin_mode)
-                    plugin_mode=plugin_mode[1].split('@', 1)
+                    plugin_mode=plugin_mode[1].split('#', 1)
                     print(plugin_mode)
                     plugin_mode=plugin_mode[0]
                     print(plugin_mode)
@@ -559,7 +559,7 @@ class sub_convert():
                     print(plugin_host[1])
                     plugin_host=plugin_host[1]
                     #if ';' in plugin_host:
-                    #    plugin_host=plugin_host.split('@', 1)
+                    #    plugin_host=plugin_host.split('#', 1)
                     #    plugin_host=str(plugin_host[0])
 
                     
