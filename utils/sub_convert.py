@@ -508,7 +508,7 @@ class sub_convert():
 
                     url_list.append(yaml_url)
                 except Exception as err:
-                    print(f'yaml_encode 解析 ss 节点发生错误: {err}')
+                    print(f'yaml_encode 解析 ss 节点发生错误1: {err}')
                     pass
             if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'plugin' in line:
                 if '#' not in line:
@@ -572,7 +572,7 @@ class sub_convert():
                         
                     url_list.append(yaml_url)
                 except Exception as err:
-                    print(f'yaml_encode 解析 ss 节点发生错误: {err}')
+                    print(f'yaml_encode 解析 ss 节点发生错误2: {err}')
                     pass
 
 
