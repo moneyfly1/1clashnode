@@ -510,49 +510,70 @@ class sub_convert():
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误: {err}')
                     pass
-            #if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'plugin' in line:
-            #    if '#' not in line:
-            #        line = line + '#SS%20Node'
-            #    try:
-            #        ss_content =  line.replace('ss://', '')
-            #        part_list = ss_content.split('#', 1) # https://www.runoob.com/python/att-string-split.html
-            #        yaml_url.setdefault('name', urllib.parse.unquote(part_list[1]))
-            #        if '@' in part_list[0]:
-            #            mix_part = part_list[0].split('@', 1)
-            #            method_part = sub_convert.base64_decode(mix_part[0])
-            #            server_part = f'{method_part}@{mix_part[1]}'
-            #        else:
-            #            server_part = sub_convert.base64_decode(part_list[0])
+            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'plugin' in line:
+                if '#' not in line:
+                    line = line + 'SS%20Node'
+                try:
+                    ss_content =  line.replace('ss://', '')
+                    part_list = ss_content.split('', 1)  https://www.runoob.com/python/att-string-split.html
+                    yaml_url.setdefault('name', urllib.parse.unquote(part_list[1]))
+                    if '@' in part_list[0]:
+                        mix_part = part_list[0].split('@', 1)
+                        method_part = sub_convert.base64_decode(mix_part[0])
+                        server_part = f'{method_part}@{mix_part[1]}'
+                    else:
+                        server_part = sub_convert.base64_decode(part_list[0])
+                    server_part_list = server_part.split(':', 1)  使用多个分隔符 https://blog.csdn.net/shidamowang/article/details/80254476 https://zhuanlan.zhihu.com/p/92287240
+                    method_part = server_part_list[0]
+                    server_part_list = server_part_list[1].rsplit('@', 1)
+                    password_part = server_part_list[0]
+                    password_part = password_part.replace('"', '')
+                    server_part_list = server_part_list[1].split(':', 1)  server:port/?plugin=v2ray-plugin%3Bmode%3Dwebs
+                    yaml_url.setdefault('server', server_part_list[0])
+                    server_part_list = server_part_list[1].split('/', 1)  port/?plugin=v2ray-plugin%3Bmode%3Dwebs 
+                    yaml_url.setdefault('port', server_part_list[0])
+                    yaml_url.setdefault('type', 'ss')
+                    yaml_url.setdefault('cipher', method_part)
+                    yaml_url.setdefault('password', password_part)
+                    plugin_list=server_part_list[1].replace('?', '') plugin=v2ray-plugin%3Bmode%3Dwebs
+                    plugin_list=urllib.parse.unquote(plugin_list)
+                    if 'v2ray' in plugin_list:
+                        yaml_url.setdefault('plugin', 'v2ray-plugin')
+                        plugin_mode=plugin_list.split('mode=', 1)
+                        plugin_mode=plugin_mode[1].split(';',1)
+                        plugin_mode=plugin_mode[0]
+                        plugin_host=plugin_list.split('host=', 1)
+                        plugin_host=plugin_mode[1].split(';',1)
+                        plugin_host=plugin_mode[0]                        
+                        plugin_path=plugin_list.split('path=', 1)
+                        plugin_path=plugin_mode[1].split(';',1)
+                        plugin_path=plugin_mode[0]  
+                        if 'mux' in plugin_list:
+                            plugin_mux='true'
+                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host ,'path':plugin_path ,'mux':plugin_mux ,tls: true, skip-cert-verify: true})
 
-            #        server_part_list = server_part.split(':', 1) # 使用多个分隔符 https://blog.csdn.net/shidamowang/article/details/80254476 https://zhuanlan.zhihu.com/p/92287240
-            #        method_part = server_part_list[0]
-            #        server_part_list = server_part_list[1].rsplit('@', 1)
-            #        password_part = server_part_list[0]
-            #        password_part = password_part.replace('"', '')
-            #        server_part_list = server_part_list[1].split(':', 1)
+                   if 'obfs' in plugin_list:
+                        yaml_url.setdefault('plugin', 'obfs')
+                       plugin_mode=plugin_list.split('obfs=', 1)
+                        plugin_mode=plugin_mode[1].split(';',1)
+                        plugin_mode=plugin_mode[0]
+                       plugin_host=plugin_list.split('obfs-host=', 1)
+                        plugin_host=plugin_mode[1].split(';',1)
+                        plugin_host=plugin_mode[0]                        
 
-             #       yaml_url.setdefault('server', server_part_list[0])
-             #       server_part_list = server_part_list[1].split('/', 1)
-             #       yaml_url.setdefault('port', server_part_list[0])
-              #      yaml_url.setdefault('type', 'ss')
-              #      yaml_url.setdefault('cipher', method_part)
-               #     yaml_url.setdefault('password', password_part)
+                        if 'mux' in plugin_list:
+                            plugin_mux='true'
+                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host , skip-cert-verify: true})
+
                     
-               #     url_list.append(yaml_url)
-               # except Exception as err:
-               #     print(f'yaml_encode 解析 ss 节点发生错误: {err}')
-               #     pass
-
-
-
-
-
-
-
-
-
-
-
+                    
+                    
+                    yaml_url.setdefault('udp', True)
+                        
+                    url_list.append(yaml_url)
+                except Exception as err:
+                    print(f'yaml_encode 解析 ss 节点发生错误: {err}')
+                    pass
 
 
 
