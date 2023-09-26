@@ -480,7 +480,7 @@ class sub_convert():
                     #print(vmess_config)
                     pass
 
-            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'plugin' not in line:
+            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'obfs' not in line:
                 if '#' not in line:
                     line = line + '#SS%20Node'
                 try:
