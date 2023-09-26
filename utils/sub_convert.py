@@ -551,7 +551,7 @@ class sub_convert():
                     print(plugin_mode)
                     plugin_mode=plugin_mode[0]
                     print(plugin_mode)
-                    plugin_host=str(plugin_list.split('obfs-host=', 1))
+                    plugin_host=str(plugin_list.split('host=', 1))
                     print(plugin_host)
                     print(plugin_host[0])
                     print(plugin_host[1])
