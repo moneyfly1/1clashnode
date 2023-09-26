@@ -523,6 +523,8 @@ class sub_convert():
                         server_part = f'{method_part}@{mix_part[1]}'
                     else:
                         server_part = sub_convert.base64_decode(part_list[0])
+
+                    
                     server_part_list = server_part.split(':', 1)  #使用多个分隔符 https://blog.csdn.net/shidamowang/article/details/80254476 https://zhuanlan.zhihu.com/p/92287240
                     method_part = server_part_list[0]
                     server_part_list = server_part_list[1].rsplit('@', 1)
@@ -552,8 +554,11 @@ class sub_convert():
                     plugin_host=plugin_host[1].split(';', 1)
                     plugin_host=plugin_host[0]
                     #print(plugin_host)
-                    yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host , 'skip-cert-verify': True})
-                    yaml_url.setdefault('udp', True)
+
+
+                    #yaml_url.setdefault('ws-opts',{'path':vmess_config['path'], 'headers': {'Host': vmess_config['host']}})
+                    yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host})
+                    yaml_url.setdefault('udp', true)
                     url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误2: {err}')
