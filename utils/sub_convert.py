@@ -696,7 +696,7 @@ class sub_convert():
 
                     yaml_default_config = {
                         'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0,
-                        'cipher': 'auto', 'network': '', 
+                        'cipher': 'auto', 'network': '', 'tls':'False',
                         'sni': ''
                     }
 
