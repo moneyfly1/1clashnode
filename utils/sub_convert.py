@@ -558,7 +558,7 @@ class sub_convert():
 
                     #yaml_url.setdefault('ws-opts',{'path':vmess_config['path'], 'headers': {'Host': vmess_config['host']}})
                     yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host})
-                    yaml_url.setdefault('udp', true)
+                    yaml_url.setdefault('udp', True)
                     url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误2: {err}')
