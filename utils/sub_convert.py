@@ -534,6 +534,7 @@ class sub_convert():
                     yaml_url.setdefault('server', server_part_list[0])
                     server_part_list = server_part_list[1].split('/', 1) # port/?plugin=v2ray-plugin%3Bmode%3Dwebs 
                     yaml_url.setdefault('port', server_part_list[0])
+                    print(server_part_list[0])
                     yaml_url.setdefault('type', 'ss')
                     yaml_url.setdefault('cipher', method_part)
                     yaml_url.setdefault('password', password_part)
@@ -558,7 +559,6 @@ class sub_convert():
 
                     #yaml_url.setdefault('ws-opts',{'path':vmess_config['path'], 'headers': {'Host': vmess_config['host']}})
                     yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host})
-                    yaml_url.setdefault('udp', True)
                     print(yaml_url)
                     url_list.append(yaml_url)
                     
