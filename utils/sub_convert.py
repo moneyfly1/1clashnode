@@ -550,13 +550,13 @@ class sub_convert():
                     plugin_mode=plugin_mode[1].split(';', 1)
                     plugin_mode=plugin_mode[0]
                     #print(plugin_mode)
-                    plugin_host=plugin_list.split('obfs-host=', 1)
+                    plugin_host=str(plugin_list.split('obfs-host=', 1))
                     #print(plugin_host)
                     if ';' in plugin_host[1]:
                         plugin_host=plugin_host[1].split(';', 1)
-                        plugin_host=plugin_host[0]
+                        plugin_host=str(plugin_host[0])
                     else:
-                        plugin_host=plugin_host[1]
+                        plugin_host=str(plugin_host[1])
                     
                     #print(plugin_host)
 
