@@ -531,6 +531,8 @@ class sub_convert():
                     password_part = server_part_list[0]
                     password_part = password_part.replace('"', '')
                     server_part_list = server_part_list[1].split(':', 1)  # server:port/?plugin=v2ray-plugin%3Bmode%3Dwebs
+
+                    
                     yaml_url.setdefault('server', server_part_list[0])
                     server_part_list = server_part_list[1].split('/', 1) # port/?plugin=v2ray-plugin%3Bmode%3Dwebs 
                     yaml_url.setdefault('port', server_part_list[0])
@@ -540,7 +542,7 @@ class sub_convert():
                     yaml_url.setdefault('password', password_part)
                     #plugin_list=server_part_list[1].replace('?', '') #plugin=v2ray-plugin%3Bmode%3Dwebs
                     print(server_part_list[1])
-                    plugin_list=str(urllib.parse.unquote(server_part_list[1])+;)
+                    plugin_list=str(urllib.parse.unquote(server_part_list[1])+';')
                     
                     print(plugin_list)
                     
