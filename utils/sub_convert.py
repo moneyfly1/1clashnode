@@ -476,7 +476,7 @@ class sub_convert():
                     #print(vmess_config)
                     pass
 
-            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'plugin' not in line:
+            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'lugin' not in line:
                 if '#' not in line:
                     line = line + '#SS%20Node'
                 try:
@@ -506,7 +506,7 @@ class sub_convert():
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误1: {err}')
                     pass
-            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'plugin' in line:
+            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'lugin' in line:
                 if '#' not in line:
                     line = line + 'SS%20Node'
                 try:
@@ -552,11 +552,16 @@ class sub_convert():
                         print(server_part_list[1])
                         plugin_list=str(urllib.parse.unquote(server_part_list[1])+';')
                         print(plugin_list)
+                        
                         plugin_mode=re.compile('mode=(.*?);').findall(plugin_list)[0]
                         print(plugin_mode)
                         plugin_host=re.compile('host=(.*?);').findall(plugin_list)[0]
+                        if plugin_host =='':
+                            plugin_host='None'
                         print(plugin_host)
                         plugin_path=re.compile('path=(.*?);').findall(plugin_list)[0]
+                        if plugin_path == '':
+                            plugin_path='None'
                         print(plugin_path)
                         
                         print(yaml_url)
@@ -707,10 +712,9 @@ class sub_convert():
                         ssplugin=str('obfs='+proxy['plugin-opts']['mode'] + ';' + 'obfs-host=' + proxy['plugin-opts']['host'])
                         #print(ssplugin)
                         ssplugin=str(urllib.parse.quote(ssplugin))
-                        ss_base64_decoded = str(str(proxy['cipher']) + ':' + str(proxy['password']))
-                        #ss_base64_decoded = str(proxy['cipher']) + ':' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port'])
+                        ss_base64_decoded = str(proxy['cipher'] + ':' + proxy['password'])
                         ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
-                        ss_base64 = str(ss_base64+ '@' + str(proxy['server']) + ':' + str(proxy['port']))
+                        ss_base64 = str(ss_base64+ '@' + proxy['server'] + ':' + proxy['port'])
                         ss_proxy = str('ss://' + ss_base64 +  '/?plugin=obfs-local%3B'+ ssplugin + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
                         #print(ss_proxy)
                     elif proxy['plugin'] == 'v2ray-plugin':
