@@ -545,8 +545,26 @@ class sub_convert():
                         print(plugin_host)
                         print(yaml_url)
                         yaml_url['plugin'] = yaml_url.pop("Plugin")
-                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host})
+                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host, 'tls': 'true', 'skip-cert-verify': 'true'})
+
+                    if 'v2ray-plugin' in line :
+                        yaml_url.setdefault('Plugin', 'v2ray-plugin')
+                        print(server_part_list[1])
+                        plugin_list=str(urllib.parse.unquote(server_part_list[1])+';')
+                        print(plugin_list)
+                        plugin_mode=re.compile('mode=(.*?);').findall(plugin_list)[0]
+                        print(plugin_mode)
+                        plugin_host=re.compile('host=(.*?);').findall(plugin_list)[0]
+                        print(plugin_host)
+                        plugin_path=re.compile('path=(.*?);').findall(plugin_list)[0]
+                        print(plugin_path)
+                        
+                        print(yaml_url)
+                        yaml_url['plugin'] = yaml_url.pop("Plugin")
+                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host, 'path':plugin_host, 'tls': 'true', 'mux': 'true', 'skip-cert-verify': 'true'})
+
                     
+                    yaml_url.setdefault('udp', 'true')
                     url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误2: {err}')
@@ -696,9 +714,17 @@ class sub_convert():
                         ss_proxy = str('ss://' + ss_base64 +  '/?plugin=obfs-local%3B'+ ssplugin + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
                         print(ss_proxy)
                     elif proxy['plugin'] == 'v2ray-plugin':
-                        ss_base64_decoded = str(str(proxy['cipher']) + ':' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port']))
+                        #print(proxy)
+                        ssplugin=str('mode='+proxy['plugin-opts']['mode'] + ';' + 'host=' + proxy['plugin-opts']['host']+ ';' + 'path=' + proxy['plugin-opts']['path']+';'+'tls;'+'mux=4;'+'mux=mux=4;')
+                        print(ssplugin)
+                        ssplugin=str(urllib.parse.quote(ssplugin))
+                        ss_base64_decoded = str(str(proxy['cipher']) + ':' + str(proxy['password']))
                         ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
-                        ss_proxy = str('ss://' + ss_base64 + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')                        
+                        ss_base64 = str(ss_base64+ '@' + str(proxy['server']) + ':' + str(proxy['port']))
+                        ss_proxy = str('ss://' + ss_base64 +  '/?plugin=v2ray-plugin%3B'+ ssplugin + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
+                        print(ss_proxy)
+
+                    
                     protocol_url.append(ss_proxy)
    
 
