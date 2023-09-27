@@ -39,9 +39,7 @@ class update_url():
                 elif id == 1:
                     status = update_url.update_id_1()
                     update_url.update_write(id, status[1], status[1])
-                elif id == 22:
-                    status = update_url.update_id_22()
-                    update_url.update_write(id, status[1], status[1])
+
 
             updated_list = json.dumps(raw_list, sort_keys=False, indent=2, ensure_ascii=False)
             file = open(sub_list_json, 'w', encoding='utf-8')
@@ -94,17 +92,7 @@ class update_url():
        
         return [1, 404]
 
-    def update_id_22(): # remarks: v2raydy/v2ray, 将原链接更新至 https://https://raw.githubusercontent.com/v2raydy/v2ray/main/%MM-%(DD - 1)%str%1.txt
-        yesterday = (datetime.today() + timedelta(-1)).strftime('%m-%d')# 得到当前日期前一天 https://blog.csdn.net/wanghuafengc/article/details/42458721
-        
-        front_url = 'https://raw.githubusercontent.com/v2raydy/v2ray/main/'
-        end_url = '1.txt'
-        for ch in 'abcdefghijklmnopqrstuvwxy':
-            url_update = front_url + yesterday + ch + end_url# 修改字符串中的某一位字符 https://www.zhihu.com/question/31800070/answer/53345749
-            if url_updated(url_update):
-                return [22, url_update]
-        else:
-            return [22, 404]
+
 
 if __name__ == '__main__':
     update_url.update_main([0,1,22])
