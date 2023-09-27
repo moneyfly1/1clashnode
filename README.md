@@ -35,21 +35,29 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1562`
+当前合并节点总数: `1937`
 - [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `103`
+- [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `81`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `32`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `62`
 - [6jkchen3](https://github.com/jkchen3), 节点数量: `95`
-- [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `0`
+- [7oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `25`
+- [9ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `1`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `34`
 - [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `1`
 - [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `129`
-- [19Flik6/getNode](https://github.com/Flik6/getNode), 节点数量: `307`
+- [19Flik6/getNode](https://github.com/Flik6/getNode), 节点数量: `312`
+- [20Lukeehujt/Clash_nod](https://github.com/Lukeehujt/Clash_node), 节点数量: `80`
 - [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `63`
 - [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `115`
 - [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `25`
+- [31hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `42`
+- [33itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `25`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `137`
-- [38peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `344`
+- [36hebe061103/clash](https://github.com/hebe061103/clash), 节点数量: `24`
+- [37anaer/Sub](https://github.com/anaer/Sub), 节点数量: `359`
+- [38peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `347`
+- [39w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `1`
 - [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `584`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
