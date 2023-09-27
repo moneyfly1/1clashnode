@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1627`
+当前合并节点总数: `1619`
 - [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `166`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `32`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `62`
@@ -47,10 +47,10 @@
 - [19Flik6/getNode](https://github.com/Flik6/getNode), 节点数量: `285`
 - [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `61`
 - [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `115`
-- [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `41`
+- [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `25`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `139`
 - [38peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `382`
-- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `486`
+- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `491`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
