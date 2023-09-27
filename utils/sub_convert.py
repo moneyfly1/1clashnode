@@ -541,7 +541,7 @@ class sub_convert():
                     yaml_url.setdefault('type', 'ss')
                     yaml_url.setdefault('cipher', method_part)
                     yaml_url.setdefault('password', password_part)
-                    #yaml_url.setdefault('Plugin', 'obfs')
+                    yaml_url.setdefault('Plugin', 'obfs')
                     
                     #plugin_list=server_part_list[1].replace('?', '') #plugin=v2ray-plugin%3Bmode%3Dwebs
                     print(server_part_list[1])
@@ -555,43 +555,21 @@ class sub_convert():
                     print(plugin_host)
 
 
-
-                    #plugin_mode=plugin_list.split('obfs=', 1)
-                    #print(plugin_mode)
-                    #plugin_mode=plugin_mode[1].split(';', 1)
-                    #print(plugin_mode)
-                    #plugin_mode=plugin_mode[0]
-                    #print(plugin_mode)
-                    
-                    #plugin_host=str(plugin_list.split('obfs-host=', 1))
-                    #print(plugin_host)
-                    #print(plugin_host[0])
-                    #print(plugin_host[1])
-                    #plugin_host=plugin_host[-1]
-                    #if ';' in plugin_host:
-                    #    plugin_host=plugin_host.split('#', 1)
-                    #    plugin_host=str(plugin_host[0])
-
-                    
-                    #print(plugin_host)
-
-
-                    #yaml_url.setdefault('ws-opts',{'path':vmess_config['path'], 'headers': {'Host': vmess_config['host']}})
-
-                    
-                    #yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host})
-                    plugindata=str("'obfs','plugin-opts':{'mode':'" +plugin_mode + "', 'host':'"+plugin_host+"'}")
-                    print(plugindata)
-                    yaml_url.setdefault('Plugin',plugindata)
-                    print(yaml_url)
                     
 
-                    #yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host})
-                    yaml_url=str(yaml_url)
-                    yaml_url=yaml_url.replace('"', '')
-                    yaml_url=eval(yaml_url)
+                    #plugindata=str("'obfs','plugin-opts':{'mode':'" +plugin_mode + "', 'host':'"+plugin_host+"'}")
+                    #print(plugindata)
+                    #yaml_url.setdefault('Plugin',plugindata)
                     print(yaml_url)
                     yaml_url['plugin'] = yaml_url.pop("Plugin")
+                    print(yaml_url)
+
+                    yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host})
+                    #yaml_url=str(yaml_url)
+                    #yaml_url=yaml_url.replace('"', '')
+                    #yaml_url=eval(yaml_url)
+                    #print(yaml_url)
+                    #yaml_url['plugin'] = yaml_url.pop("Plugin")
                     print(yaml_url)
                     url_list.append(yaml_url)
                     
@@ -731,14 +709,14 @@ class sub_convert():
                         ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
                         ss_proxy = str('ss://' + ss_base64 + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
                         
-                    elif proxy['Plugin'] == 'obfs':
+                    elif proxy['plugin'] == 'obfs':
                         #print(proxy)
                         ssplugin=str('obfs='+proxy['plugin-opts']['mode'] + ';' + 'obfs-host=' + proxy['plugin-opts']['host'])
                         ssplugin=str(urllib.parse.quote(ssplugin))
                         ss_base64_decoded = str(proxy['cipher']) + ':' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port'])
                         ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
                         ss_proxy = str('ss://' + ss_base64 +  '/?plugin=obfs-local%3B'+ ssplugin + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
-                    elif proxy['Plugin'] == 'v2ray-plugin':
+                    elif proxy['plugin'] == 'v2ray-plugin':
                         ss_base64_decoded = str(proxy['cipher']) + ':' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port'])
                         ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
                         ss_proxy = str('ss://' + ss_base64 + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')                        
