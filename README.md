@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1609`
+当前合并节点总数: `1697`
 - [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `137`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `32`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `62`
@@ -45,11 +45,11 @@
 - [14zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `37`
 - [16yaney01/Yaney01](https://github.com/yaney01/Yaney01), 节点数量: `129`
 - [19Flik6/getNode](https://github.com/Flik6/getNode), 节点数量: `342`
-- [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `61`
+- [23imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `63`
 - [24cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `115`
 - [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `25`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `139`
-- [38peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `382`
+- [38peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `344`
 - [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `584`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
