@@ -50,7 +50,7 @@
 - [29xrayfree](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `25`
 - [34rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `139`
 - [38peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `382`
-- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `491`
+- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `486`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
