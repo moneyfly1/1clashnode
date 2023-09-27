@@ -35,13 +35,13 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1407`
+当前合并节点总数: `1390`
 - [20xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `584`
 - [3cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `115`
 - [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `232`
 - [5mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `81`
 - [6rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `128`
-- [7Flik6/getNode](https://github.com/Flik6/getNode), 节点数量: `302`
+- [7Flik6/getNode](https://github.com/Flik6/getNode), 节点数量: `284`
 - [8ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `17`
 - [9zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `0`
 - [11jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `34`
