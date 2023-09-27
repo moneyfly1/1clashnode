@@ -37,7 +37,7 @@
 ### 鸣谢名单
 当前合并节点总数: `2150`
 - [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `130`
-- [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `81`
+- [020xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `584`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `32`
 - [4tolinkshare/freenode](https://github.com/tolinkshare/freenode), 节点数量: `62`
 - [6jkchen3](https://github.com/jkchen3), 节点数量: `95`
@@ -58,7 +58,7 @@
 - [37anaer/Sub](https://github.com/anaer/Sub), 节点数量: `383`
 - [38peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `347`
 - [39w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `228`
-- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `584`
+- [40mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `81`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
