@@ -540,7 +540,7 @@ class sub_convert():
                     yaml_url.setdefault('type', 'ss')
                     yaml_url.setdefault('cipher', method_part)
                     yaml_url.setdefault('password', password_part)
-                    yaml_url.setdefault('plugin', 'obfs')
+                    #yaml_url.setdefault('plugin', 'obfs')
                     
                     #plugin_list=server_part_list[1].replace('?', '') #plugin=v2ray-plugin%3Bmode%3Dwebs
                     print(server_part_list[1])
