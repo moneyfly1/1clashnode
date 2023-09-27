@@ -514,7 +514,7 @@ class sub_convert():
                 if '#' not in line:
                     line = line + 'SS%20Node'
                 try:
-                    yaml_url = {'name': '', 'server': '', 'port': '', 'type': '', 'cipher': '', 'password': '', 'plugin': '', 'plugin-opts': {'mode': '', 'host': ''}}
+                    #yaml_url = {'name': '', 'server': '', 'port': '', 'type': '', 'cipher': '', 'password': '', 'plugin': '', 'plugin-opts': {'mode': '', 'host': ''}}
                     ss_content =  line.replace('ss://', '')
                     part_list = ss_content.split('#', 1)  #https://www.runoob.com/python/att-string-split.html
                     yaml_url.setdefault('name', urllib.parse.unquote(part_list[1]))
@@ -586,8 +586,9 @@ class sub_convert():
                     pluginmode='obfs'
                     yaml_url.setdefault('plugin', pluginmode)
                     yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host})
-                    
-                    #yaml_url=yaml_url.rereplace('"', '')
+                    yaml_url=str(yaml_url)
+                    yaml_url=yaml_url.rereplace('"', '')
+                    yaml_url=eval(yaml_url)
                     print(yaml_url)
                     url_list.append(yaml_url)
                     
