@@ -224,7 +224,7 @@ class sub_convert():
                         else:
                             line_fix_list.append(line)
 
-                    sub_content = '\n'.join(line_fix_list).replace('False', 'false').replace('True', 'true').replace('host','Host').replace('Path','path')
+                    sub_content = '\n'.join(line_fix_list).replace('False', 'false').replace('True', 'true').replace('Host','host').replace('Path','path').replace('HOST','host').replace('PATH','path')
 
                     if output == False:
                         sub_content_yaml = yaml.safe_load(sub_content)
@@ -236,10 +236,16 @@ class sub_convert():
             if output == False:
                 for item in sub_content_yaml['proxies']:# 对转换过程中出现的不标准配置格式转换
                     try:
+                        if item['type'] == 'vmess' and 'Host' in item['ws-opts']['headers']:
+                            item['ws-opts']['headers']['host'] = item['ws-opts']['headers'].pop("Host")
                         if item['type'] == 'vmess' and 'HOST' in item['ws-opts']['headers']:
-                            item['ws-opts']['headers']['Host'] = item['ws-opts']['headers'].pop("HOST")
-                        if item['type'] == 'vmess' and 'host' in item['ws-opts']['headers']:
-                            item['ws-opts']['headers']['Host'] = item['ws-opts']['headers'].pop("host")                        
+                            item['ws-opts']['headers']['host'] = item['ws-opts']['headers'].pop("HOST")   
+                        if item['type'] == 'ss' and 'HOST' in item['plugin-opts']:
+                            item['plugin-opts']['host'] = item['plugin-opts'].pop("HOST")
+                        if item['type'] == 'ss' and 'Host' in item['ws-opts']['headers']:
+                            item['plugin-opts']['host'] = item['plugin-opts'].pop("Host")  
+
+                    
                     except KeyError:
                         if '.' not in item['server']:
                             sub_content_yaml['proxies'].remove(item)
@@ -461,7 +467,7 @@ class sub_convert():
                             yaml_url.setdefault('tls', False)
                         #print(vmess_json_config['path'])
                         #print(vmess_json_config['host'])
-                        yaml_url.setdefault('ws-opts',{'path':vmess_config['path'], 'headers': {'Host': vmess_config['host']}})
+                        yaml_url.setdefault('ws-opts',{'path':vmess_config['path'], 'headers': {'host': vmess_config['host']}})
                         yaml_url.setdefault('udp', True)
 
                         #if vmess_config['path'] == '' or vmess_config['path'] is False or vmess_config['path'] is None:
@@ -469,9 +475,9 @@ class sub_convert():
                         #else:
                         #    yaml_url.setdefault('ws-path', vmess_config['path'])
                         #if vmess_config['host'] == '':
-                        #    yaml_url.setdefault('ws-headers', {'Host': vmess_config['add']})
+                        #    yaml_url.setdefault('ws-headers', {'host': vmess_config['add']})
                         #else:
-                        #    yaml_url.setdefault('ws-headers', {'Host': vmess_config['host']})
+                        #    yaml_url.setdefault('ws-headers', {'host': vmess_config['host']})
 
 
                         url_list.append(yaml_url)
@@ -681,7 +687,7 @@ class sub_convert():
             for index in range(len(proxies_list)): # 不同节点订阅链接内容 https://github.com/hoochanlon/fq-book/blob/master/docs/append/srvurl.md
                 proxy = proxies_list[index]
                 
-                if proxy['type'] == 'vmess' and 'ws-opts' in proxy and 'headers' in proxy['ws-opts'] and 'Host' in proxy['ws-opts']['headers'] and 'path' in proxy['ws-opts']: # Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
+                if proxy['type'] == 'vmess' and 'ws-opts' in proxy and 'headers' in proxy['ws-opts'] and 'host' in proxy['ws-opts']['headers'] and 'path' in proxy['ws-opts']: # Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
 
                     yaml_default_config = {
                         'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0,
@@ -695,7 +701,7 @@ class sub_convert():
                     vmess_value = {
                         'v': 2, 'ps': proxy_config['name'], 'add': proxy_config['server'],
                         'port': proxy_config['port'], 'id': proxy_config['uuid'], 'aid': proxy_config['alterId'],
-                        'scy': proxy_config['cipher'], 'net': proxy_config['network'], 'type': None, 'host': proxy['ws-opts']['headers']['Host'],
+                        'scy': proxy_config['cipher'], 'net': proxy_config['network'], 'type': None, 'host': proxy['ws-opts']['headers']['host'],
                         'path': proxy['ws-opts']['path'], 'tls': proxy_config['tls'], 'sni': proxy_config['sni']
                         }
 
@@ -711,7 +717,7 @@ class sub_convert():
                         
                     elif proxy['plugin'] == 'obfs':
                         #print(proxy)
-                        ssplugin=str('obfs='+proxy['plugin-opts']['mode'] + ';' + 'obfs-host=' + proxy['plugin-opts']['Host'])
+                        ssplugin=str('obfs='+proxy['plugin-opts']['mode'] + ';' + 'obfs-host=' + proxy['plugin-opts']['host'])
                         print(ssplugin)
                         ssplugin=str(urllib.parse.quote(ssplugin))
                         ss_base64_decoded = str(str(proxy['cipher']) + ':' + str(proxy['password']))
