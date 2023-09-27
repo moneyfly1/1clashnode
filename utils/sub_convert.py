@@ -534,7 +534,7 @@ class sub_convert():
                     yaml_url.setdefault('password', password_part)
 
 
-                    if 'obfs-local' in line
+                    if 'obfs-local' in line :
                         yaml_url.setdefault('Plugin', 'obfs')
                         print(server_part_list[1])
                         plugin_list=str(urllib.parse.unquote(server_part_list[1])+';')
