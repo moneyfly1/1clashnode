@@ -536,14 +536,14 @@ class sub_convert():
 
                     if 'obfs-local' in line :
                         yaml_url.setdefault('Plugin', 'obfs')
-                        print(server_part_list[1])
+                        #print(server_part_list[1])
                         plugin_list=str(urllib.parse.unquote(server_part_list[1])+';')
-                        print(plugin_list)
+                        #print(plugin_list)
                         plugin_mode=re.compile('obfs=(.*?);').findall(plugin_list)[0]
-                        print(plugin_mode)
+                        #print(plugin_mode)
                         plugin_host=re.compile('obfs-host=(.*?);').findall(plugin_list)[0]
-                        print(plugin_host)
-                        print(yaml_url)
+                        #print(plugin_host)
+                        #print(yaml_url)
                         yaml_url['plugin'] = yaml_url.pop("Plugin")
                         yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host, 'tls': 'true', 'skip-cert-verify': 'true'})
 
