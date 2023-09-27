@@ -561,7 +561,7 @@ class sub_convert():
                         
                         print(yaml_url)
                         yaml_url['plugin'] = yaml_url.pop("Plugin")
-                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host, 'path':plugin_host, 'tls': 'true', 'mux': 'true', 'skip-cert-verify': 'true'})
+                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host, 'path':plugin_path, 'tls': 'true', 'mux': 'true', 'skip-cert-verify': 'true'})
 
                     
                     yaml_url.setdefault('udp', 'true')
