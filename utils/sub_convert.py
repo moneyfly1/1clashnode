@@ -709,17 +709,17 @@ class sub_convert():
                         
                     elif proxy['plugin'] == 'obfs':
                         #print(proxy)
-                        ssplugin=str('obfs='+proxy['plugin-opts']['mode'] + ';' + 'obfs-host=' + proxy['plugin-opts']['host'])
+                        ssplugin=str('obfs='+str(proxy['plugin-opts']['mode']) + ';' + 'obfs-host=' + str(proxy['plugin-opts']['host']))
                         #print(ssplugin)
                         ssplugin=str(urllib.parse.quote(ssplugin))
-                        ss_base64_decoded = str(proxy['cipher'] + ':' + proxy['password'])
+                        ss_base64_decoded = str(str(proxy['cipher']) + ':' + str(proxy['password']))
                         ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
-                        ss_base64 = str(ss_base64+ '@' + proxy['server'] + ':' + proxy['port'])
+                        ss_base64 = str(ss_base64+ '@' + str(proxy['server']) + ':' + str(proxy['port']))
                         ss_proxy = str('ss://' + ss_base64 +  '/?plugin=obfs-local%3B'+ ssplugin + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
                         #print(ss_proxy)
                     elif proxy['plugin'] == 'v2ray-plugin':
                         #print(proxy)
-                        ssplugin=str('mode='+proxy['plugin-opts']['mode'] + ';' + 'host=' + proxy['plugin-opts']['host']+ ';' + 'path=' + proxy['plugin-opts']['path']+';'+'tls;'+'mux=4;'+'mux=mux=4;')
+                        ssplugin=str('mode='+str(proxy['plugin-opts']['mode']) + ';' + 'host=' + str(proxy['plugin-opts']['host'])+ ';' + 'path=' + str(proxy['plugin-opts']['path'])+';'+'tls;'+'mux=4;'+'mux=mux=4;')
                         print(ssplugin)
                         ssplugin=str(urllib.parse.quote(ssplugin))
                         ss_base64_decoded = str(str(proxy['cipher']) + ':' + str(proxy['password']))
