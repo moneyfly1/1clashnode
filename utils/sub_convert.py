@@ -546,9 +546,9 @@ class sub_convert():
                     
                     print(plugin_list)
 
-                    plugin_mode=re.compile('obfs=(.*?);').findall(plugin_list)
+                    plugin_mode=re.compile('obfs=(.*?);').findall(plugin_list)[0]
                     print(plugin_mode)
-                    plugin_host=re.compile('obfs-host=(.*?);').findall(plugin_list)
+                    plugin_host=re.compile('obfs-host=(.*?);').findall(plugin_list)[0]
                     print(plugin_host)
 
 
