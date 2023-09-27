@@ -465,19 +465,9 @@ class sub_convert():
                             yaml_url.setdefault('tls', True)
                         else:
                             yaml_url.setdefault('tls', False)
-                        #print(vmess_json_config['path'])
-                        #print(vmess_json_config['host'])
+
                         yaml_url.setdefault('ws-opts',{'path':vmess_config['path'], 'headers': {'host': vmess_config['host']}})
                         yaml_url.setdefault('udp', True)
-
-                        #if vmess_config['path'] == '' or vmess_config['path'] is False or vmess_config['path'] is None:
-                        #    yaml_url.setdefault('ws-path', '/')
-                        #else:
-                        #    yaml_url.setdefault('ws-path', vmess_config['path'])
-                        #if vmess_config['host'] == '':
-                        #    yaml_url.setdefault('ws-headers', {'host': vmess_config['add']})
-                        #else:
-                        #    yaml_url.setdefault('ws-headers', {'host': vmess_config['host']})
 
 
                         url_list.append(yaml_url)
@@ -516,11 +506,10 @@ class sub_convert():
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误1: {err}')
                     pass
-            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'obfs-local' in line:
+            if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'plugin' in line:
                 if '#' not in line:
                     line = line + 'SS%20Node'
                 try:
-                    #yaml_url = {'name': '', 'server': '', 'port': '', 'type': '', 'cipher': '', 'password': '', 'plugin': '', 'plugin-opts': {'mode': '', 'host': ''}}
                     ss_content =  line.replace('ss://', '')
                     part_list = ss_content.split('#', 1)  #https://www.runoob.com/python/att-string-split.html
                     yaml_url.setdefault('name', urllib.parse.unquote(part_list[1]))
@@ -530,16 +519,12 @@ class sub_convert():
                         server_part = f'{method_part}@{mix_part[1]}'
                     else:
                         server_part = sub_convert.base64_decode(part_list[0])
-
-                    
                     server_part_list = server_part.split(':', 1)  #使用多个分隔符 https://blog.csdn.net/shidamowang/article/details/80254476 https://zhuanlan.zhihu.com/p/92287240
                     method_part = server_part_list[0]
                     server_part_list = server_part_list[1].rsplit('@', 1)
                     password_part = server_part_list[0]
                     password_part = password_part.replace('"', '')
-                    server_part_list = server_part_list[1].split(':', 1)  # server:port/?plugin=v2ray-plugin%3Bmode%3Dwebs
-
-                    
+                    server_part_list = server_part_list[1].split(':', 1)  # server:port/?plugin=v2ray-plugin%3Bmode%3Dwebs       
                     yaml_url.setdefault('server', server_part_list[0])
                     server_part_list = server_part_list[1].split('/', 1) # port/?plugin=v2ray-plugin%3Bmode%3Dwebs 
                     yaml_url.setdefault('port', server_part_list[0])
@@ -547,38 +532,22 @@ class sub_convert():
                     yaml_url.setdefault('type', 'ss')
                     yaml_url.setdefault('cipher', method_part)
                     yaml_url.setdefault('password', password_part)
-                    yaml_url.setdefault('Plugin', 'obfs')
+
+
+                    if 'obfs-local' in line
+                        yaml_url.setdefault('Plugin', 'obfs')
+                        print(server_part_list[1])
+                        plugin_list=str(urllib.parse.unquote(server_part_list[1])+';')
+                        print(plugin_list)
+                        plugin_mode=re.compile('obfs=(.*?);').findall(plugin_list)[0]
+                        print(plugin_mode)
+                        plugin_host=re.compile('obfs-host=(.*?);').findall(plugin_list)[0]
+                        print(plugin_host)
+                        print(yaml_url)
+                        yaml_url['plugin'] = yaml_url.pop("Plugin")
+                        yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host})
                     
-                    #plugin_list=server_part_list[1].replace('?', '') #plugin=v2ray-plugin%3Bmode%3Dwebs
-                    print(server_part_list[1])
-                    plugin_list=str(urllib.parse.unquote(server_part_list[1])+';')
-                    
-                    print(plugin_list)
-
-                    plugin_mode=re.compile('obfs=(.*?);').findall(plugin_list)[0]
-                    print(plugin_mode)
-                    plugin_host=re.compile('obfs-host=(.*?);').findall(plugin_list)[0]
-                    print(plugin_host)
-
-
-                    
-
-                    #plugindata=str("'obfs','plugin-opts':{'mode':'" +plugin_mode + "', 'host':'"+plugin_host+"'}")
-                    #print(plugindata)
-                    #yaml_url.setdefault('Plugin',plugindata)
-                    print(yaml_url)
-                    yaml_url['plugin'] = yaml_url.pop("Plugin")
-                    print(yaml_url)
-
-                    yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host})
-                    #yaml_url=str(yaml_url)
-                    #yaml_url=yaml_url.replace('"', '')
-                    #yaml_url=eval(yaml_url)
-                    #print(yaml_url)
-                    #yaml_url['plugin'] = yaml_url.pop("Plugin")
-                    print(yaml_url)
                     url_list.append(yaml_url)
-                    
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误2: {err}')
                     #print(line)
