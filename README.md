@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1937`
+当前合并节点总数: `1970`
 - [1snakem982/proxypool](https://github.com/snakem982/proxypool), 节点数量: `103`
 - [2mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `81`
 - [3YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `32`
