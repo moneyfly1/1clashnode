@@ -579,7 +579,7 @@ class sub_convert():
 
                     
                     #yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host})
-                    plugindata=str("'obfs','plugin-opts':{'mode':" +plugin_mode + ", 'host':"plugin_host+"}")
+                    plugindata=str("'obfs','plugin-opts':{'mode':" +plugin_mode + ", 'host':"+plugin_host+"}")
                     print(plugindata)
                     yaml_url.setdefault('plugin',plugindata)
                     #yaml_url.setdefault('plugin', 'obfs','plugin-opts':{'mode':plugin_mode, 'host':plugin_host})
