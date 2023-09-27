@@ -704,19 +704,19 @@ class sub_convert():
                     protocol_url.append(vmess_proxy)
 
                 elif proxy['type'] == 'ss' : # SS 节点提取, 由 ss_base64_decoded 部分(参数: 'cipher', 'password', 'server', 'port') Base64 编码后 加 # 加注释(URL_encode) 
-                    if 'plugin' not in proxy :
+                    if 'Plugin' not in proxy :
                         ss_base64_decoded = str(proxy['cipher']) + ':' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port'])
                         ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
                         ss_proxy = str('ss://' + ss_base64 + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
                         
-                    elif proxy['Plugin'] == 'obfs':
+                    elif proxy['plugin'] == 'obfs':
                         #print(proxy)
                         ssplugin=str('obfs='+proxy['plugin-opts']['mode'] + ';' + 'obfs-host=' + proxy['plugin-opts']['host'])
                         ssplugin=str(urllib.parse.quote(ssplugin))
                         ss_base64_decoded = str(proxy['cipher']) + ':' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port'])
                         ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
                         ss_proxy = str('ss://' + ss_base64 +  '/?plugin=obfs-local%3B'+ ssplugin + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
-                    elif proxy['Plugin'] == 'v2ray-plugin':
+                    elif proxy['plugin'] == 'v2ray-plugin':
                         ss_base64_decoded = str(proxy['cipher']) + ':' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port'])
                         ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
                         ss_proxy = str('ss://' + ss_base64 + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')                        
