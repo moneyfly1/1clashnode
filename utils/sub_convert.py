@@ -514,6 +514,7 @@ class sub_convert():
                 if '#' not in line:
                     line = line + 'SS%20Node'
                 try:
+                    yaml_url = {}
                     ss_content =  line.replace('ss://', '')
                     part_list = ss_content.split('#', 1)  #https://www.runoob.com/python/att-string-split.html
                     yaml_url.setdefault('name', urllib.parse.unquote(part_list[1]))
