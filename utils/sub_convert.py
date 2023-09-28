@@ -397,10 +397,7 @@ class sub_convert():
                 
                 #print(idid)
                 proxyname=re.findall(r'^..',proxyname)[0]
-                if isdigit(proxyname) :
-                    proxyname=str(proxyname)
-                else:
-                    proxyname='00-'
+ 
                 
                 if idid != '':
                     if re.findall(r'\d\d',idid)[0] == '99' :
