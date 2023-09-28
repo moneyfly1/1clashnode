@@ -395,6 +395,7 @@ class sub_convert():
                 proxy_index = proxies_list.index(proxy)
                 proxyname= proxy['name']
                 print(proxyname)
+                print(idid)
                 proxyname=re.findall(r'^..',proxyname)[0]
                 if idid != '':
                     if re.findall(r'\d\d',idid)[0] == '99' :
