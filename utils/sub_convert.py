@@ -402,12 +402,13 @@ class sub_convert():
                         idid = ''
                     else :
                         idid = re.findall(r'\d\d',idid)[0] 
+                        proxyid=str(idid)
                 if len(proxies_list) >=1000:
-                    proxy['name'] = f'{idid}-{country_code}-{proxy_index:0>4d}'
+                    proxy['name'] = f'{proxyid}-{country_code}-{proxy_index:0>4d}'
                 elif len(proxies_list) <= 999 and len(proxies_list) > 99:
-                    proxy['name'] = idid + f'{idid}-{country_code}-{proxy_index:0>3d}'
+                    proxy['name'] = idid + f'{proxyid}-{country_code}-{proxy_index:0>3d}'
                 elif len(proxies_list) <= 99:
-                    proxy['name'] = idid + f'{idid}-{country_code}-{proxy_index:0>2d}'
+                    proxy['name'] = idid + f'{proxyid}-{country_code}-{proxy_index:0>2d}'
                 
                 if proxy['server'] != '127.0.0.1':
                     proxy_str = str(proxy)
