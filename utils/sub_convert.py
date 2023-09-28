@@ -77,8 +77,8 @@ class sub_convert():
                     print (idid)
                     resp = s.get(raw_input, timeout=5)
                     sub_content = sub_convert.transfer(resp.content.decode('utf-8'))
-                    if idid == '99' :
-                        idid = ''
+                    #if idid == '99' :
+                    #    idid = ''
                 except Exception as err:
                     print(err)
                     return 'Url 解析错误'
@@ -100,7 +100,7 @@ class sub_convert():
                 return '订阅内容解析错误'
         else:
             return '订阅内容解析错误'
-        idid = ''
+        #idid = ''
     def transfer(sub_content): # 将 URL 内容转换为 YAML 格式
         if '</b>' not in sub_content:
             if 'proxies:' in sub_content: # 判断字符串是否在文本中，是，判断为YAML。https://cloud.tencent.com/developer/article/1699719
@@ -397,11 +397,11 @@ class sub_convert():
                 #print(proxyname)
                 #print(idid)
                 #proxyname=re.findall(r'^..',proxyname)[0]
-                if idid != '':
-                    if re.findall(r'\d\d',idid)[0] == '99' :
-                        idid = ''
-                    else :
-                        idid = re.findall(r'\d\d',idid)[0] + '-'
+                #if idid != '':
+                #    if re.findall(r'\d\d',idid)[0] == '99' :
+                #        idid = ''
+                #    else :
+                idid = re.findall(r'\d\d',idid)[0] + '-'
                         
                         
                 if len(proxies_list) >=1000:
