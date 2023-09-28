@@ -738,10 +738,8 @@ class sub_convert():
                         ss_base64 = str(ss_base64+ '@' + str(proxy['server']) + ':' + str(proxy['port']))
                         ss_proxy = str('ss://' + ss_base64 +  '/?plugin=obfs-local%3B'+ ssplugin + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
                         #print(ss_proxy)
-                    elif proxy['plugin'] == 'v2ray-plugin'and  proxy['plugin-opts']['host']!='' and proxy['plugin-opts']['path']!='':
+                    elif proxy['plugin'] == 'v2ray-plugin':
                         #print(proxy)
-                        
-                            
                         ssplugin=str('mode='+str(proxy['plugin-opts']['mode']) + ';' + 'host=' + str(proxy['plugin-opts']['host'])+ ';' + 'path=' + str(proxy['plugin-opts']['path'])+';'+'tls;'+'mux=4;'+'mux=mux=4;')
                         #print(ssplugin)
                         ssplugin=str(urllib.parse.quote(ssplugin))
@@ -774,8 +772,6 @@ class sub_convert():
                             trojan_go = f'?security=tls&type={network_type}&headerType=none'
                         elif proxy['tls'] == False and proxy['network'] != 'tcp':
                             trojan_go = f'??allowInsecure=0&type={network_type}&headerType=none'
-                        else:
-                            trojan_go = '?allowInsecure=1'
                     else:
                         trojan_go = '?allowInsecure=1'
                     if 'sni' in proxy.keys():
