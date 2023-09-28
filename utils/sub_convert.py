@@ -77,8 +77,8 @@ class sub_convert():
                     print (idid)
                     resp = s.get(raw_input, timeout=5)
                     sub_content = sub_convert.transfer(resp.content.decode('utf-8'))
-                    #if idid == '99' :
-                    #    idid = ''
+                    if idid == '99' :
+                        idid = ''
                 except Exception as err:
                     print(err)
                     return 'Url 解析错误'
@@ -393,24 +393,29 @@ class sub_convert():
                     name_emoji = emoji['NOWHERE']
 
                 proxy_index = proxies_list.index(proxy)
-                #proxyname= proxy['name']
-                #print(proxyname)
+                proxyname= proxy['name']
+                
                 #print(idid)
-                #proxyname=re.findall(r'^..',proxyname)[0]
-                #if idid != '':
-                #    if re.findall(r'\d\d',idid)[0] == '99' :
-                #        idid = ''
-                #    else :
-                idid = re.findall(r'\d\d',idid)[0] + '-'
+                proxyname=re.findall(r'^..',proxyname)[0]
+                if isdigit(proxyname) :
+                    proxyname=str(proxyname)
+                else:
+                    proxyname='00-'
+                
+                if idid != '':
+                    if re.findall(r'\d\d',idid)[0] == '99' :
+                        idid = ''
+                    else :
+                        idid = re.findall(r'\d\d',idid)[0] + '-'
                         
                         
                 if len(proxies_list) >=1000:
-                    print(idid)
-                    proxy['name'] = str(idid) + f'{country_code}-{proxy_index:0>4d}'
+                    
+                    proxy['name'] = f'{proxyname}-{proxy_index:0>4d}-{country_code}'
                 elif len(proxies_list) <= 999 and len(proxies_list) > 99:
-                    proxy['name'] = str(idid) + f'{country_code}-{proxy_index:0>3d}'
+                    proxy['name'] = f'{proxyname}-{proxy_index:0>3d}-{country_code}'
                 elif len(proxies_list) <= 99:
-                    proxy['name'] = str(idid) + f'{country_code}-{proxy_index:0>2d}'
+                    proxy['name'] = f'{proxyname}-{proxy_index:0>2d}-{country_code}'
                 
                 if proxy['server'] != '127.0.0.1':
                     proxy_str = str(proxy)
