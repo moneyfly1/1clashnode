@@ -772,6 +772,8 @@ class sub_convert():
                             trojan_go = f'?security=tls&type={network_type}&headerType=none'
                         elif proxy['tls'] == False and proxy['network'] != 'tcp':
                             trojan_go = f'??allowInsecure=0&type={network_type}&headerType=none'
+                        else:
+                            trojan_go = '?allowInsecure=1'
                     else:
                         trojan_go = '?allowInsecure=1'
                     if 'sni' in proxy.keys():
