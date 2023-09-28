@@ -468,9 +468,12 @@ class sub_convert():
 
                         yaml_url.setdefault('ws-opts',{'path':vmess_config['path'], 'headers': {'host': vmess_config['host']}})
                         yaml_url.setdefault('udp', True)
-
+                        yaml_url=str(yaml_url)
+                        yaml_url=yaml_url.replace('"',''')
+                        yaml_rul=eval(yaml_url)
 
                         url_list.append(yaml_url)
+                        
                 except Exception as err:
                     print(f'yaml_encode 解析 vmess 节点发生错误: {err}')
                     #print(vmess_config)
@@ -570,6 +573,9 @@ class sub_convert():
 
                     
                     yaml_url.setdefault('udp', 'true')
+                    yaml_url=str(yaml_url)
+                    yaml_url=yaml_url.replace('"',''')
+                    yaml_rul=eval(yaml_url)
                     url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误2: {err}')
@@ -647,6 +653,9 @@ class sub_convert():
 
                     yaml_url.setdefault('skip-cert-verify', True)
                     yaml_url.setdefault('udp', True)
+                    yaml_url=str(yaml_url)
+                    yaml_url=yaml_url.replace('"',''')
+                    yaml_rul=eval(yaml_url)
                     url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 trojan 节点发生错误: {err}')
@@ -678,6 +687,9 @@ class sub_convert():
             protocol_url = []
             for index in range(len(proxies_list)): # 不同节点订阅链接内容 https://github.com/hoochanlon/fq-book/blob/master/docs/append/srvurl.md
                 proxy = proxies_list[index]
+                proxy=str(proxy)
+                proxy=proxy.replace('"',''')
+                proxy=eval(proxy)
                 
                 if proxy['type'] == 'vmess' and 'ws-opts' in proxy and 'headers' in proxy['ws-opts'] and 'host' in proxy['ws-opts']['headers'] and 'path' in proxy['ws-opts']: # Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
 
