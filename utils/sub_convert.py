@@ -411,9 +411,9 @@ class sub_convert():
                         
                 if len(proxies_list) >=1000:
                     
-                    proxy['name'] =f'{proxy_index:0>4d}-{country_code}-{proxyname}'
+                    proxy['name'] =f'{proxyname}-{proxy_index:0>4d}-{country_code}'
                 elif len(proxies_list) <= 999:
-                    proxy['name'] =f'{proxy_index:0>3d}-{country_code}-{proxyname}'
+                    proxy['name'] =f'{proxyname}-{proxy_index:0>3d}-{country_code}'
                 
                 
                 if proxy['server'] != '127.0.0.1':
