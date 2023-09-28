@@ -403,18 +403,18 @@ class sub_convert():
                     if re.findall(r'\d\d',idid)[0] == '99' :
                         idid = ''
                     else :
-                        idid = re.findall(r'\d\d',idid)[0] + '-'+
+                        idid = re.findall(r'\d\d',idid)[0]
                         proxyname=str(idid)
                 else:
-                    proxyname=re.findall(r'^...',proxyname)[0]
+                    proxyname=re.findall(r'^..',proxyname)[0]
                         
                 if len(proxies_list) >=1000:
                     
-                    proxy['name'] =idid + f'{proxyname}-{proxy_index:0>4d}-{country_code}'
+                    proxy['name'] =f'{proxyname}-{proxy_index:0>4d}-{country_code}'
                 elif len(proxies_list) <= 999 and len(proxies_list) > 99:
-                    proxy['name'] =idid + f'{proxyname}-{proxy_index:0>3d}-{country_code}'
+                    proxy['name'] =f'{proxyname}-{proxy_index:0>3d}-{country_code}'
                 elif len(proxies_list) <= 99:
-                    proxy['name'] =idid + f'{proxyname}-{proxy_index:0>2d}-{country_code}'
+                    proxy['name'] =f'{proxyname}-{proxy_index:0>2d}-{country_code}'
                 
                 if proxy['server'] != '127.0.0.1':
                     proxy_str = str(proxy)
