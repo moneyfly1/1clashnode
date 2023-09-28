@@ -402,6 +402,7 @@ class sub_convert():
                 if idid != '':
                     if re.findall(r'\d\d',idid)[0] == '99' :
                         idid = ''
+                        proxyname=str(idid)
                     else :
                         idid = re.findall(r'\d\d',idid)[0]
                         proxyname=str(idid)
