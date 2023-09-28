@@ -738,8 +738,10 @@ class sub_convert():
                         ss_base64 = str(ss_base64+ '@' + str(proxy['server']) + ':' + str(proxy['port']))
                         ss_proxy = str('ss://' + ss_base64 +  '/?plugin=obfs-local%3B'+ ssplugin + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
                         #print(ss_proxy)
-                    elif proxy['plugin'] == 'v2ray-plugin':
+                    elif proxy['plugin'] == 'v2ray-plugin'and  proxy['plugin-opts']['host']!='' and proxy['plugin-opts']['path']!='':
                         #print(proxy)
+                        
+                            
                         ssplugin=str('mode='+str(proxy['plugin-opts']['mode']) + ';' + 'host=' + str(proxy['plugin-opts']['host'])+ ';' + 'path=' + str(proxy['plugin-opts']['path'])+';'+'tls;'+'mux=4;'+'mux=mux=4;')
                         #print(ssplugin)
                         ssplugin=str(urllib.parse.quote(ssplugin))
