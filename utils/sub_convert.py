@@ -402,12 +402,12 @@ class sub_convert():
                 if idid != '':
                     if re.findall(r'\d\d',idid)[0] == '99' :
                         idid = ''
-                        proxyname=str(idid)
+                        
                     else :
                         idid = re.findall(r'\d\d',idid)[0]
                         proxyname=str(idid)
-                else:
-                    proxyname=re.findall(r'^..',proxyname)[0]
+                
+                proxyname=re.findall(r'^..',proxyname)[0]
                         
                 if len(proxies_list) >=1000:
                     
