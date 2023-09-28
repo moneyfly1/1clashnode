@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `2052`
+当前合并节点总数: `1903`
 - [20xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `407`
 - [3rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `741`
 - [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `227`
@@ -46,12 +46,6 @@
 - [9zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `29`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `34`
 - [11ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `79`
-- [13YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `34`
-- [15freenodes/freenodes](https://github.com/freenodes/freenodes), 节点数量: `231`
-- [16ts-sf/fly](https://github.com/ts-sf/fly), 节点数量: `59`
-- [18issakk/get_clash](https://github.com/issakk/get_clash), 节点数量: `125`
-- [28Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `12`
-- [29openRunner/clash-freenode](https://github.com/openRunner/clash-freenode), 节点数量: `42`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
