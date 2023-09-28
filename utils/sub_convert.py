@@ -468,15 +468,15 @@ class sub_convert():
 
                         yaml_url.setdefault('ws-opts',{'path':vmess_config['path'], 'headers': {'host': vmess_config['host']}})
                         yaml_url.setdefault('udp', True)
-                        yaml_url=str(yaml_url)
-                        yaml_url=yaml_url.replace('"',''')
-                        yaml_rul=eval(yaml_url)
+                        #yaml_url=str(yaml_url)
+                        #yaml_url=yaml_url.replace('"',''')
+                        #yaml_rul=eval(yaml_url)
 
                         url_list.append(yaml_url)
                         
                 except Exception as err:
                     print(f'yaml_encode 解析 vmess 节点发生错误: {err}')
-                    #print(vmess_config)
+                    print(vmess_config)
                     pass
 
             if 'ss://' in line and 'vless://' not in line and 'vmess://' not in line and 'lugin' not in line:
@@ -531,7 +531,7 @@ class sub_convert():
                     yaml_url.setdefault('server', server_part_list[0])
                     server_part_list = server_part_list[1].split('/', 1) # port/?plugin=v2ray-plugin%3Bmode%3Dwebs 
                     yaml_url.setdefault('port', server_part_list[0])
-                    print(server_part_list[0])
+                    #print(server_part_list[0])
                     yaml_url.setdefault('type', 'ss')
                     yaml_url.setdefault('cipher', method_part)
                     yaml_url.setdefault('password', password_part)
@@ -552,30 +552,30 @@ class sub_convert():
 
                     if 'v2ray-plugin' in line :
                         yaml_url.setdefault('Plugin', 'v2ray-plugin')
-                        print(server_part_list[1])
+                        #print(server_part_list[1])
                         plugin_list=str(urllib.parse.unquote(server_part_list[1])+';')
-                        print(plugin_list)
+                        #print(plugin_list)
                         
                         plugin_mode=re.compile('mode=(.*?);').findall(plugin_list)[0]
-                        print(plugin_mode)
+                        #print(plugin_mode)
                         plugin_host=re.compile('host=(.*?);').findall(plugin_list)[0]
                         if plugin_host =='':
                             plugin_host='None'
-                        print(plugin_host)
+                        #print(plugin_host)
                         plugin_path=re.compile('path=(.*?);').findall(plugin_list)[0]
                         if plugin_path == '':
                             plugin_path='None'
-                        print(plugin_path)
+                        #print(plugin_path)
                         
-                        print(yaml_url)
+                        #print(yaml_url)
                         yaml_url['plugin'] = yaml_url.pop("Plugin")
                         yaml_url.setdefault('plugin-opts',{'mode':plugin_mode, 'host':plugin_host, 'path':plugin_path, 'tls': 'true', 'mux': 'true', 'skip-cert-verify': 'true'})
 
                     
                     yaml_url.setdefault('udp', 'true')
-                    yaml_url=str(yaml_url)
-                    yaml_url=yaml_url.replace('"',''')
-                    yaml_rul=eval(yaml_url)
+                    #yaml_url=str(yaml_url)
+                    #yaml_url=yaml_url.replace('"',''')
+                    #yaml_rul=eval(yaml_url)
                     url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 ss 节点发生错误2: {err}')
@@ -653,9 +653,9 @@ class sub_convert():
 
                     yaml_url.setdefault('skip-cert-verify', True)
                     yaml_url.setdefault('udp', True)
-                    yaml_url=str(yaml_url)
-                    yaml_url=yaml_url.replace('"',''')
-                    yaml_rul=eval(yaml_url)
+                    #yaml_url=str(yaml_url)
+                    #yaml_url=yaml_url.replace('"',''')
+                    #yaml_rul=eval(yaml_url)
                     url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 trojan 节点发生错误: {err}')
@@ -689,7 +689,7 @@ class sub_convert():
                 proxy = proxies_list[index]
                 #proxy = str(proxy)
                 #proxy = proxy.replace('"',''')
-                #proxy = eval(proxy)
+                #proxy = (proxy)
                 
                 if proxy['type'] == 'vmess' and 'ws-opts' in proxy and 'headers' in proxy['ws-opts'] and 'host' in proxy['ws-opts']['headers'] and 'path' in proxy['ws-opts']: # Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
 
@@ -732,13 +732,13 @@ class sub_convert():
                     elif proxy['plugin'] == 'v2ray-plugin':
                         #print(proxy)
                         ssplugin=str('mode='+str(proxy['plugin-opts']['mode']) + ';' + 'host=' + str(proxy['plugin-opts']['host'])+ ';' + 'path=' + str(proxy['plugin-opts']['path'])+';'+'tls;'+'mux=4;'+'mux=mux=4;')
-                        print(ssplugin)
+                        #print(ssplugin)
                         ssplugin=str(urllib.parse.quote(ssplugin))
                         ss_base64_decoded = str(str(proxy['cipher']) + ':' + str(proxy['password']))
                         ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
                         ss_base64 = str(ss_base64+ '@' + str(proxy['server']) + ':' + str(proxy['port']))
                         ss_proxy = str('ss://' + ss_base64 +  '/?plugin=v2ray-plugin%3B'+ ssplugin + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
-                        print(ss_proxy)
+                        #print(ss_proxy)
 
                     
                     protocol_url.append(ss_proxy)
