@@ -405,6 +405,7 @@ class sub_convert():
                         
                         
                 if len(proxies_list) >=1000:
+                    print(idid)
                     proxy['name'] = str(idid) + f'{country_code}-{proxy_index:0>4d}'
                 elif len(proxies_list) <= 999 and len(proxies_list) > 99:
                     proxy['name'] = str(idid) + f'{country_code}-{proxy_index:0>3d}'
