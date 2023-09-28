@@ -393,21 +393,21 @@ class sub_convert():
                     name_emoji = emoji['NOWHERE']
 
                 proxy_index = proxies_list.index(proxy)
-                proxyname= proxy['name']
-                print(proxyname)
-                print(idid)
-                proxyname=re.findall(r'^..',proxyname)[0]
+                #proxyname= proxy['name']
+                #print(proxyname)
+                #print(idid)
+                #proxyname=re.findall(r'^..',proxyname)[0]
                 if idid != '':
                     if re.findall(r'\d\d',idid)[0] == '99' :
                         idid = ''
                     else :
                         idid = re.findall(r'\d\d',idid)[0] + '-'
                 if len(proxies_list) >=1000:
-                    proxy['name'] = idid + f'{proxyname}-{country_code}-{proxy_index:0>4d}'
+                    proxy['name'] = idid + f'{country_code}-{proxy_index:0>4d}'
                 elif len(proxies_list) <= 999 and len(proxies_list) > 99:
-                    proxy['name'] = idid + f'{proxyname}-{country_code}-{proxy_index:0>3d}'
+                    proxy['name'] = idid + f'{country_code}-{proxy_index:0>3d}'
                 elif len(proxies_list) <= 99:
-                    proxy['name'] = idid + f'{proxyname}-{country_code}-{proxy_index:0>2d}'
+                    proxy['name'] = idid + f'{country_code}-{proxy_index:0>2d}'
                 
                 if proxy['server'] != '127.0.0.1':
                     proxy_str = str(proxy)
