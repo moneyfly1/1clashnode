@@ -700,7 +700,7 @@ class sub_convert():
                 #proxy = proxy.replace('"',''')
                 #proxy = (proxy)
                 
-                if proxy['type'] == 'vmess' and 'ws-opts' in proxy and 'headers' in proxy['ws-opts'] and 'host' in proxy['ws-opts']['headers'] and 'path' in proxy['ws-opts']: # Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
+                if proxy['type'] == 'vmess' and proxy['network'] != 'grpc' and proxy['network'] != 'h2' and 'ws-opts' in proxy and 'headers' in proxy['ws-opts'] and 'host' in proxy['ws-opts']['headers'] and 'path' in proxy['ws-opts']: # Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
 
                     yaml_default_config = {
                         'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0,
