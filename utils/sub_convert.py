@@ -470,6 +470,7 @@ class sub_convert():
                             yaml_url.setdefault('network', vmess_config['net'])
 
                         if vmess_config['tls'] is True or vmess_config['net'] == 'h2' or vmess_config['net'] == 'grpc':
+                            yaml_url.setdefault('network', 'ws')
                             yaml_url.setdefault('tls', True)
                         else:
                             yaml_url.setdefault('tls', False)
