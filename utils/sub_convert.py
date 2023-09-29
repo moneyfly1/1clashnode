@@ -700,7 +700,7 @@ class sub_convert():
                 #proxy = proxy.replace('"',''')
                 #proxy = (proxy)
                 
-                if proxy['type'] == 'vmess' and proxy['network'] != 'grpc' and proxy['network'] != 'h2' and 'ws-opts' in proxy and 'headers' in proxy['ws-opts'] and 'host' in proxy['ws-opts']['headers'] and 'path' in proxy['ws-opts']: # Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
+                if proxy['type'] == 'vmess' and 'ws-opts' in proxy and 'headers' in proxy['ws-opts'] and 'host' in proxy['ws-opts']['headers'] and 'path' in proxy['ws-opts']: # Vmess 节点提取, 由 Vmess 所有参数 dump JSON 后 base64 得来。
 
                     yaml_default_config = {
                         'name': 'Vmess Node', 'server': '0.0.0.0', 'port': 0, 'uuid': '', 'alterId': 0,
@@ -710,13 +710,20 @@ class sub_convert():
 
                     yaml_default_config.update(proxy)
                     proxy_config = yaml_default_config
-
-                    vmess_value = {
-                        'v': 2, 'ps': proxy_config['name'], 'add': proxy_config['server'],
-                        'port': proxy_config['port'], 'id': proxy_config['uuid'], 'aid': proxy_config['alterId'],
-                        'scy': proxy_config['cipher'], 'net': proxy_config['network'], 'type': None, 'host': proxy['ws-opts']['headers']['host'],
-                        'path': proxy['ws-opts']['path'], 'tls': proxy_config['tls'], 'sni': proxy_config['sni']
-                        }
+                    if  proxy['network'] != 'grpc' and proxy['network'] != 'h2' :
+                        vmess_value = {
+                            'v': 2, 'ps': proxy_config['name'], 'add': proxy_config['server'],
+                            'port': proxy_config['port'], 'id': proxy_config['uuid'], 'aid': proxy_config['alterId'],
+                            'scy': proxy_config['cipher'], 'net': proxy_config['network'], 'type': None, 'host': proxy['ws-opts']['headers']['host'],
+                            'path': proxy['ws-opts']['path'], 'tls': proxy_config['tls'], 'sni': proxy_config['sni']
+                            }
+                    else:
+                        vmess_value = {
+                            'v': 2, 'ps': proxy_config['name'], 'add': proxy_config['server'],
+                            'port': proxy_config['port'], 'id': proxy_config['uuid'], 'aid': proxy_config['alterId'],
+                            'scy': proxy_config['cipher'], 'net': 'ws', 'type': None, 'host': proxy['ws-opts']['headers']['host'],
+                            'path': proxy['ws-opts']['path'], 'tls': proxy_config['tls'], 'sni': proxy_config['sni']
+                             }
 
                     vmess_raw_proxy = json.dumps(vmess_value, sort_keys=False, indent=2, ensure_ascii=False)
                     vmess_proxy = str('vmess://' + sub_convert.base64_encode(vmess_raw_proxy) + '\n')
