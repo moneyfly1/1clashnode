@@ -788,10 +788,10 @@ class sub_convert():
                     trojan_proxy = str('trojan://' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port']) + trojan_go + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
                     protocol_url.append(trojan_proxy)
                 
-                #elif proxy['type'] == 'ssr':
-                    #ssr_base64_decoded = str(proxy['server']) + ':' + str(proxy['port']) + ':' + str(proxy['protocol']) 
-                    #ssr_base64_decoded = ssr_base64_decoded + ':' + str(proxy['cipher']) + ':' + str(proxy['obfs']) + ':' + str(sub_convert.base64_encode(proxy['password'])) + '/?'
-                    #protocol_url.append(vmessr_proxy)
+                elif proxy['type'] == 'ssr':
+                    ssr_base64_decoded = str(proxy['server']) + ':' + str(proxy['port']) + ':' + str(proxy['protocol']) 
+                    ssr_base64_decoded = ssr_base64_decoded + ':' + str(proxy['cipher']) + ':' + str(proxy['obfs']) + ':' + str(sub_convert.base64_encode(proxy['password'])) + '/?'
+                    protocol_url.append(vmessr_proxy)
 
             yaml_content = ''.join(protocol_url)
             return yaml_content
