@@ -597,7 +597,7 @@ class sub_convert():
 
             
             if 'ssr://' in line:
-                    try:
+                try:
                     ssr_content = sub_convert.base64_decode(line.replace('ssr://', ''))
                 
                     parts = re.split(':', ssr_content)
