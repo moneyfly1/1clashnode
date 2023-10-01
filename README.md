@@ -35,16 +35,16 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1509`
+当前合并节点总数: `1495`
 - [20xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `742`
-- [3rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `199`
-- [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `232`
+- [3rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `189`
+- [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `216`
 - [5mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `81`
 - [6cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `115`
-- [8ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `16`
+- [8ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `20`
 - [9zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `9`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `36`
-- [11ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `87`
+- [11ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `65`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
