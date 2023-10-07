@@ -627,6 +627,7 @@ class sub_convert():
                     obfsparam=sub_convert.base64_decode(obfsparam)
                     print(obfsparam)
                     protoparam=re.compile('protoparam=(.*?)&').findall(params)[0]
+                    protoparam=protoparam.replace('==\n','')
                     protoparam=sub_convert.base64_decode(protoparam)
                     print(protoparam)
                     #param_parts = re.split('\&', params)
