@@ -156,7 +156,7 @@ class sub_convert():
                 url_content = '\n'.join(url_list)
                 return url_content
             except:
-                print('Sub_content 格式错误')
+                print('Sub_content 格式错误1')
                 return ''
 
         elif 'proxies:' in sub_content: # 对 Clash 内容进行格式化处理
@@ -231,7 +231,7 @@ class sub_convert():
                     else: # output 值为 True 时返回修饰过的 YAML 文本
                         sub_content_yaml = sub_content
                 except:
-                    print('Sub_content 格式错误')
+                    print('Sub_content 格式错误2')
                     return '' # 解析 URL 内容错误时返回空字符串
             if output == False:
                 for item in sub_content_yaml['proxies']:# 对转换过程中出现的不标准配置格式转换
