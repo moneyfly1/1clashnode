@@ -611,10 +611,11 @@ class sub_convert():
                     if idid=='' or idid=='99':
                         
                         remarks=re.compile('remarks=(.*?)&').findall(params)[0]
+                        remarks=sub_convert.base64_decode(remarks)
                     else:
                         remarks='ssrsub'
                     print(remarks)
-                    remarks=sub_convert.base64_decode(remarks)
+                    
                     print(remarks)
                     group=re.compile('group=(.*?)&').findall(params)[0]
                     obfsparam=re.compile('obfsparam=(.*?)&').findall(params)[0]
