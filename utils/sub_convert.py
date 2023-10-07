@@ -613,14 +613,20 @@ class sub_convert():
                         remarks=re.compile('remarks=(.*?)&').findall(params)[0]
                         remarks=sub_convert.base64_decode(remarks)
                     else:
-                        remarks=str(idid + 'sub')
+                        remarks=str(idid + '-sub')
                     print(remarks)
                     print(idid)
                     
                     group=re.compile('group=(.*?)&').findall(params)[0]
-                    obfsparam=re.compile('obfsparam=(.*?)&').findall(params)[0]
-                    protoparam=re.compile('protoparam=(.*?)&').findall(params)[0]
                     
+                    group=sub_convert.base64_decode(group)
+                    print(group)
+                    obfsparam=re.compile('obfsparam=(.*?)&').findall(params)[0]
+                    obfsparam=sub_convert.base64_decode(obfsparam)
+                    print(obfsparam)
+                    protoparam=re.compile('protoparam=(.*?)&').findall(params)[0]
+                    protoparam=sub_convert.base64_decode(protoparam)
+                    print(protoparam)
                     #param_parts = re.split('\&', params)
                     #param_dic = {}
                     #for part in param_parts:
@@ -637,9 +643,9 @@ class sub_convert():
                     yaml_url.setdefault('password', sub_convert.base64_decode(password_encode_str))
                     yaml_url.setdefault('obfs', parts[4])
                     yaml_url.setdefault('protocol', parts[2])
-                    yaml_url.setdefault('obfs_param', sub_convert.base64_decode(obfsparam))
-                    yaml_url.setdefault('protocol_param', sub_convert.base64_decode(protoparam))
-                    yaml_url.setdefault('group', sub_convert.base64_decode(group))
+                    yaml_url.setdefault('obfs_param', obfsparam)
+                    yaml_url.setdefault('protocol_param', protoparam)
+                    yaml_url.setdefault('group', group)
                     print(yaml_url)
                     url_list.append(yaml_url)
                 except Exception as err:
