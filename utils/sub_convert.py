@@ -622,7 +622,7 @@ class sub_convert():
                     if idid == '' or idid == '99':
                         yaml_url.setdefault('name', sub_convert.base64_decode(remarks))
                     else:
-                        yaml_url.setdefault('name', idid)
+                        yaml_url.setdefault('name', 'ssr')
 
                     yaml_url.setdefault('server', parts[0])
                     yaml_url.setdefault('port', parts[1])
