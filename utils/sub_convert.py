@@ -619,7 +619,10 @@ class sub_convert():
                     #for part in param_parts:
                     #    key_and_value = re.split('\=', part)
                     #    param_dic[key_and_value[0]] = key_and_value[1]
-                    yaml_url.setdefault('name', sub_convert.base64_decode(remarks))
+                    if idid == '' or idid == '99':
+                        yaml_url.setdefault('name', sub_convert.base64_decode(remarks))
+                    else:
+                        yaml_url.setdefault('name', idid)
 
                     yaml_url.setdefault('server', parts[0])
                     yaml_url.setdefault('port', parts[1])
@@ -635,9 +638,7 @@ class sub_convert():
                     url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 ssr 节点发生错误: {err}')
-                    print(idid)
-                    print(yaml_url['name'])
-                    print(line)
+
                     pass
 
             if 'trojan://' in line:
