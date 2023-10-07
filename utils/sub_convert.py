@@ -634,6 +634,7 @@ class sub_convert():
                     url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 ssr 节点发生错误: {err}')
+                    print(line)
                     pass
 
             if 'trojan://' in line:
