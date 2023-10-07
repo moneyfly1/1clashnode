@@ -811,16 +811,16 @@ class sub_convert():
                         if key in proxy:
                             if key == 'group':
                                 group = sub_convert.base64_encode(proxy[key])
-                            elif key == 'obfsparam':
+                            elif key == 'obfs_param':
                                 obfsparam = sub_convert.base64_encode(proxy[key])
-                            elif key == 'protoparam':
+                            elif key == 'proto_param':
                                 protoparam = sub_convert.base64_encode(proxy[key])
                         else:
                             if key == 'group':
                                 group = 'U1NSUHJvdmlkZXI'
-                            elif key == 'obfsparam':
+                            elif key == 'obfs_param':
                                 obfsparam = ''
-                            elif key == 'protoparam':
+                            elif key == 'proto_param':
                                 protoparam = ''
 
                     ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?group='+group+'&remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'\n')
