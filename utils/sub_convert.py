@@ -569,11 +569,11 @@ class sub_convert():
                         #print(plugin_mode)
                         plugin_host=re.compile('host=(.*?);').findall(plugin_list)[0]
                         if plugin_host =='':
-                            plugin_host='None'
+                            plugin_host=yaml_url['server']
                         #print(plugin_host)
                         plugin_path=re.compile('path=(.*?);').findall(plugin_list)[0]
                         if plugin_path == '':
-                            plugin_path='None'
+                            plugin_path='/'
                         #print(plugin_path)
                         
                         #print(yaml_url)
@@ -735,8 +735,14 @@ class sub_convert():
                         ss_base64 = sub_convert.base64_encode(ss_base64_decoded)
                         ss_proxy = str('ss://' + ss_base64 + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
                         
-                    elif proxy['plugin'] == 'obfs' and 'host' in proxy['plugin-opts'] and 'mode' in proxy['plugin-opts']:
+                    elif proxy['plugin'] == 'obfs' :
                         #print(proxy)
+                        if 'mode' not in proxy['plugin-opts']:
+                            proxy['plugin-opts']['mode']='http'
+                        if 'host' not in proxy['plugin-opts']:
+                            proxy['plugin-opts']['host']=proxy['server']
+                        
+                            
                         ssplugin=str('obfs='+str(proxy['plugin-opts']['mode']) + ';' + 'obfs-host=' + str(proxy['plugin-opts']['host']))
                         #print(ssplugin)
                         ssplugin=str(urllib.parse.quote(ssplugin))
@@ -745,7 +751,13 @@ class sub_convert():
                         ss_base64 = str(ss_base64+ '@' + str(proxy['server']) + ':' + str(proxy['port']))
                         ss_proxy = str('ss://' + ss_base64 +  '/?plugin=obfs-local%3B'+ ssplugin + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
                         #print(ss_proxy)
-                    elif proxy['plugin'] == 'v2ray-plugin' and proxy['plugin-opts']['mode']!='' and proxy['plugin-opts']['host']!='' and proxy['plugin-opts']['path']!='':
+                    elif proxy['plugin'] == 'v2ray-plugin' :
+                        if 'mode' not in proxy['plugin-opts']:
+                            proxy['plugin-opts']['mode']='websocket'
+                        if 'host' not in proxy['plugin-opts']:
+                            proxy['plugin-opts']['host']=proxy['server']
+                        if 'path' not in proxy['plugin-opts']:
+                            proxy['plugin-opts']['path']=proxy['/']
                         #print(proxy)
                         ssplugin=str('mode='+str(proxy['plugin-opts']['mode']) + ';' + 'host=' + str(proxy['plugin-opts']['host'])+ ';' + 'path=' + str(proxy['plugin-opts']['path'])+';'+'tls;'+'mux=4;'+'mux=mux=4;')
                         #print(ssplugin)
