@@ -640,7 +640,7 @@ class sub_convert():
                     yaml_url.setdefault('obfs_param', sub_convert.base64_decode(obfsparam))
                     yaml_url.setdefault('protocol_param', sub_convert.base64_decode(protoparam))
                     yaml_url.setdefault('group', sub_convert.base64_decode(group))
-
+                    print(yaml_url)
                     url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 ssr 节点发生错误: {err}')
