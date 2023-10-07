@@ -621,8 +621,8 @@ class sub_convert():
                     yaml_url.setdefault('password', sub_convert.base64_decode(password_encode_str))
                     yaml_url.setdefault('obfs', parts[4])
                     yaml_url.setdefault('protocol', parts[2])
-                    yaml_url.setdefault('obfs_param', sub_convert.base64_decode(param_dic['obfs_param']))
-                    yaml_url.setdefault('proto_param', sub_convert.base64_decode(param_dic['proto_param']))
+                    yaml_url.setdefault('obfs_param', sub_convert.base64_decode(param_dic['obfsparam']))
+                    yaml_url.setdefault('proto_param', sub_convert.base64_decode(param_dic['protoparam']))
                     yaml_url.setdefault('group', sub_convert.base64_decode(param_dic['group']))
 
                     url_list.append(yaml_url)
