@@ -615,7 +615,7 @@ class sub_convert():
                     else:
                         remarks=str(idid + 'sub')
                     print(remarks)
-                    
+                    print(idid)
                     
                     group=re.compile('group=(.*?)&').findall(params)[0]
                     obfsparam=re.compile('obfsparam=(.*?)&').findall(params)[0]
