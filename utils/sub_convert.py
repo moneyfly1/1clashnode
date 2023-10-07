@@ -634,7 +634,7 @@ class sub_convert():
                     yaml_url.setdefault('obfs', parts[4])
                     yaml_url.setdefault('protocol', parts[2])
                     yaml_url.setdefault('obfs_param', sub_convert.base64_decode(obfsparam))
-                    yaml_url.setdefault('protocol-param', sub_convert.base64_decode(protoparam))
+                    yaml_url.setdefault('protocol_param', sub_convert.base64_decode(protoparam))
                     yaml_url.setdefault('group', sub_convert.base64_decode(group))
 
                     url_list.append(yaml_url)
@@ -820,20 +820,20 @@ class sub_convert():
                     cipher = proxy['cipher']
                     protocol = proxy['protocol']
                     obfs = proxy['obfs']
-                    for key in {'group', 'obfs_param', 'protocol-param'}:
+                    for key in {'group', 'obfs_param', 'protocol_param'}:
                         if key in proxy:
                             if key == 'group':
                                 group = sub_convert.base64_encode(proxy[key])
                             elif key == 'obfs_param':
                                 obfsparam = sub_convert.base64_encode(proxy[key])
-                            elif key == 'protocol-param':
+                            elif key == 'protocol_param':
                                 protoparam = sub_convert.base64_encode(proxy[key])
                         else:
                             if key == 'group':
                                 group = 'U1NSUHJvdmlkZXI'
                             elif key == 'obfs_param':
                                 obfsparam = ''
-                            elif key == 'protocol-param':
+                            elif key == 'protocol_param':
                                 protoparam = ''
 
                     ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?group='+group+'&remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'\n')
