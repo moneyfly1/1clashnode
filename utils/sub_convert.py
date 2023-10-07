@@ -614,7 +614,9 @@ class sub_convert():
                         remarks=sub_convert.base64_decode(remarks)
                     else:
                         remarks=str(idid + '-sub')
+                    
                     print(remarks)
+                    print(parts)
                     print(idid)
                     
                     group=re.compile('group=(.*?)&').findall(params)[0]
