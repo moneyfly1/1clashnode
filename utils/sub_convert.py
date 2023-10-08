@@ -608,12 +608,12 @@ class sub_convert():
                     password_encode_str = password_and_params[0]
                     params =str(password_and_params[1]+'&')
 
-                    if idid=='' or idid=='99':
+                    #if idid=='' or idid=='99':
                         
-                        remarks=re.compile('remarks=(.*?)&').findall(params)[0]
-                        remarks=sub_convert.base64_decode(remarks)
-                    else:
-                        remarks=str(idid + '-sub')
+                    remarks=re.compile('remarks=(.*?)&').findall(params)[0]
+                    remarks=sub_convert.base64_decode(remarks)
+                    #else:
+                    #    remarks=str(idid + '-sub')
                     
                     
                     print(parts)
