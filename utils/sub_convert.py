@@ -847,11 +847,11 @@ class sub_convert():
                     obfs = proxy['obfs']
                     for key in {'group', 'obfs_param', 'protocol_param'}:
                         if key in proxy:
-                            if key == 'group' and proxy[key] != None:
+                            if key == 'group' and proxy[key] is not None:
                                 group = sub_convert.base64_encode(proxy[key])
-                            if key == 'obfs_param' and proxy[key] != None:
+                            if key == 'obfs_param' and proxy[key] is not None:
                                 obfsparam = sub_convert.base64_encode(proxy[key].replace('@',','))
-                            elif key == 'protocol_param' and proxy[key] != None:
+                            elif key == 'protocol_param' and proxy[key] is not None:
                                 
                                 protoparam = sub_convert.base64_encode(proxy[key])
                                 
