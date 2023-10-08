@@ -873,7 +873,7 @@ class sub_convert():
                             elif key == 'protocol_param':
                                 protoparam = ''
 
-                    ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?'remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'&group='+group+)
+                    ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'&group='+group)
                     protocol_url.append(ssr_proxy)
 
             yaml_content = ''.join(protocol_url)
