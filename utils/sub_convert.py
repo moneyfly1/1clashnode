@@ -598,7 +598,7 @@ class sub_convert():
             
             if 'ssr://' in line:
                 try:
-                    ssr_content = sub_convert.base64_decode(line.replace('ssr://', ''))
+                    ssr_content = str(sub_convert.base64_decode(line.replace('ssr://', ''))+'&')
                 
                     parts = re.split(':', ssr_content)
                     if len(parts) != 6:
@@ -606,7 +606,7 @@ class sub_convert():
                     password_and_params = parts[5]
                     password_and_params = re.split('/\?', password_and_params)
                     password_encode_str = password_and_params[0]
-                    params =str(password_and_params[1].replace('==\n','').replace('\n','') + '&')
+                    params =password_and_params[1]
 
                     if idid=='' or idid=='99':
                         
