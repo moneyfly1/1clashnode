@@ -648,6 +648,7 @@ class sub_convert():
                         obfsparam=re.compile('obfsparam=(.*?)&').findall(params)[0]
                         obfsparam=sub_convert.base64_decode(obfsparam)
                         if idid =='' or idid=='99':
+                            #obfsparam=obfsparam.replace('@',',')
                             yaml_url.setdefault('obfs_param', obfsparam)
                         else:
                             obfsparam=obfsparam.replace(',','@')
@@ -849,10 +850,10 @@ class sub_convert():
                             if key == 'group':
                                 group = sub_convert.base64_encode(proxy[key])
                             elif key == 'obfs_param':
-                                obfsparam = sub_convert.base64_encode(proxy[key])
+                                obfsparam = sub_convert.base64_encode(proxy[key].replace('@',','))
                             elif key == 'protocol_param':
                                 
-                                protoparam = sub_convert.base64_encode(proxy[key].replace('@',','))
+                                protoparam = sub_convert.base64_encode(proxy[key])
                                 
                         else:
                             if key == 'group':
