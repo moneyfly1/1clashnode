@@ -615,8 +615,9 @@ class sub_convert():
                     else:
                         remarks=str(idid + '-sub')
                     
-                    print(remarks)
+                    
                     print(parts)
+                    print(params)
                     print(idid)
                     if 'group' in params:
                         group=re.compile('group=(.*?)&').findall(params)[0]
