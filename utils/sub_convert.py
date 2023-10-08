@@ -851,26 +851,44 @@ class sub_convert():
                     cipher = proxy['cipher']
                     protocol = proxy['protocol']
                     obfs = proxy['obfs']
-                    for key in { 'obfs_param', 'protocol_param'}:
-                        if key in proxy and proxy[key] is not None:
-                            #if key == 'group' :
+
+                    if 'obfs_param' in proxy:
+                        if proxy['obfs_param'] is not None:
+                            obfsparam = sub_convert.base64_encode(proxy['obfs_param'].replace('@',','))
+                        else:
+                            obfsparam = ''
+                    else:
+                        obfsparam = ''
+                   
+                    if 'protocol_param' in proxy:
+                        if proxy['protocol_param'] is not None:
+                            protoparam = sub_convert.base64_encode(proxy['protocol_param'].replace('@',','))
+                        else:
+                            protoparam = ''
+                    else:
+                        protoparam = ''
+                                                        
+                    
+                    #for key in { 'obfs_param', 'protocol_param'}:
+                     #   if key in proxy and proxy[key] is not None:
+                     #       #if key == 'group' :
                             #    group = sub_convert.base64_encode(proxy[key])
 
-                            if key == 'obfs_param' :
-                                obfsparam = sub_convert.base64_encode(proxy[key].replace('@',','))
+                     #       if key == 'obfs_param' :
+                     #           obfsparam = sub_convert.base64_encode(proxy[key].replace('@',','))
 
-                            if key == 'protocol_param' :
-                                protoparam = sub_convert.base64_encode(proxy[key])
+                      #      if key == 'protocol_param' :
+                      #          protoparam = sub_convert.base64_encode(proxy[key])
 
                                 
                                 
-                        else:
-                            #if key == 'group':
+                        #else:
+                        #    #if key == 'group':
                             #    group = 'U1NSUHJvdmlkZXI'
-                            if key == 'obfs_param':
-                                obfsparam = ''
-                            elif key == 'protocol_param':
-                                protoparam = ''
+                        #    if key == 'obfs_param':
+                        #        obfsparam = ''
+                        #    elif key == 'protocol_param':
+                        #        protoparam = ''
                     group = 'U1NSUHJvdmlkZXI'
                     ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'&group='+group + '\n')
                     protocol_url.append(ssr_proxy)
