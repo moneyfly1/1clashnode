@@ -647,13 +647,13 @@ class sub_convert():
                     if 'obfsparam' in params:
                         obfsparam=re.compile('obfsparam=(.*?)&').findall(params)[0]
                         obfsparam=sub_convert.base64_decode(obfsparam)
-                        #if idid =='' or idid=='99':
-                        if ',' in obfsparam:
-                            obfsparam=obfsparam.replace(',','@')
+                        if idid =='' or idid=='99':
+                        #if ',' in obfsparam:
+                            #obfsparam=obfsparam.replace(',','@')
                             yaml_url.setdefault('obfs_param', obfsparam)
                         else:
-                            if '@' in obfsparam:
-                                obfsparam=obfsparam.replace('@,',',')
+                            if ',' in obfsparam:
+                                obfsparam=obfsparam.replace(',','@')
                                 yaml_url.setdefault('obfs_param', obfsparam)
                         print(obfsparam)
 
