@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1041`
+当前合并节点总数: `1057`
 - [20xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `558`
 - [3rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `129`
 - [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `0`
@@ -44,7 +44,7 @@
 - [8ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `16`
 - [9zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `24`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `10`
-- [11ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `51`
+- [11ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `67`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
