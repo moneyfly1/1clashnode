@@ -606,7 +606,7 @@ class sub_convert():
                     password_and_params = parts[5]
                     password_and_params = re.split('/\?', password_and_params)
                     password_encode_str = password_and_params[0]
-                    params =password_and_params[1]
+                    params =str(password_and_params[1]+'&')
 
                     if idid=='' or idid=='99':
                         
@@ -639,7 +639,7 @@ class sub_convert():
 
 
                     if 'protoparam' in params:
-                        protoparam=re.compile('protoparam=(.*?)=').findall(params)[0]
+                        protoparam=re.compile('protoparam=(.*?)&').findall(params)[0]
                         #protoparam=protoparam.replace('==\n','')
                         protoparam=sub_convert.base64_decode(protoparam)
                         yaml_url.setdefault('protocol_param', protoparam)
@@ -869,7 +869,7 @@ class sub_convert():
                             elif key == 'protocol_param':
                                 protoparam = ''
 
-                    ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?group='+group+'&remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'\n')
+                    ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?group='+group+'&remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam)
                     protocol_url.append(ssr_proxy)
 
             yaml_content = ''.join(protocol_url)
