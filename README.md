@@ -44,7 +44,7 @@
 - [8ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `18`
 - [9zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `49`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `10`
-- [11ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `87`
+- [11ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `86`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
