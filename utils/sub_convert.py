@@ -654,11 +654,11 @@ class sub_convert():
                             obfsparam=obfsparam.replace(',','@')
                             yaml_url.setdefault('obfs_param', obfsparam)
                         print(obfsparam)
-                    if 'group' in params:
-                        group=re.compile('group=(.*?)&').findall(params)[0]
-                        group=sub_convert.base64_decode(group)
-                        yaml_url.setdefault('group', group)
-                        print(group)
+                    #if 'group' in params:
+                    #    group=re.compile('group=(.*?)&').findall(params)[0]
+                    #    group=sub_convert.base64_decode(group)
+                    #    yaml_url.setdefault('group', group)
+                    #    print(group)
                     
                     print(yaml_url)
                     url_list.append(yaml_url)
@@ -847,18 +847,18 @@ class sub_convert():
                     obfs = proxy['obfs']
                     for key in {'group', 'obfs_param', 'protocol_param'}:
                         if key in proxy:
-                            if key == 'group':
-                                group = sub_convert.base64_encode(proxy[key])
-                            elif key == 'obfs_param':
+                            #if key == 'group':
+                            #    group = sub_convert.base64_encode(proxy[key])
+                            if key == 'obfs_param':
                                 obfsparam = sub_convert.base64_encode(proxy[key].replace('@',','))
                             elif key == 'protocol_param':
                                 
                                 protoparam = sub_convert.base64_encode(proxy[key])
                                 
                         else:
-                            if key == 'group':
-                                group = 'U1NSUHJvdmlkZXI'
-                            elif key == 'obfs_param':
+                            #if key == 'group':
+                            #    group = 'U1NSUHJvdmlkZXI'
+                            if key == 'obfs_param':
                                 obfsparam = ''
                             elif key == 'protocol_param':
                                 protoparam = ''
