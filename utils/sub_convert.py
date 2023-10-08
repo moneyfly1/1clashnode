@@ -606,7 +606,7 @@ class sub_convert():
                     password_and_params = parts[5]
                     password_and_params = re.split('/\?', password_and_params)
                     password_encode_str = password_and_params[0]
-                    params =str(password_and_params[1]+'&')
+                    params =str(password_and_params[1].replace('\n','')+'&')
 
                     if idid=='' or idid=='99':
                         
