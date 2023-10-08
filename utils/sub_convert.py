@@ -850,7 +850,7 @@ class sub_convert():
                     protocol = proxy['protocol']
                     obfs = proxy['obfs']
                     for key in { 'obfs_param', 'protocol_param'}:
-                        if key in proxy:
+                        if key in proxy and proxy[key] is not None:
                             #if key == 'group' :
                             #    group = sub_convert.base64_encode(proxy[key])
 
