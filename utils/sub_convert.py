@@ -596,82 +596,66 @@ class sub_convert():
 
 
             
-            if 'ssr://' in line:
-                try:
-                    ssr_content = sub_convert.base64_decode(line.replace('ssr://', ''))
-                    print(ssr_content)
-                    parts = re.split(':', ssr_content)
-                    if len(parts) != 6:
-                        print('SSR 格式错误: %s' % ssr_content)
-                    password_and_params = parts[5]
-                    password_and_params = re.split('/\?', password_and_params)
-                    password_encode_str = password_and_params[0]
-                    params =str(password_and_params[1].replace('\n','')+'&')
-
-                    if idid=='' or idid=='99':
-                        
-                        remarks=re.compile('remarks=(.*?)&').findall(params)[0]
-                        remarks=sub_convert.base64_decode(remarks)
-                    else:
-                        remarks=str(idid + '-sub')
-                    
-                    
-                    print(parts)
-                    print(params)
-                    print(idid)
-
-                    #param_parts = re.split('\&', params)
-                    #param_dic = {}
-                    #for part in param_parts:
-                    #    key_and_value = re.split('\=', part)
-                    #    param_dic[key_and_value[0]] = key_and_value[1]
-                
-                    yaml_url.setdefault('name', remarks)
-
-
-                    yaml_url.setdefault('server', parts[0])
-                    yaml_url.setdefault('port', parts[1])
-                    yaml_url.setdefault('type', 'ssr')
-                    yaml_url.setdefault('cipher', parts[3])
-                    yaml_url.setdefault('password', sub_convert.base64_decode(password_encode_str))
-                    yaml_url.setdefault('obfs', parts[4])
-                    yaml_url.setdefault('protocol', parts[2])
-
-
-                    if 'protoparam' in params:
-                        protoparam=re.compile('protoparam=(.*?)&').findall(params)[0]
+    #        if 'ssr://' in line:
+    #            try:
+     #               ssr_content = sub_convert.base64_decode(line.replace('ssr://', ''))
+      #              print(ssr_content)
+       #             parts = re.split(':', ssr_content)
+        #            if len(parts) != 6:
+         #               print('SSR 格式错误: %s' % ssr_content)
+          #          password_and_params = parts[5]
+           #         password_and_params = re.split('/\?', password_and_params)
+            #        password_encode_str = password_and_params[0]
+             #       params =str(password_and_params[1].replace('\n','')+'&')
+#
+ #                   if idid=='' or idid=='99':
+  #                      
+   #                     remarks=re.compile('remarks=(.*?)&').findall(params)[0]
+    #                    remarks=sub_convert.base64_decode(remarks)
+     #               else:
+      #                  remarks=str(idid + '-sub')
+       #             
+        #            
+         #           print(parts)
+          #          print(params)
+           #         print(idid)
+            #    
+             #       yaml_url.setdefault('name', remarks)
+              #      yaml_url.setdefault('server', parts[0])
+               #     yaml_url.setdefault('port', parts[1])
+                #    yaml_url.setdefault('type', 'ssr')
+                 #   yaml_url.setdefault('cipher', parts[3])
+                  #  yaml_url.setdefault('password', sub_convert.base64_decode(password_encode_str))
+                   # yaml_url.setdefault('obfs', parts[4])
+                    #yaml_url.setdefault('protocol', parts[2])
+                    #if 'protoparam' in params:
+                    #    protoparam=re.compile('protoparam=(.*?)&').findall(params)[0]
                         #protoparam=protoparam.replace('==\n','')
-                        protoparam=sub_convert.base64_decode(protoparam)
-                        yaml_url.setdefault('protocol_param', protoparam)
-                        print(protoparam)
-                    if 'obfsparam' in params:
-                        obfsparam=re.compile('obfsparam=(.*?)&').findall(params)[0]
-                        obfsparam=sub_convert.base64_decode(obfsparam)
-                        if idid =='' or idid=='99':
-                        #if ',' in obfsparam:
-                            #obfsparam=obfsparam.replace(',','@')
-                            yaml_url.setdefault('obfs_param', obfsparam)
-                        else:
-                            if ',' in obfsparam:
-                                obfsparam=obfsparam.replace(',','@')
-                                yaml_url.setdefault('obfs_param', obfsparam)
-                        print(obfsparam)
+          #              protoparam=sub_convert.base64_decode(protoparam)
+           #             yaml_url.setdefault('protocol_param', protoparam)
+            #            print(protoparam)
+             #       if 'obfsparam' in params:
+              #          obfsparam=re.compile('obfsparam=(.*?)&').findall(params)[0]
+               #         obfsparam=sub_convert.base64_decode(obfsparam)
+                #        if idid =='' or idid=='99':
+                 #       #if ',' in obfsparam:
+                  #          #obfsparam=obfsparam.replace(',','@')
+                   #         yaml_url.setdefault('obfs_param', obfsparam)
+                    #    else:
+                     #       if ',' in obfsparam:
+                      #          obfsparam=obfsparam.replace(',','@')
+                       #         yaml_url.setdefault('obfs_param', obfsparam)
+                        #print(obfsparam)
 
-                    #if 'group' in params:
-                    #    group=re.compile('group=(.*?)&').findall(params)[0]
-                    #    group=sub_convert.base64_decode(group)
-                    #    yaml_url.setdefault('group', group)
-                    #else:
-                    yaml_url.setdefault('group', 'SSRProvider')
-                    #print(group)
-                        
-                    
-                    print(yaml_url)
-                    url_list.append(yaml_url)
-                except Exception as err:
-                    print(f'yaml_encode 解析 ssr 节点发生错误: {err}')
-                    print(yaml_url)
-                    pass
+    #                yaml_url.setdefault('group', 'SSRProvider')
+     #               #print(group)
+                         
+      #              print(yaml_url)
+       #             url_list.append(yaml_url)
+        #        except Exception as err:
+         #           print(f'yaml_encode 解析 ssr 节点发生错误: {err}')
+          #          print(yaml_url)
+           #         pass
 
             if 'trojan://' in line:
                 try:
@@ -842,56 +826,35 @@ class sub_convert():
                     trojan_proxy = str('trojan://' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port']) + trojan_go + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
                     protocol_url.append(trojan_proxy)
                 
-                elif proxy['type'] == 'ssr': # ssr 节点提取, 由 ssr_base64_decoded 中所有参数总体 base64 encode
-                    print(proxy)
-                    remarks = sub_convert.base64_encode(proxy['name']).replace('+', '-')
-                    server = proxy['server']
-                    port = str(proxy['port'])
-                    password = sub_convert.base64_encode(proxy['password'])
-                    cipher = proxy['cipher']
-                    protocol = proxy['protocol']
-                    obfs = proxy['obfs']
+#                elif proxy['type'] == 'ssr': # ssr 节点提取, 由 ssr_base64_decoded 中所有参数总体 base64 encode
+ #                   print(proxy)
+  #                  remarks = sub_convert.base64_encode(proxy['name']).replace('+', '-')
+   #                 server = proxy['server']
+    #                port = str(proxy['port'])
+     #               password = sub_convert.base64_encode(proxy['password'])
+      #              cipher = proxy['cipher']
+       #             protocol = proxy['protocol']
+        #            obfs = proxy['obfs']
+##
+  #                  if 'obfs_param' in proxy:
+   #                     if proxy['obfs_param'] is not None:
+    #                        obfsparam = sub_convert.base64_encode(proxy['obfs_param'].replace('@',','))
+     #                   else:
+      #                      obfsparam = ''
+       #             else:
+        #                obfsparam = ''
+         #          
+          #          if 'protocol_param' in proxy:
+           #             if proxy['protocol_param'] is not None:
+            #                protoparam = sub_convert.base64_encode(proxy['protocol_param'].replace('@',','))
+             #           else:
+              #              protoparam = ''
+               #     else:
+                #        protoparam = ''
 
-                    if 'obfs_param' in proxy:
-                        if proxy['obfs_param'] is not None:
-                            obfsparam = sub_convert.base64_encode(proxy['obfs_param'].replace('@',','))
-                        else:
-                            obfsparam = ''
-                    else:
-                        obfsparam = ''
-                   
-                    if 'protocol_param' in proxy:
-                        if proxy['protocol_param'] is not None:
-                            protoparam = sub_convert.base64_encode(proxy['protocol_param'].replace('@',','))
-                        else:
-                            protoparam = ''
-                    else:
-                        protoparam = ''
-                                                        
-                    
-                    #for key in { 'obfs_param', 'protocol_param'}:
-                     #   if key in proxy and proxy[key] is not None:
-                     #       #if key == 'group' :
-                            #    group = sub_convert.base64_encode(proxy[key])
-
-                     #       if key == 'obfs_param' :
-                     #           obfsparam = sub_convert.base64_encode(proxy[key].replace('@',','))
-
-                      #      if key == 'protocol_param' :
-                      #          protoparam = sub_convert.base64_encode(proxy[key])
-
-                                
-                                
-                        #else:
-                        #    #if key == 'group':
-                            #    group = 'U1NSUHJvdmlkZXI'
-                        #    if key == 'obfs_param':
-                        #        obfsparam = ''
-                        #    elif key == 'protocol_param':
-                        #        protoparam = ''
-                    group = 'U1NSUHJvdmlkZXI'
-                    ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'&group='+group + '\n')
-                    protocol_url.append(ssr_proxy)
+#                    group = 'U1NSUHJvdmlkZXI'
+ #                   ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'&group='+group + '\n')
+  #                  protocol_url.append(ssr_proxy)
 
             yaml_content = ''.join(protocol_url)
             return yaml_content
