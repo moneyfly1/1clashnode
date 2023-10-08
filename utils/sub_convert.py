@@ -654,11 +654,15 @@ class sub_convert():
                             obfsparam=obfsparam.replace(',','@')
                             yaml_url.setdefault('obfs_param', obfsparam)
                         print(obfsparam)
-                    #if 'group' in params:
-                    #    group=re.compile('group=(.*?)&').findall(params)[0]
-                    #    group=sub_convert.base64_decode(group)
-                    #    yaml_url.setdefault('group', group)
-                    #    print(group)
+
+                    if 'group' in params:
+                        group=re.compile('group=(.*?)&').findall(params)[0]
+                        group=sub_convert.base64_decode(group)
+                        yaml_url.setdefault('group', group)
+                    else:
+                        yaml_url.setdefault('group', 'SSRProvider')
+                    print(group)
+                        
                     
                     print(yaml_url)
                     url_list.append(yaml_url)
@@ -869,7 +873,7 @@ class sub_convert():
                             elif key == 'protocol_param':
                                 protoparam = ''
 
-                    ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?group='+group+'&remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam)
+                    ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?'remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'&group='+group+)
                     protocol_url.append(ssr_proxy)
 
             yaml_content = ''.join(protocol_url)
