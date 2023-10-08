@@ -598,8 +598,8 @@ class sub_convert():
             
             if 'ssr://' in line:
                 try:
-                    ssr_content = str(sub_convert.base64_decode(line.replace('ssr://', ''))+'&')
-                
+                    ssr_content = sub_convert.base64_decode(line.replace('ssr://', ''))
+                    print(ssr_content)
                     parts = re.split(':', ssr_content)
                     if len(parts) != 6:
                         print('SSR 格式错误: %s' % ssr_content)
@@ -639,8 +639,8 @@ class sub_convert():
 
 
                     if 'protoparam' in params:
-                        protoparam=re.compile('protoparam=(.*?)&').findall(params)[0]
-                        protoparam=protoparam.replace('==\n','')
+                        protoparam=re.compile('protoparam=(.*?)=').findall(params)[0]
+                        #protoparam=protoparam.replace('==\n','')
                         protoparam=sub_convert.base64_decode(protoparam)
                         yaml_url.setdefault('protocol_param', protoparam)
                         print(protoparam)
