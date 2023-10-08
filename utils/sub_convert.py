@@ -832,6 +832,7 @@ class sub_convert():
                     protocol_url.append(trojan_proxy)
                 
                 elif proxy['type'] == 'ssr': # ssr 节点提取, 由 ssr_base64_decoded 中所有参数总体 base64 encode
+                    print(proxy)
                     remarks = sub_convert.base64_encode(proxy['name']).replace('+', '-')
                     server = proxy['server']
                     port = str(proxy['port'])
