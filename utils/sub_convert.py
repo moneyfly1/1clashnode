@@ -628,7 +628,7 @@ class sub_convert():
                         obfsparam=sub_convert.base64_decode(obfsparam)
                         yaml_url.setdefault('obfs_param', obfsparam)
                         print(obfsparam)
-                    if 'obfsparam' in params:
+                    if 'protoparam' in params:
                         protoparam=re.compile('protoparam=(.*?)&').findall(params)[0]
                         protoparam=protoparam.replace('==\n','')
                         protoparam=sub_convert.base64_decode(protoparam)
