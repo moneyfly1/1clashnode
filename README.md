@@ -38,9 +38,9 @@
 当前合并节点总数: `1406`
 - [20xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `557`
 - [3rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `200`
-- [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `311`
+- [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `312`
 - [5mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `81`
-- [6cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `141`
+- [6cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `144`
 - [8ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `18`
 - [9zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `36`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `10`
