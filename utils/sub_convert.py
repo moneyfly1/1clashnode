@@ -913,11 +913,20 @@ class sub_convert():
                     for key in {'group', 'obfs_param', 'protocol_param'}:
                         if key in proxy:
                             if key == 'group':
-                                group = sub_convert.base64_encode(proxy[key])
+                                if proxy[key] is not None:
+                                    group = sub_convert.base64_encode(proxy[key])
+                                else:
+                                    group =''
                             elif key == 'obfs_param':
-                                obfsparam = sub_convert.base64_encode(proxy[key])
+                                if proxy[key] is not None:
+                                    obfsparam = sub_convert.base64_encode(proxy[key])
+                                else:
+                                    obfsparam = '' 
                             elif key == 'protocol_param':
-                                protoparam = sub_convert.base64_encode(proxy[key])
+                                if proxy[key] is not None:
+                                    protoparam = sub_convert.base64_encode(proxy[key])
+                                else:
+                                    protoparam = ''
                         else:
                             if key == 'group':
                                 group = 'U1NSUHJvdmlkZXI'
