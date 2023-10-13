@@ -37,6 +37,7 @@
 ### 鸣谢名单
 当前合并节点总数: `1`
 - [15freenodes/freenodes](https://github.com/freenodes/freenodes), 节点数量: `1`
+- [16ts-sf/fly](https://github.com/ts-sf/fly), 节点数量: `1`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
