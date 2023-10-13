@@ -644,8 +644,8 @@ class sub_convert():
                         else:
                             if ',' in obfsparam:
                                 obfsparam=obfsparam.replace(',','@')
-                                yaml_url.setdefault('obfs-param', obfsparam)
-                        #print(obfsparam)
+                            yaml_url.setdefault('obfs-param', obfsparam)
+                        print(obfsparam)
 
                     yaml_url.setdefault('group', 'SSRProvider')
                     #print(group)
