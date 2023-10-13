@@ -35,8 +35,8 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `0`
-- [15freenodes/freenodes](https://github.com/freenodes/freenodes), 节点数量: `0`
+当前合并节点总数: `1`
+- [15freenodes/freenodes](https://github.com/freenodes/freenodes), 节点数量: `1`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
