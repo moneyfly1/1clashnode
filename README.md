@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1373`
+当前合并节点总数: `1369`
 - [20xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `323`
 - [3rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `345`
 - [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `291`
@@ -47,7 +47,7 @@
 - [11ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `43`
 - [13YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `33`
 - [14jkchen3](https://github.com/jkchen3), 节点数量: `24`
-- [16ts-sf/fly](https://github.com/ts-sf/fly), 节点数量: `61`
+- [16ts-sf/fly](https://github.com/ts-sf/fly), 节点数量: `53`
 - [boom](https://github.com/cdddbc/getAirport), 节点数量: `1`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
