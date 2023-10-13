@@ -683,13 +683,13 @@ class sub_convert():
                     yaml_url.setdefault('obfs', parts[4])
                     yaml_url.setdefault('protocol', parts[2])
                     if 'obfsparam' in param_dic:
-                        yaml_url.setdefault('obfs_param', sub_convert.base64_decode(param_dic['obfsparam']))
+                        yaml_url.setdefault('obfs-param', sub_convert.base64_decode(param_dic['obfsparam']))
                     else:
-                        yaml_url.setdefault('obfs_param', '')
+                        yaml_url.setdefault('obfs-param', '')
                     if 'protoparam' in param_dic:
-                        yaml_url.setdefault('protocol_param', sub_convert.base64_decode(param_dic['protoparam']))
+                        yaml_url.setdefault('protocol-param', sub_convert.base64_decode(param_dic['protoparam']))
                     else:
-                        yaml_url.setdefault('protocol_param', '')
+                        yaml_url.setdefault('protocol-param', '')
                     if 'group' in param_dic:
                         yaml_url.setdefault('group', sub_convert.base64_decode(param_dic['group']))
                     else:
@@ -912,19 +912,19 @@ class sub_convert():
                     cipher = proxy['cipher']
                     protocol = proxy['protocol']
                     obfs = proxy['obfs']
-                    for key in {'group', 'obfs_param', 'protocol_param'}:
+                    for key in {'group', 'obfs-param', 'protocol-param'}:
                         if key in proxy:
                             if key == 'group':
                                 if proxy[key] is not None:
                                     group = sub_convert.base64_encode(proxy[key])
                                 else:
                                     group =''
-                            elif key == 'obfs_param':
+                            elif key == 'obfs-param':
                                 if proxy[key] is not None:
                                     obfsparam = sub_convert.base64_encode(proxy[key])
                                 else:
                                     obfsparam = '' 
-                            elif key == 'protocol_param':
+                            elif key == 'protocol-param':
                                 if proxy[key] is not None:
                                     protoparam = sub_convert.base64_encode(proxy[key])
                                 else:
