@@ -842,7 +842,7 @@ class sub_convert():
 
                     if 'obfs-param' in proxy:
                         if proxy['obfs-param'] is not None:
-                            obfsparam = sub_convert.base64_encode(proxy['obfs_param'].replace('@',','))
+                            obfsparam = sub_convert.base64_encode(proxy['obfs-param'].replace('@',','))
                         else:
                             obfsparam = ''
                     else:
@@ -850,7 +850,7 @@ class sub_convert():
                    
                     if 'protocol-param' in proxy:
                         if proxy['protocol-param'] is not None:
-                            protoparam = sub_convert.base64_encode(proxy['protocol_param'].replace('@',','))
+                            protoparam = sub_convert.base64_encode(proxy['protocol-param'].replace('@',','))
                         else:
                             protoparam = ''
                     else:
