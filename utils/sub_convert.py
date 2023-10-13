@@ -914,9 +914,9 @@ class sub_convert():
                         if key in proxy:
                             if key == 'group':
                                 group = sub_convert.base64_encode(proxy[key])
-                            elif key == 'obfsparam':
+                            elif key == 'obfs_param':
                                 obfsparam = sub_convert.base64_encode(proxy[key])
-                            elif key == 'protoparam':
+                            elif key == 'protocol_param':
                                 protoparam = sub_convert.base64_encode(proxy[key])
                         else:
                             if key == 'group':
