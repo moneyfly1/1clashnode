@@ -820,7 +820,7 @@ class sub_convert():
                         if 'host' not in proxy['plugin-opts']:
                             proxy['plugin-opts']['host']=proxy['server']
                         if 'path' not in proxy['plugin-opts']:
-                            proxy['plugin-opts']['path']=proxy['/']
+                            proxy['plugin-opts']['path']='/'
                         #print(proxy)
                         ssplugin=str('mode='+str(proxy['plugin-opts']['mode']) + ';' + 'host=' + str(proxy['plugin-opts']['host'])+ ';' + 'path=' + str(proxy['plugin-opts']['path'])+';'+'tls;'+'mux=4;'+'mux=mux=4;')
                         #print(ssplugin)
