@@ -658,6 +658,7 @@ class sub_convert():
            #         pass
             if 'ssr://' in line:
                 try:
+                    print(line)
                     ssr_content = sub_convert.base64_decode(line.replace('ssr://', ''))
                 
                     parts = re.split(':', ssr_content)
@@ -903,6 +904,7 @@ class sub_convert():
   #                  protocol_url.append(ssr_proxy)
 
                 elif proxy['type'] == 'ssr': # ssr 节点提取, 由 ssr_base64_decoded 中所有参数总体 base64 encode
+                    print(proxy)
                     remarks = sub_convert.base64_encode(proxy['name']).replace('+', '-')
                     server = proxy['server']
                     port = str(proxy['port'])
