@@ -681,9 +681,18 @@ class sub_convert():
                     yaml_url.setdefault('password', sub_convert.base64_decode(password_encode_str))
                     yaml_url.setdefault('obfs', parts[4])
                     yaml_url.setdefault('protocol', parts[2])
-                    yaml_url.setdefault('obfsparam', sub_convert.base64_decode(param_dic['obfsparam']))
-                    yaml_url.setdefault('protoparam', sub_convert.base64_decode(param_dic['protoparam']))
-                    yaml_url.setdefault('group', sub_convert.base64_decode(param_dic['group']))
+                    if 'obfsparam' in param_dic:
+                        yaml_url.setdefault('obfs_param', sub_convert.base64_decode(param_dic['obfsparam']))
+                    else:
+                        yaml_url.setdefault('obfs_param', '')
+                    if 'protoparam' in param_dic:
+                        yaml_url.setdefault('protocol_param', sub_convert.base64_decode(param_dic['protoparam']))
+                    else:
+                        yaml_url.setdefault('protocol_param', '')
+                    if 'group' in param_dic:
+                        yaml_url.setdefault('group', sub_convert.base64_decode(param_dic['group']))
+                    else:
+                        yaml_url.setdefault('group', 'SSRProvider')
 
                     url_list.append(yaml_url)
                 except Exception as err:
@@ -901,7 +910,7 @@ class sub_convert():
                     cipher = proxy['cipher']
                     protocol = proxy['protocol']
                     obfs = proxy['obfs']
-                    for key in {'group', 'obfsparam', 'protoparam'}:
+                    for key in {'group', 'obfs_param', 'protocol_param'}:
                         if key in proxy:
                             if key == 'group':
                                 group = sub_convert.base64_encode(proxy[key])
