@@ -47,7 +47,7 @@
 - [11ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `43`
 - [13YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `33`
 - [14jkchen3](https://github.com/jkchen3), 节点数量: `24`
-- [16ts-sf/fly](https://github.com/ts-sf/fly), 节点数量: `52`
+- [16ts-sf/fly](https://github.com/ts-sf/fly), 节点数量: `51`
 - [boom](https://github.com/cdddbc/getAirport), 节点数量: `1`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
