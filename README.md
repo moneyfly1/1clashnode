@@ -35,19 +35,25 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1229`
+当前合并节点总数: `1841`
 - [20xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `325`
 - [3rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `261`
 - [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `246`
 - [5mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `81`
-- [6cdddbc/getAirport](https://github.com/cdddbc/getAirport), 节点数量: `144`
 - [8ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `17`
 - [9zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `37`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `10`
 - [11ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `41`
-- [13YaChengMu/my_clash_url](https://github.com/YaChengMu/my_clash_url), 节点数量: `19`
-- [14jkchen3](https://github.com/jkchen3), 节点数量: `24`
-- [16ts-sf/fly](https://github.com/ts-sf/fly), 节点数量: `53`
+- [18issakk/get_clash](https://github.com/issakk/get_clash), 节点数量: `115`
+- [19imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `92`
+- [20Lukeehujt/Clash_nod](https://github.com/Lukeehujt/Clash_node), 节点数量: `78`
+- [21ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `26`
+- [23hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `32`
+- [25hebe061103/clash](https://github.com/hebe061103/clash), 节点数量: `1`
+- [26anaer/Sub](https://github.com/anaer/Sub), 节点数量: `542`
+- [27peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `257`
+- [28Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `10`
+- [29openRunner/clash-freenode](https://github.com/openRunner/clash-freenode), 节点数量: `0`
 - [boom](https://github.com/cdddbc/getAirport), 节点数量: `1`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
