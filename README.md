@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1841`
+当前合并节点总数: `1822`
 - [20xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `325`
 - [3rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `261`
 - [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `246`
@@ -44,11 +44,11 @@
 - [9zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `37`
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `10`
 - [11ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `41`
-- [18issakk/get_clash](https://github.com/issakk/get_clash), 节点数量: `115`
+- [18issakk/get_clash](https://github.com/issakk/get_clash), 节点数量: `94`
 - [19imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `92`
 - [20Lukeehujt/Clash_nod](https://github.com/Lukeehujt/Clash_node), 节点数量: `78`
 - [21ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `26`
-- [23hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `32`
+- [23hsb4657/v2ray](https://github.com/hsb4657/v2ray), 节点数量: `35`
 - [25hebe061103/clash](https://github.com/hebe061103/clash), 节点数量: `1`
 - [26anaer/Sub](https://github.com/anaer/Sub), 节点数量: `542`
 - [27peasoft/NoMoreWalls](https://github.com/peasoft/NoMoreWalls), 节点数量: `257`
