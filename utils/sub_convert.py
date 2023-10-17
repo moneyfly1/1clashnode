@@ -826,7 +826,7 @@ class sub_convert():
                     else:
                         trojan_go = '?allowInsecure=1'
                     if 'sni' in proxy.keys():
-                        trojan_go = trojan_go+'&sni='+proxy['sni']
+                        trojan_go = trojan_go+'&sni='+str(proxy['sni'])
                     trojan_proxy = str('trojan://' + str(proxy['password']) + '@' + str(proxy['server']) + ':' + str(proxy['port']) + trojan_go + '#' + str(urllib.parse.quote(proxy['name'])) + '\n')
                     protocol_url.append(trojan_proxy)
                 
