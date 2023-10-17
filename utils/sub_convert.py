@@ -867,7 +867,8 @@ class sub_convert():
         except Exception as err:
             print(f'yaml decode 发生 {err} 错误')
             print(proxy)
-            return '订阅内容解析错误'
+            #return '订阅内容解析错误'
+            pass
 
 
             
