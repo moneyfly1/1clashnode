@@ -35,8 +35,8 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `816`
-- [20xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `0`
+当前合并节点总数: `1671`
+- [20xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `587`
 - [3rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `251`
 - [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `230`
 - [5mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `81`
@@ -54,7 +54,7 @@
 - [28Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `7`
 - [29openRunner/clash-freenode](https://github.com/openRunner/clash-freenode), 节点数量: `32`
 - [30mgit0001/test_clash](https://github.com//mgit0001/test_clash), 节点数量: `7`
-- [39mfbpn/tg_mfbpn_sub](https://github.com/mfbpn/tg_mfbpn_sub), 节点数量: `0`
+- [39mfbpn/tg_mfbpn_sub](https://github.com/mfbpn/tg_mfbpn_sub), 节点数量: `279`
 - [boom](https://github.com/cdddbc/getAirport), 节点数量: `1`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
