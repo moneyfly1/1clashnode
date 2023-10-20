@@ -831,7 +831,7 @@ class sub_convert():
                     protocol_url.append(trojan_proxy)
                 
                 elif proxy['type'] == 'ssr': # ssr 节点提取, 由 ssr_base64_decoded 中所有参数总体 base64 encode
-                    #print(proxy)
+                    print(proxy)
                     remarks = sub_convert.base64_encode(proxy['name']).replace('+', '-')
                     server = proxy['server']
                     port = str(proxy['port'])
@@ -859,7 +859,7 @@ class sub_convert():
                     group = 'U1NSUHJvdmlkZXI'
                     ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'&group='+group + '\n')
                     protocol_url.append(ssr_proxy)
-                    print(ssr_proxy)
+                    #print(ssr_proxy)
       
             yaml_content = ''.join(protocol_url)
             return yaml_content
