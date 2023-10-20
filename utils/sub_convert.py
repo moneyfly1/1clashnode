@@ -616,8 +616,8 @@ class sub_convert():
                         remarks=str(idid + '-sub')
                     
                     
-                    print(parts)
-                    print(params)
+                    #print(parts)
+                    #print(params)
                     print(idid)
                 
                     yaml_url.setdefault('name', remarks)
@@ -639,7 +639,7 @@ class sub_convert():
                         obfsparam=sub_convert.base64_decode(obfsparam)
                         if idid =='' or idid=='99':
                         #if ',' in obfsparam:
-                            #obfsparam=obfsparam.replace(',','@')
+                            obfsparam=obfsparam.replace('@',',')
                             yaml_url.setdefault('obfs-param', obfsparam)
                         else:
                             if ',' in obfsparam:
