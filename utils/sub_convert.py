@@ -599,7 +599,7 @@ class sub_convert():
             if 'ssr://' in line:
                 try:
                     ssr_content = sub_convert.base64_decode(line.replace('ssr://', ''))
-                    print(ssr_content)
+                    #print(ssr_content)
                     parts = re.split(':', ssr_content)
                     if len(parts) != 6:
                         print('SSR 格式错误: %s' % ssr_content)
@@ -633,7 +633,7 @@ class sub_convert():
                         #protoparam=protoparam.replace('==\n','')
                         protoparam=sub_convert.base64_decode(protoparam)
                         yaml_url.setdefault('protocol-param', protoparam)
-                        print(protoparam)
+                        #print(protoparam)
                     if 'obfsparam' in params:
                         obfsparam=re.compile('obfsparam=(.*?)&').findall(params)[0]
                         obfsparam=sub_convert.base64_decode(obfsparam)
@@ -645,7 +645,7 @@ class sub_convert():
                             if ',' in obfsparam:
                                 obfsparam=obfsparam.replace(',','@')
                             yaml_url.setdefault('obfs-param', obfsparam)
-                        print(obfsparam)
+                        #print(obfsparam)
 
                     yaml_url.setdefault('group', 'SSRProvider')
                     #print(group)
@@ -831,7 +831,7 @@ class sub_convert():
                     protocol_url.append(trojan_proxy)
                 
                 elif proxy['type'] == 'ssr': # ssr 节点提取, 由 ssr_base64_decoded 中所有参数总体 base64 encode
-                    print(proxy)
+                    #print(proxy)
                     remarks = sub_convert.base64_encode(proxy['name']).replace('+', '-')
                     server = proxy['server']
                     port = str(proxy['port'])
@@ -859,19 +859,8 @@ class sub_convert():
                     group = 'U1NSUHJvdmlkZXI'
                     ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'&group='+group + '\n')
                     protocol_url.append(ssr_proxy)
-
-
-
-            yaml_content = ''.join(protocol_url)
-            return yaml_content
-        except Exception as err:
-            print(f'yaml decode 发生 {err} 错误')
-            print(proxy)
-            #return '订阅内容解析错误'
-            pass
-
-
-            
+                    print(ssr_proxy)
+      
             yaml_content = ''.join(protocol_url)
             return yaml_content
         except Exception as err:
