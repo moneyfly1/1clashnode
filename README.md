@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1418`
+当前合并节点总数: `1416`
 - [3rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `230`
 - [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `294`
 - [5mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `81`
@@ -50,11 +50,11 @@
 - [22mlabalabala/v2ray-node](https://github.com/xrayfree/mlabalabala/v2ray-node), 节点数量: `25`
 - [24itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `36`
 - [25hebe061103/clash](https://github.com/hebe061103/clash), 节点数量: `7`
-- [28Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `5`
-- [29openRunner/clash-freenode](https://github.com/openRunner/clash-freenode), 节点数量: `38`
+- [28Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `6`
+- [29openRunner/clash-freenode](https://github.com/openRunner/clash-freenode), 节点数量: `0`
 - [30mgit0001/test_clash](https://github.com//mgit0001/test_clash), 节点数量: `7`
 - [ssr](https://github.com/cdddbc/getAirport), 节点数量: `1`
-- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `552`
+- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `554`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
