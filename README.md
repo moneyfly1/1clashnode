@@ -45,7 +45,7 @@
 - [10jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `33`
 - [11ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `54`
 - [17hatful/clash](https://github.com/hatful/clash), 节点数量: `0`
-- [19imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `79`
+- [19imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `78`
 - [21ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `29`
 - [22mlabalabala/v2ray-node](https://github.com/xrayfree/mlabalabala/v2ray-node), 节点数量: `25`
 - [24itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `19`
@@ -54,7 +54,7 @@
 - [29openRunner/clash-freenode](https://github.com/openRunner/clash-freenode), 节点数量: `0`
 - [30mgit0001/test_clash](https://github.com//mgit0001/test_clash), 节点数量: `7`
 - [ssr](https://github.com/cdddbc/getAirport), 节点数量: `1`
-- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `600`
+- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `599`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
