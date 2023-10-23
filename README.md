@@ -35,9 +35,9 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1419`
+当前合并节点总数: `1417`
 - [3rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `226`
-- [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `268`
+- [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `264`
 - [5mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `81`
 - [7mfbpn/proxy-minging](https://github.com/mfbpn/proxy-minging), 节点数量: `50`
 - [8ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `21`
@@ -50,7 +50,7 @@
 - [22mlabalabala/v2ray-node](https://github.com/xrayfree/mlabalabala/v2ray-node), 节点数量: `8`
 - [24itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `8`
 - [25hebe061103/clash](https://github.com/hebe061103/clash), 节点数量: `0`
-- [28Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `15`
+- [28Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `16`
 - [29openRunner/clash-freenode](https://github.com/openRunner/clash-freenode), 节点数量: `9`
 - [30mgit0001/test_clash](https://github.com//mgit0001/test_clash), 节点数量: `5`
 - [ssr](https://github.com/cdddbc/getAirport), 节点数量: `1`
