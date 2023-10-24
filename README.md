@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1419`
+当前合并节点总数: `1417`
 - [3rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `232`
 - [4w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), 节点数量: `259`
 - [5mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `81`
@@ -54,7 +54,7 @@
 - [29openRunner/clash-freenode](https://github.com/openRunner/clash-freenode), 节点数量: `0`
 - [30mgit0001/test_clash](https://github.com//mgit0001/test_clash), 节点数量: `5`
 - [ssr](https://github.com/cdddbc/getAirport), 节点数量: `1`
-- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `603`
+- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `602`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
