@@ -50,11 +50,11 @@
 - [22mlabalabala/v2ray-node](https://github.com/xrayfree/mlabalabala/v2ray-node), 节点数量: `17`
 - [24itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `17`
 - [25hebe061103/clash](https://github.com/hebe061103/clash), 节点数量: `0`
-- [28Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `4`
+- [28Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `5`
 - [29openRunner/clash-freenode](https://github.com/openRunner/clash-freenode), 节点数量: `19`
 - [30mgit0001/test_clash](https://github.com//mgit0001/test_clash), 节点数量: `5`
 - [ssr](https://github.com/cdddbc/getAirport), 节点数量: `1`
-- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `605`
+- [400xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `602`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
