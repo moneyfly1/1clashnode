@@ -640,11 +640,11 @@ class sub_convert():
                         if idid =='' or idid=='99':
                             if '@' in obfsparam:
                                 obfsparam=obfsparam.replace('@',',')
-                            yaml_url.setdefault('obfs-param', obfsparam)
+
                         else:
                             if ',' in obfsparam:
                                 obfsparam=obfsparam.replace(',','@')
-                            yaml_url.setdefault('obfs-param', obfsparam)
+                        yaml_url.setdefault('obfs-param', obfsparam)
                         #print(obfsparam)
 
                     yaml_url.setdefault('group', 'SSRProvider')
