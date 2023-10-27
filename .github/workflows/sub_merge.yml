@@ -31,7 +31,7 @@ jobs:
     - name: 安装依赖
       run: |
         pip install --upgrade pip
-        pip install maxminddb-2.4.0-py2.py3-none-any.whl
+        
         pip install -r ./utils/requirements.txt
     - name: 执行任务
       # env:
