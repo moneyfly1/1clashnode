@@ -292,7 +292,7 @@ class sub_convert():
                     begin_2 += 1
                 begin += 1
 
-        url_list = []
+        #url_list = []
 
         for proxy in proxies_list: # 改名
             
