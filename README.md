@@ -35,10 +35,10 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1355`
+当前合并节点总数: `1347`
 - [ssr](https://github.com/0xJins/x.sub), 节点数量: `1`
 - [ssr](https://github.com/cdddbc/getAirport), 节点数量: `1`
-- [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `541`
+- [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `532`
 - [11rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `258`
 - [13mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `85`
 - [15mfbpn/proxy-minging](https://github.com/mfbpn/proxy-minging), 节点数量: `50`
@@ -49,8 +49,8 @@
 - [25hatful/clash](https://github.com/hatful/clash), 节点数量: `0`
 - [27imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `106`
 - [29ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `18`
-- [30mlabalabala/v2ray-node](https://github.com/xrayfree/mlabalabala/v2ray-node), 节点数量: `4`
-- [32itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `4`
+- [30mlabalabala/v2ray-node](https://github.com/xrayfree/mlabalabala/v2ray-node), 节点数量: `9`
+- [32itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `9`
 - [33hebe061103/clash](https://github.com/hebe061103/clash), 节点数量: `0`
 - [36Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `20`
 - [37openRunner/clash-freenode](https://github.com/openRunner/clash-freenode), 节点数量: `0`
