@@ -292,7 +292,7 @@ class sub_convert():
                     begin_2 += 1
                 begin += 1
 
-        #url_list = []
+        url_list = []
 
         for proxy in proxies_list: # 改名
             
@@ -613,7 +613,7 @@ class sub_convert():
                         remarks=re.compile('remarks=(.*?)&').findall(params)[0]
                         remarks=sub_convert.base64_decode(remarks)
                     else:
-                        remarks=str(idid + '-sub')
+                        remarks=str(parts[0])
                     
                     
                     #print(parts)
