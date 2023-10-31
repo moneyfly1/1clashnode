@@ -652,7 +652,7 @@ class sub_convert():
                          
                     #print(yaml_url)
                     url_list.append(yaml_url)
-                    print(url_list)
+                    #print(url_list)
                 except Exception as err:
                     print(f'yaml_encode 解析 ssr 节点发生错误: {err}')
                     print(yaml_url)
@@ -861,7 +861,7 @@ class sub_convert():
                     ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'&group='+group + '\n')
                     protocol_url.append(ssr_proxy)
                     #print(ssr_proxy)
-                    print(protocol_url)
+                    #print(protocol_url)
       
             yaml_content = ''.join(protocol_url)
             return yaml_content
