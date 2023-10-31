@@ -35,8 +35,9 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1`
+当前合并节点总数: `534`
 - [29openRunner/clash-freenode](https://github.com/openRunner/clash-freenode), 节点数量: `0`
+- [boom](https://github.com/cdddbc/getAirport), 节点数量: `541`
 - [ssr](https://github.com/0xJins/x.sub), 节点数量: `1`
 - [ssr](https://github.com/cdddbc/getAirport), 节点数量: `1`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
