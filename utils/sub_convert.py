@@ -618,7 +618,7 @@ class sub_convert():
                     
                     #print(parts)
                     #print(params)
-                    print(idid)
+                    #print(idid)
                 
                     yaml_url.setdefault('name', remarks)
                     yaml_url.setdefault('server', parts[0])
@@ -650,7 +650,7 @@ class sub_convert():
                     yaml_url.setdefault('group', 'SSRProvider')
                     #print(group)
                          
-                    print(yaml_url)
+                    #print(yaml_url)
                     url_list.append(yaml_url)
                 except Exception as err:
                     print(f'yaml_encode 解析 ssr 节点发生错误: {err}')
@@ -831,7 +831,7 @@ class sub_convert():
                     protocol_url.append(trojan_proxy)
                 
                 elif proxy['type'] == 'ssr': # ssr 节点提取, 由 ssr_base64_decoded 中所有参数总体 base64 encode
-                    print(proxy)
+                    #print(proxy)
                     remarks = sub_convert.base64_encode(proxy['name']).replace('+', '-')
                     server = proxy['server']
                     port = str(proxy['port'])
