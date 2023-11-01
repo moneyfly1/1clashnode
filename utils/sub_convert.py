@@ -650,7 +650,7 @@ class sub_convert():
                     yaml_url.setdefault('group', 'SSRProvider')
                     #print(group)
                          
-                    #print(yaml_url)
+                    print(yaml_url)
                     url_list.append(yaml_url)
                     #print(url_list)
                 except Exception as err:
@@ -860,7 +860,7 @@ class sub_convert():
                     group = 'U1NSUHJvdmlkZXI'
                     ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'&group='+group + '\n\n')
                     protocol_url.append(ssr_proxy)
-                    #print(ssr_proxy)
+                    print(ssr_proxy)
                     #print(protocol_url)
       
             yaml_content = ''.join(protocol_url)
