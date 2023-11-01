@@ -896,7 +896,7 @@ class sub_convert():
 
 if __name__ == '__main__':
     
-    subscribe = 'https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg'
+    subscribe = ''
     output_path = './output.txt'
 
     content = sub_convert.convert(subscribe, 'url', 'YAML')
