@@ -858,7 +858,7 @@ class sub_convert():
                         protoparam = ''
 
                     group = 'U1NSUHJvdmlkZXI'
-                    ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'&group='+group + '\n')
+                    ssr_proxy = 'ssr://'+sub_convert.base64_encode(server+':'+port+':'+protocol+':'+cipher+':'+obfs+':'+password+'/?remarks='+remarks+'&obfsparam='+obfsparam+'&protoparam='+protoparam+'&group='+group + '\n\n')
                     protocol_url.append(ssr_proxy)
                     #print(ssr_proxy)
                     #print(protocol_url)
