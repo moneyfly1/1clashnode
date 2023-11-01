@@ -896,7 +896,7 @@ class sub_convert():
 
 if __name__ == '__main__':
     
-    subscribe = ''
+    subscribe = 'https://raw.githubusercontent.com/imyaoxp/freenode/master/sub/sub_merge.txt'
     output_path = './output.txt'
 
     content = sub_convert.convert(subscribe, 'url', 'YAML')
