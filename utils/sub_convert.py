@@ -639,11 +639,11 @@ class sub_convert():
                         obfsparam=sub_convert.base64_decode(obfsparam)
                         if idid =='' or idid=='99':
                             if '@' in obfsparam:
-                                obfsparam=obfsparam.replace('@',',')
+                                obfsparam=obfsparam.replace('$',',')
 
                         else:
                             if ',' in obfsparam:
-                                obfsparam=obfsparam.replace(',','@')
+                                obfsparam=obfsparam.replace(',','$')
                         yaml_url.setdefault('obfs-param', obfsparam)
                         #print(obfsparam)
 
@@ -843,7 +843,7 @@ class sub_convert():
 
                     if 'obfs-param' in proxy:
                         if proxy['obfs-param'] is not None:
-                            obfsparam = sub_convert.base64_encode(proxy['obfs-param'].replace('@',','))
+                            obfsparam = sub_convert.base64_encode(proxy['obfs-param'].replace('$',','))
                         else:
                             obfsparam = ''
                     else:
@@ -851,7 +851,7 @@ class sub_convert():
                    
                     if 'protocol-param' in proxy:
                         if proxy['protocol-param'] is not None:
-                            protoparam = sub_convert.base64_encode(proxy['protocol-param'].replace('@',','))
+                            protoparam = sub_convert.base64_encode(proxy['protocol-param'])
                         else:
                             protoparam = ''
                     else:
