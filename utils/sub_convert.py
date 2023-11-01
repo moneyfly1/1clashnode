@@ -288,7 +288,7 @@ class sub_convert():
                         if proxy_compared['server'] == proxies_list[begin_2]['server'] and proxy_compared['port'] == proxies_list[begin_2]['port'] and proxy_compared['type'] == proxies_list[begin_2]['type'] and proxy_compared['password'] == proxies_list[begin_2]['password']:
                             proxies_list.pop(begin_2)
                             length -= 1
-                    
+                            print(proxy_compared)
                     begin_2 += 1
                 begin += 1
 
