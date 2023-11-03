@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `2167`
+当前合并节点总数: `2151`
 - [40xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `559`
 - [11rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `193`
 - [13mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `85`
@@ -47,7 +47,7 @@
 - [25hatful/clash](https://github.com/hatful/clash), 节点数量: `0`
 - [27imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `121`
 - [29ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `18`
-- [30mlabalabala/v2ray-node](https://github.com/xrayfree/mlabalabala/v2ray-node), 节点数量: `21`
+- [30mlabalabala/v2ray-node](https://github.com/xrayfree/mlabalabala/v2ray-node), 节点数量: `16`
 - [32itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `16`
 - [33hebe061103/clash](https://github.com/hebe061103/clash), 节点数量: `0`
 - [36Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `8`
