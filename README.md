@@ -35,7 +35,7 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1417`
+当前合并节点总数: `1461`
 - [40xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `679`
 - [11rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `290`
 - [13mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `85`
@@ -43,14 +43,14 @@
 - [16ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `22`
 - [17zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `57`
 - [18jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `16`
-- [19ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `70`
+- [19ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `101`
 - [25hatful/clash](https://github.com/hatful/clash), 节点数量: `0`
 - [27imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `19`
 - [29ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `18`
 - [30mlabalabala/v2ray-node](https://github.com/xrayfree/mlabalabala/v2ray-node), 节点数量: `0`
-- [32itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `17`
+- [32itxve/fetch-clash-node](https://github.com/itxve/fetch-clash-node), 节点数量: `15`
 - [33hebe061103/clash](https://github.com/hebe061103/clash), 节点数量: `0`
-- [36Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `35`
+- [36Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `28`
 - [37openRunner/clash-freenode](https://github.com/openRunner/clash-freenode), 节点数量: `0`
 - [38mgit0001/test_clash](https://github.com//mgit0001/test_clash), 节点数量: `6`
 - [ssr](https://github.com/0xJins/x.sub), 节点数量: `1`
