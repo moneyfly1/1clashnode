@@ -35,15 +35,15 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1452`
+当前合并节点总数: `1469`
 - [40xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `749`
-- [11rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `211`
+- [11rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `205`
 - [13mksshare](https://github.com/mksshare/mksshare.github.io), 节点数量: `85`
 - [15mfbpn/proxy-minging](https://github.com/mfbpn/proxy-minging), 节点数量: `48`
-- [16ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `22`
+- [16ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `17`
 - [17zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), 节点数量: `101`
 - [18jwy2008/clash](https://github.com/jwy2008/clash), 节点数量: `16`
-- [19ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `71`
+- [19ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节点数量: `72`
 - [25hatful/clash](https://github.com/hatful/clash), 节点数量: `0`
 - [27imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `1`
 - [29ermaozi01](https://github.com/ermaozi01/free_clash_vpn), 节点数量: `18`
