@@ -35,13 +35,13 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `951`
+当前合并节点总数: `961`
 - [40xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `257`
 - [11rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `181`
 - [15mfbpn/proxy-minging](https://github.com/mfbpn/proxy-minging), 节点数量: `48`
 - [16ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `22`
 - [22jkchen3](https://github.com/jkchen3), 节点数量: `53`
-- [24ts-sf/fly](https://github.com/ts-sf/fly), 节点数量: `19`
+- [24ts-sf/fly](https://github.com/ts-sf/fly), 节点数量: `40`
 - [27imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `17`
 - [36Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `97`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
