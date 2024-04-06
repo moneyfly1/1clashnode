@@ -114,16 +114,16 @@ proxies:
 - {name: 04-112-RELAY, server: jp3.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: true, ws-opts: {path: /, headers: {host: jp3.pay.edu.kg}}, udp: true}
 - {name: 04-113-RELAY, server: jp4.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: true, ws-opts: {path: /, headers: {host: jp4.pay.edu.kg}}, udp: true}
 - {name: 04-114-RELAY, server: jp5.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: true, ws-opts: {path: /, headers: {host: jp5.pay.edu.kg}}, udp: true}
-- {name: 04-115-US, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
-- {name: 04-116-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
+- {name: 04-115-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
+- {name: 04-116-US, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
 - {name: 04-117-US, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
 - {name: 04-118-US, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
-- {name: 04-119-KR, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
-- {name: 04-120-KR, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
+- {name: 04-119-NOWHERE, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
+- {name: 04-120-DE, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
 - {name: 04-121-DE, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
 - {name: 04-122-NOWHERE, server: sg01.bigmeyear.org, port: 30234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
 - {name: 04-123-DE, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
-- {name: 04-124-DE, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
+- {name: 04-124-IT, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
 - {name: 04-125-CN, server: jp01.bigmeyear.org, port: 30236, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
 - {name: 04-126-CN, server: jp02.bigmeyear.org, port: 30237, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
 - {name: 04-127-CN, server: jp03.bigmeyear.org, port: 30250, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592}
@@ -674,17 +674,17 @@ proxies:
 - {name: 22-672-CA, server: 52.60.255.203, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
 - {name: 22-673-DE, server: 3.122.46.247, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
 - {name: 22-674-DE, server: 3.122.46.247, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: true, udp: true}
-- {name: 24-675-US, server: 167.88.61.175, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-- {name: 24-676-RELAY, server: 104.21.224.1, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: true, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {host: a.prapt1.ir}}, udp: true}
-- {name: 24-677-US, server: 34.215.143.114, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+- {name: 24-675-RU, server: 004282c1-sbdj40-sdlngq-1n7jq.ru.z7zi.com, port: 1007, type: trojan, password: 85bce006-4885-11ee-8792-f23c9164ca5d, skip-cert-verify: true, udp: true}
+- {name: 24-676-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: true, ws-opts: {path: /, headers: {host: s1c.v2.v001sss.xyz}}, udp: true}
+- {name: 24-677-US, server: 167.88.61.175, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 - {name: 24-678-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
-- {name: 24-679-RELAY, server: 104.17.147.77, port: 443, type: trojan, password: 71409d3e488548e8bb076d229778f008, sni: bangladeshipatri.com, skip-cert-verify: true, udp: true}
-- {name: 24-680-IR, server: 212.33.206.111, port: 80, type: trojan, password: yu7AvNL9rW, skip-cert-verify: true, udp: true}
-- {name: 24-681-RELAY, server: 104.21.51.242, port: 2087, type: trojan, password: 241f01b9-8dfc-474f-8342-3fbd5c46417e, sni: grpcfr.arminhadadi.site, skip-cert-verify: true, udp: true}
-- {name: 24-682-GB, server: 51.140.37.163, port: 34417, type: ss, cipher: chacha20-ietf-poly1305, password: OZ2VmWR9pI74zoLstexAee}
+- {name: 24-679-IR, server: 212.33.206.111, port: 80, type: trojan, password: yu7AvNL9rW, skip-cert-verify: true, udp: true}
+- {name: 24-680-RELAY, server: 104.21.224.1, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: true, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {host: a.prapt1.ir}}, udp: true}
+- {name: 24-681-RELAY, server: 104.17.147.77, port: 443, type: trojan, password: 71409d3e488548e8bb076d229778f008, sni: bangladeshipatri.com, skip-cert-verify: true, udp: true}
+- {name: 24-682-US, server: 34.215.143.114, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
 - {name: 24-683-RU, server: 176.32.35.167, port: 1007, type: trojan, password: 85bce006-4885-11ee-8792-f23c9164ca5d, sni: 004282c1-sbdj40-sdlngq-1n7jq.ru.z7zi.com, skip-cert-verify: true, udp: true}
-- {name: 24-684-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: true, ws-opts: {path: /, headers: {host: s1c.v2.v001sss.xyz}}, udp: true}
-- {name: 24-685-RU, server: 004282c1-sbdj40-sdlngq-1n7jq.ru.z7zi.com, port: 1007, type: trojan, password: 85bce006-4885-11ee-8792-f23c9164ca5d, skip-cert-verify: true, udp: true}
+- {name: 24-684-GB, server: 51.140.37.163, port: 34417, type: ss, cipher: chacha20-ietf-poly1305, password: OZ2VmWR9pI74zoLstexAee}
+- {name: 24-685-RELAY, server: 104.21.51.242, port: 2087, type: trojan, password: 241f01b9-8dfc-474f-8342-3fbd5c46417e, sni: grpcfr.arminhadadi.site, skip-cert-verify: true, udp: true}
 - {name: 27-686-RELAY, server: 172.67.196.112, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: /linkws, headers: {host: linde06.indiavideo.sbs}}, udp: true}
 - {name: 27-687-RELAY, server: 198.41.202.5, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: /linkvws, headers: {host: kittiy.sbs}}, udp: true}
 - {name: 27-688-RELAY, server: 172.67.68.246, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: /linkvws, headers: {host: vip2323.cfd}}, udp: true}
