@@ -42,7 +42,7 @@
 - [16ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `19`
 - [22jkchen3](https://github.com/jkchen3), 节点数量: `50`
 - [24ts-sf/fly](https://github.com/ts-sf/fly), 节点数量: `461`
-- [27imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `1`
+- [27imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `2`
 - [36Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `4`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
