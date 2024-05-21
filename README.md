@@ -35,15 +35,15 @@
 </details>
 
 ### 鸣谢名单
-当前合并节点总数: `1760`
+当前合并节点总数: `1771`
 - [40xJins/x.sub](https://github.com/0xJins/x.sub), 节点数量: `491`
 - [11rxsweet/proxies](https://github.com/rxsweet/proxies), 节点数量: `0`
 - [15mfbpn/proxy-minging](https://github.com/mfbpn/proxy-minging), 节点数量: `0`
-- [16ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `20`
+- [16ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `22`
 - [22jkchen3](https://github.com/jkchen3), 节点数量: `51`
 - [24ts-sf/fly](https://github.com/ts-sf/fly), 节点数量: `1106`
 - [27imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `1`
-- [36Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `28`
+- [36Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `32`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
