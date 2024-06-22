@@ -3405,4 +3405,10 @@ proxies:
 - {name: 24-3403-RELAY, server: 104.18.28.181, port: 8080, type: ss, cipher: 3f9d3b52-1bcc-499f-aad0-ba71d6123f8b, password: None}
 - {name: 24-3404-RELAY, server: 104.18.13.229, port: 8443, type: ss, cipher: 37d0b151-023e-4729-9994-45a7d9df5fd1, password: None}
 - {name: 24-3405-RELAY, server: 104.24.173.19, port: 443, type: trojan, password: 09afab13-a23c-4264-9da4-985e3b62b789, sni: p.mrproxy.shop, skip-cert-verify: true, udp: true}
-- {name: 36-3406-CA, server: 3.96.137.145, port: 14525, type: trojan, password: 1mVWBVkrBpoQ, sni: appsvs.shop, skip-cert-verify: true, udp: true}
+- {name: 36-3406-US, server: 3.141.30.170, port: 14637, type: trojan, password: IGt8jOAbCiG7, sni: appsvs.shop, skip-cert-verify: true, udp: true}
+- {name: 36-3407-CN, server: 183.238.202.173, port: 51193, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, tls: false, ws-opts: {path: /, headers: {host: None}}, udp: true}
+- {name: 36-3408-RELAY, server: 104.16.67.38, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: /v118-fccxmxm35, headers: {host: us3e-mmnnfr9dop0.v2freevpn.com}}, udp: true}
+- {name: 36-3409-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: /, headers: {host: s1c.v2.v001sss.xyz}}, udp: true}
+- {name: 36-3410-AT, server: at1.trojanvpn.de, port: 2053, type: trojan, password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf, sni: ftp.debian.org, skip-cert-verify: true, udp: true}
+- {name: 36-3411-CA, server: 3.99.191.237, port: 14634, type: trojan, password: X4FRqv02JUAk, sni: appsvs.shop, skip-cert-verify: true, udp: true}
+- {name: 36-3412-US, server: 23.157.40.10, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
