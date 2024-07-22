@@ -41,9 +41,9 @@
 - [15mfbpn/proxy-minging](https://github.com/mfbpn/proxy-minging), 节点数量: `0`
 - [16ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), 节点数量: `20`
 - [22jkchen3](https://github.com/jkchen3), 节点数量: `51`
-- [24ts-sf/fly](https://github.com/ts-sf/fly), 节点数量: `197`
+- [24ts-sf/fly](https://github.com/ts-sf/fly), 节点数量: `194`
 - [27imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `0`
-- [36Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `10`
+- [36Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `11`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
