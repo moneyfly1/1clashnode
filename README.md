@@ -43,7 +43,7 @@
 - [22jkchen3](https://github.com/jkchen3), 节点数量: `51`
 - [24ts-sf/fly](https://github.com/ts-sf/fly), 节点数量: `199`
 - [27imohammadkhalili](https://github.com/imohammadkhalili/V2RAY), 节点数量: `0`
-- [36Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `20`
+- [36Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `22`
 - [99电报群分享1](https://github.com/cdddbc/getAirport), 节点数量: `0`
 
 ## 客户端选择
