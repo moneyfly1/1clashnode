@@ -322,7 +322,7 @@ proxies:
 - {name: 12-320-RELAY, server: 23.227.38.23, port: 8080, type: vmess, uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm, headers: {host: uh-lawyers-instruments-kernel.trycloudflare.com}}, udp: true}
 - {name: 12-321-RELAY, server: 162.159.130.208, port: 8080, type: vmess, uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm, headers: {host: widescreen-instruction-breakdown-postage.trycloudflare.com}}, udp: true}
 - {name: 12-322-RELAY, server: 162.159.5.6, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm, headers: {host: pcs-referenced-camera-concerns.trycloudflare.com}}, udp: true}
-- {name: 12-323-JP, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, skip-cert-verify: true, udp: true}
+- {name: 12-323-HK, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, skip-cert-verify: true, udp: true}
 - {name: 12-324-RELAY, server: russia.com, port: 8880, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: /api/v3/download.getFile, headers: {host: ssrsub.v03.ssrsub.com}}, udp: true}
 - {name: 12-325-US, server: yh2.freeh1.xyz, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm, headers: {host: pcs-referenced-camera-concerns.trycloudflare.com}}, udp: true}
 - {name: 12-326-CN, server: gcdddd0005.likeone.lol, port: 51031, type: trojan, password: b4411de3-a52d-45bd-8b17-8ffb9987cd37, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
@@ -466,7 +466,7 @@ proxies:
 - {name: 16-464-KR, server: 43.203.243.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: 16-465-KR, server: 52.79.73.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 - {name: 16-466-JP, server: 3.113.31.223, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-- {name: 16-467-JP, server: vn.mjt000.com, port: 443, type: trojan, password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c, sni: vn.mjt000.com, skip-cert-verify: true, udp: true}
+- {name: 16-467-HK, server: vn.mjt000.com, port: 443, type: trojan, password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c, sni: vn.mjt000.com, skip-cert-verify: true, udp: true}
 - {name: 16-468-FASTLY, server: primer.ibilibi.li, port: 443, type: vmess, uuid: e5852393-ca52-4c90-a237-d63cbbb57f21, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: true, ws-opts: {path: "/farcry?ed=2560", headers: {host: loki.oracle}}, udp: true}
 - {name: 16-469-CN, server: 120.233.26.140, port: 50015, type: trojan, password: 2add6241-8fe8-3922-8347-da25e8ced601, sni: my.doubledou.icu, skip-cert-verify: true, udp: true}
 - {name: 22-470-GOOGLE, server: 34.80.143.223, port: 38314, type: vmess, uuid: d9f743da-5113-44d1-8303-60aeb1dcc664, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, tls: false, ws-opts: {path: None, headers: {host: 34.80.143.223}}, udp: true}
@@ -692,11 +692,26 @@ proxies:
 - {name: 24-690-CN, server: 125.88.149.205, port: 50079, type: trojan, password: 2add6241-8fe8-3922-8347-da25e8ced601, sni: tai.doubledou.icu, skip-cert-verify: true, udp: true}
 - {name: 24-691-US, server: 198.2.195.1, port: 38005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, skip-cert-vertify: true, network: ws, tls: true, ws-opts: {path: /path/1733477783705, headers: {host: www.27306103.xyz}}, udp: true}
 - {name: 24-692-RELAY, server: 104.16.20.118, port: 443, type: trojan, password: blue2024, sni: tb.promote.icu, skip-cert-verify: true, udp: true}
-- {name: 36-693-BR, server: 168.138.142.53, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
-- {name: 36-694-RELAY, server: 104.16.68.38, port: 2082, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: /glweidf.cfd/linkws, headers: {host: worker-divine-hat-02d6.savofir317.workers.dev}}, udp: true}
-- {name: 36-695-DE, server: 3.121.157.191, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-- {name: 36-696-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: /linkws, headers: {host: irvideo.cfd}}, udp: true}
-- {name: 36-697-HK, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, tls: false, ws-opts: {path: /, headers: {host: None}}, udp: true}
-- {name: 36-698-IE, server: 3.248.98.229, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-- {name: 36-699-RU, server: 185.22.155.228, port: 23456, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-- {name: 36-700-US, server: 38.110.1.46, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+- {name: 36-693-US, server: 38.110.1.46, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+- {name: 36-694-US, server: 38.110.1.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+- {name: 36-695-US, server: u2.huvicloud.com, port: 443, type: vmess, uuid: f07b9711-a6a4-4128-807d-fdb40dcaa488, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: /f07b9711-a6a4-4128-807d-fdb40dcaa488, headers: {host: u2.huvicloud.com}}, udp: true}
+- {name: 36-696-SE, server: 13.48.109.62, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+- {name: 36-697-RELAY, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: /, headers: {host: server31.beheshtbaneh.com}}, udp: true}
+- {name: 36-698-IR, server: 193.39.9.175, port: 24163, type: trojan, password: "%40NoForcedHeaven%40NoForcedHeaven%40NoForcedHeaven%40NoForcedHeaven%40NoForcedHeaven%40NoForcedHeaven%40NoForcedHeaven%40NoForcedHeaven%40NoForcedHeaven", skip-cert-verify: true, udp: true}
+- {name: 36-699-US, server: 38.110.1.105, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+- {name: 36-700-US, server: 38.110.1.46, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+- {name: 36-701-KZ, server: 45.8.98.163, port: 52839, type: ss, cipher: chacha20-ietf-poly1305, password: 3N2JoZhDodMX5wPfr0xbT5}
+- {name: 36-702-AE, server: 3.29.20.210, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
+- {name: 36-703-NL, server: 109.104.154.4, port: 5555, type: ss, cipher: chacha20-ietf-poly1305, password: 2kZMZNoI2sgKPb6C-9IQ8w}
+- {name: 36-704-NL, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
+- {name: 36-705-US, server: 38.110.1.46, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: 36-706-FR, server: 15.236.222.142, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+- {name: 36-707-PL, server: 64.176.71.35, port: 42141, type: ss, cipher: 2022-blake3-aes-256-gcm, password: iwVoxpUSEaEBeQK9HZap7gTAN3OGoE4rg2h9orLZvdA=:pLsOybg5ng6icspjXqxXnwfVqyGk8j29Pcpytxp7O6E=}
+- {name: 36-708-FR, server: 13.37.159.235, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+- {name: 36-709-TR, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: "/@forwardv2ray", headers: {host: sahand.serveminecraft.net}}, udp: true}
+- {name: 36-710-US, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, udp: true}
+- {name: 36-711-BH, server: admin.c3.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: P7PqQpnyhsnzKNrm}
+- {name: 36-712-IR, server: 92.242.220.22, port: 37885, type: vmess, uuid: 8dee19ab-50ce-4d06-be42-5e53c8989ccc, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, tls: false, ws-opts: {path: None, headers: {host: None}}, udp: true}
+- {name: 36-713-US, server: 38.110.1.46, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+- {name: 36-714-TR, server: 202.78.162.5, port: 443, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, tls: false, ws-opts: {path: "/@forwardv2ray", headers: {host: pendar.onthewifi.com}}, udp: true}
+- {name: 36-715-US, server: 104.219.41.229, port: 443, type: trojan, password: Julius, sni: miami.juliusnet.com, skip-cert-verify: true, udp: true}
